@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CartoDB Leaflet template - @mhkeller</title>
+
+
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      .hover-window{
+        position:absolute;
+        width:150px;
+        font-family: Helvetica,sans-serif;
+        font-size:12px;
+        text-align: center;
+        padding:5px;
+        background-color:rgb(255,255,255);
+        background-color:rgba(255,255,255,.85);
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        behavior: url(border-radius.htc);
+        z-index:99999;
+        display: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    </style>
+
+
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.css" />
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v2/themes/css/cartodb.ie.css" />
+    <![endif]-->
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <!-- Hover window -->
+    <div class="hover-window"></div>
+
+    <script type="text/jst" id="point-hover-templ">
+        <div><%= makeBold(name) %></div>
+    </script>
+
+    <!-- include cartodb.js library -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v2/cartodb.js"></script>
+    <script>
+
+    (function(){
+
+        // Basic leaflet setup
+        var map = L.map('map-canvas', {
+            center: [38.651198,-98.920898],
+            zoom: 3
+        });
+        // Disable scroll on mouseWheel or two-finger trackpad scroll
+        map.scrollWheelZoom.disable();
+
+        // Uses the Stamen toner styles or any custom tile layer url
+        // More Stamen tiles: http://maps.stamen.com/
+        L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+            attribution: 'MapBox'
+        }).addTo(map);
+
+        // Put your viz.json url here
+        cartodb.createLayer(map, 'http://zerocool.cartodb.com/api/v1/viz/us_cities_100k/viz.json', {
+            query: 'select  *, ST_AsGeoJSON(the_geom) as geometry from {{table_name}}',
+            // Every column that you want to show up in your hovers needs to be put in the 'interactivity' param. That way it will be accessible through data.your_column_name or data['your_column_name'] if you prefer that notation
+            interactivity: 'cartodb_id, geometry, name',
+            // This kills the infowindow on click, we probably won't need it because we have hover windows. But you might want to bring it back in some cases.
+            infowindow: false
+        })
+            .on('done', function(layer) {
+                map.addLayer(layer);
+
+            layer.on('featureOver', function(e, pos, latlng, data) {
+                $('.leaflet-container').css('cursor','pointer');
+                // Check to see if it's a different polygon from the one you're hovering over.
+                if (data.cartodb_id != point.cartodb_id) {
+                    drawHoverPoint(data);
+                }
+                // cartodb.log.log(pos, data);
+            });
+
+            layer.on('featureOut', function(e, pos, latlng, data) {
+                $('.leaflet-container').css('cursor','default')
+                removePoint();
+            });
+
+            layer.on('error', function(err) {
+                // cartodb.log.log('error: ' + err);
+            });
+
+        }).on('error', function() {
+            // cartodb.log.log("some error occurred");
+        });
+
+
+        var point = {};
+
+        // What should our hover style look like?
+        var point_style = {
+            radius: 5,
+            color: "#333",
+            weight: 2,
+            opacity: 1,
+            fillColor: "#FFCC00",
+            fillOpacity: 1,
+            clickable: false
+        }
+
+        function drawHoverPoint(data){
+            removePoint();
+
+            point = new L.GeoJSON(JSON.parse(data.geometry),{
+                pointToLayer: function(feature,latlng) {
+                    return new L.CircleMarker(latlng, point_style);
+                }
+            }).addTo(map);
+
+            fillHoverWindow(data);
+
+        }
+
+        function removePoint(){
+            map.removeLayer(point);
+            point.cartodb_id = null;
+            hideHoverWindow();
+        }
+
+
+        /* HOVER WINDOW BEHAVIOR */
+        var $map_canvas = $('#map-canvas');
+        var $hover_window = $('.hover-window');
+
+        var formatHelpers = {
+            // Put custom functions in here as a go-between your data and how it should display as text in your hover window
+            makeBold: function(text){
+                return '<strong>' + text + '</strong>'
+            }
+        }
+
+        // Underscore templating
+        var hover_template = $('#point-hover-templ').html();
+        var hover_template_factory = _.template(hover_template);
+
+
+        function fillHoverWindow(data){
+            // Add our extender functions (optional)
+            _.extend(data, formatHelpers)
+
+            // What do you want to show in your hover window?
+            // You need to put the column headers in the 'interactivity' param in createLayer, in this case, the city name: name
+            var content = hover_template_factory(data);
+            $hover_window.html(content)
+            $hover_window.show();
+        }
+
+        function hideHoverWindow(data){
+            $hover_window.hide();
+        }
+
+        // When the mouse exits the window, hide polygons and the hover window
+        $map_canvas.mouseleave(function(e){
+            hideHoverWindow();
+            removePoint();
+        })
+
+        // This function constrains the hover window to the bounds of the map_canvas
+        // Adjust the xBuffer and yBuffer to make tweaks
+        $map_canvas.mousemove(function(e){
+            var xOffset = e.pageX
+              , yOffset = e.pageY
+              , xBuffer = 10
+              , yBuffer = 50
+
+              , hover_window_height = $hover_window.outerHeight()
+              , hover_window_width = $hover_window.outerWidth()
+
+              , map_canvas_height = $map_canvas.outerHeight()
+              , map_canvas_width = $map_canvas.outerWidth()
+
+              , map_canvas_offset_left = $map_canvas.offset().left
+              , map_canvas_offset_top = $map_canvas.offset().top;
+
+            // If it goes against the left wall
+            if (xOffset < map_canvas_offset_left  + hover_window_width/2 + xBuffer){
+              $hover_window.css({
+                'top': yOffset + yBuffer,
+                'left': xBuffer
+              });
+            }// If it goes against the right wall
+            else if(xOffset > map_canvas_width - hover_window_width/2 - xBuffer){
+              $hover_window.css({
+                'top': yOffset + yBuffer,
+                'left': map_canvas_width - hover_window_width - xBuffer
+              });
+            }// If it goes against the bottom
+            else if(yOffset > map_canvas_height - hover_window_height - yBuffer){
+              $hover_window.css({
+                'top': yOffset - yBuffer/2 - hover_window_height,
+                'left': xOffset - hover_window_width/2
+              });
+            }else{
+              $hover_window.css({
+                'top': yOffset + yBuffer,
+                'left': xOffset - hover_window_width/2
+              });
+            }
+        });
+
+    }).call(this);
+
+  </script>
+
+</body>
+</html>
