@@ -2,8 +2,6 @@
 <html>
 <head>
     <title>CartoDB Leaflet template - @mhkeller</title>
-
-
     <style>
       html, body, #map-canvas {
         height: 100%;
@@ -44,7 +42,12 @@
     <div class="hover-window"></div>
 
     <script type="text/jst" id="point-hover-templ">
-        <div><%= makeBold(name) %></div>
+        <div>
+            <b><a href="<%= url %>"><%= name %></a></b>
+            <p><%= description %></p>
+            <p><%= handles %></p>
+        
+        </div>
     </script>
 
     <!-- include cartodb.js library -->
@@ -52,8 +55,8 @@
     <script>
 
     (function(){
-
-        // Basic leaflet setup
+        // Change this: find the latitute and longitude for the center of your map
+        // and figure out what zoom level will work best for you.
         var map = L.map('map-canvas', {
             center: [38.651198,-98.920898],
             zoom: 3
@@ -61,18 +64,21 @@
         // Disable scroll on mouseWheel or two-finger trackpad scroll
         map.scrollWheelZoom.disable();
 
-        // Uses the Stamen toner styles or any custom tile layer url
-        // More Stamen tiles: http://maps.stamen.com/
-        L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
-            attribution: 'MapBox'
+        // Change this: you can find the tile layer for your map in your viz.json
+        // if you don't know how to read viz.json, check out http://jsonlint.com/
+        L.tileLayer('http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+        // Change this: you can add more to the attribution. This is a good place
+        // to credit the source(s) of your map data.
+            attribution: '<a href="http://maps.stamen.com">Toner Lite by Stamen</a>'
         }).addTo(map);
 
-        // Put your viz.json url here
-        cartodb.createLayer(map, 'http://zerocool.cartodb.com/api/v1/viz/us_cities_100k/viz.json', {
+        // Change this: click the "share" button on your map and grab the API URL.
+        // it should end with viz.json
+        cartodb.createLayer(map, 'http://cunydata.cartodb.com/api/v1/viz/episode_2/viz.json', {
             query: 'select  *, ST_AsGeoJSON(the_geom) as geometry from {{table_name}}',
-            // Every column that you want to show up in your hovers needs to be put in the 'interactivity' param. That way it will be accessible through data.your_column_name or data['your_column_name'] if you prefer that notation
-            interactivity: 'cartodb_id, geometry, name',
-            // This kills the infowindow on click, we probably won't need it because we have hover windows. But you might want to bring it back in some cases.
+            // Change this: keep "cartodb_id" and "geometry", but add any fields that
+            // you want to use in your info windows.
+            interactivity: 'cartodb_id, geometry, name, url, handles, description, country',
             infowindow: false
         })
             .on('done', function(layer) {
@@ -80,11 +86,9 @@
 
             layer.on('featureOver', function(e, pos, latlng, data) {
                 $('.leaflet-container').css('cursor','pointer');
-                // Check to see if it's a different polygon from the one you're hovering over.
                 if (data.cartodb_id != point.cartodb_id) {
                     drawHoverPoint(data);
                 }
-                // cartodb.log.log(pos, data);
             });
 
             layer.on('featureOut', function(e, pos, latlng, data) {
@@ -93,23 +97,21 @@
             });
 
             layer.on('error', function(err) {
-                // cartodb.log.log('error: ' + err);
             });
 
         }).on('error', function() {
-            // cartodb.log.log("some error occurred");
         });
 
 
         var point = {};
 
-        // What should our hover style look like?
+        // Change this: to control the look of your point on hover
         var point_style = {
-            radius: 5,
-            color: "#333",
+            radius: 6,
+            color: "#FFCC00",
             weight: 2,
             opacity: 1,
-            fillColor: "#FFCC00",
+            fillColor: "#FF6600",
             fillOpacity: 1,
             clickable: false
         }
@@ -139,8 +141,16 @@
         var $hover_window = $('.hover-window');
 
         var formatHelpers = {
-            // Put custom functions in here as a go-between your data and how it should display as text in your hover window
-            makeBold: function(text){
+            // Change this: or don't, but there's a nice example of an if/else statement
+            // and an insight into how to add functions to the formatHelpers variable.
+            // note that this example doesn't use either one of these.
+            makeNice: function(text){
+                if (text != 'N/A'){
+                    return '<strong>' + text + '%</strong>'
+                } else {
+                    return '<strong>' + text + '</strong>'
+                }
+            }, makeBold: function(text){
                 return '<strong>' + text + '</strong>'
             }
         }
@@ -151,11 +161,7 @@
 
 
         function fillHoverWindow(data){
-            // Add our extender functions (optional)
             _.extend(data, formatHelpers)
-
-            // What do you want to show in your hover window?
-            // You need to put the column headers in the 'interactivity' param in createLayer, in this case, the city name: name
             var content = hover_template_factory(data);
             $hover_window.html(content)
             $hover_window.show();
@@ -165,14 +171,11 @@
             $hover_window.hide();
         }
 
-        // When the mouse exits the window, hide polygons and the hover window
         $map_canvas.mouseleave(function(e){
             hideHoverWindow();
             removePoint();
         })
 
-        // This function constrains the hover window to the bounds of the map_canvas
-        // Adjust the xBuffer and yBuffer to make tweaks
         $map_canvas.mousemove(function(e){
             var xOffset = e.pageX
               , yOffset = e.pageY
