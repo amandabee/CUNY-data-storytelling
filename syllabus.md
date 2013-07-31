@@ -1,7 +1,7 @@
 Syllabus: Data-driven Interactive Journalism (Jour72312)
 ======
 
-> Spring 2013: Jan 31 – May 23  
+> Spring Fall 2013: Aug 28 – Dec 18  
 > Thursdays 5:00-7:50pm  
 > Room 436  
 
@@ -18,13 +18,13 @@ Hours: Thursday 2-5pm
 
 Amanda Hickman 419i  
 amanda.hickman@journalism.cuny.edu  
-Hours: http://piratepad.net/amandahickman  
+Hours: [http://piratepad.net/amandahickman](http://piratepad.net/amandahickman)  
 Phone: 917/655-2579  
 Skype: amandabee  
-Tumblr: http://jour72312.tumblr.com/  
+Tumblr:  [http://jour72312.tumblr.com/](http://jour72312.tumblr.com/)  
 
-Lisa Mahapatra, Teaching Assistant  
-lisa.mahapatra@journalism.cuny.edu  
+TBD, Teaching Assistant  
+
 
 This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
 
@@ -127,25 +127,25 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 Notify the instructors of any absences before class, or as soon as you know you will be out. 
 
 # SYLLABUS in BRIEF
-    Lecture: what you can expect from us                 |       Homework: what we expect from you
-    -----------------------------------------------------|-------------------------------------------
-    01-31 Course intro. What is data?                    | 01-31 McGhee report (view)
-    02-07 Numeracy and basic spreadsheets                | 02-07 Datasets and scrapbooks (hand in)
-    02-14 No class. CUNY on Tues schedule                | 02-14 No class. CUNY on Tues schedule
-    02-21 Cleaning data, advanced spreadsheets           | 02-21 Spreadsheet assignment due
-    02-28 Mapping                                        | 02-28 Clean a dataset due
-    03-07 Charting                                       | 03-07 Create a map due
-    03-14 Presentation: Interactivity+Navigation         | 03-14 Pitch 1 due, Chart it Three Ways due
-    03-21 Information design and Ethics                  | 03-21 Storyboard 1 due, Hype assignment due
-    03-28 No class. Spring break                         | 03-28 No class. Spring break
-    04-04 Open workshop                                  | 04-04 Rough draft and redesign assignment due
-    04-11 Critique of Story 1                            | 04-11 Story 1 due
-    04-18 Timelines                                      | 04-18 Last day to revise story 1
-    04-25 Alternate technologies                         | 04-25 Timeline due, Pitch 2 due
-    05-02 Guest lecture                                  | 05-02 Storyboard 2 due
-    05-09 Open workshop                                  | 05-09 Rough draft 2 due
-    05-16 Critique of Story 2                            | 05-16 Story 2 due
-    05-23 Course wrap-up                                 | 05-23 Last day to revise story 2
+    Lecture: what you can expect from us              |       Homework: what we expect from you
+    --------------------------------------------------|-------------------------------------------
+    08-28 Course intro. What is data?                 | 08-28 McGhee report (view)
+    09-04                                             | 09-04 (no class)
+    09-11 Numeracy and basic spreadsheets             | 09-11 Datasets and scrapbooks (hand in)
+    09-18 Cleaning data, advanced spreadsheets        | 09-18 Spreadsheet assignment due
+    09-25 Mapping                                     | 09-25 Clean a dataset due
+    10-02 Charting                                    | 10-02 Create a map due
+    10-09 Presentation: Interactivity+Navigation      | 10-09 Pitch 1 due, Chart it Three Ways due
+    10-16 Information design and Ethics               | 10-16 Storyboard 1 due, Hype assignment du
+    10-23 Open workshop                               | 10-23 Rough draft and redesign assignment
+    10-30 Critique of Story 1                         | 10-30 Story 1 due
+    11-06 Timelines                                   | 11-06 Last day to revise story 1
+    11-13 Alternate technologies                      | 11-13 Timeline due, Pitch 2 due
+    11-20                                             | 11-20 (no class)
+    11-27 Guest lecture                               | 11-27 Storyboard 2 due
+    12-04 Open workshop                               | 12-04 Rough draft 2 due
+    12-11 Critique of Story 2                         | 12-11 Story 2 due
+    12-18 Course wrap-up                              | 12-18 Last day to revise story 2
 
 # SYLLABUS in DETAIL
 
@@ -157,70 +157,70 @@ Every Week:
  * Read Kevin Quealy’s blog, “Charts and Things”:
  * http://chartsnthings.tumblr.com
 
-*Due Jan 31:*  
+*Due Aug 28:*  
 Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at http://datajournalism.stanford.edu/ Chapter 2 Data Vis in Journalism  
 Chapter 3 Telling “Data Stories”  
 Chapter 6 Exploring Data  
   
-**1 | Jan 31: Defining and Finding Data**  
+**1 | Aug 28: Defining and Finding Data**  
 Course introduction (expectations, syllabus review)  
 What is data, what are data stories? Reactions to McGhee’s data journalism video report.  
 Discussion: work in groups to evaluate four recent data driven stories.  
 Discussion: Looking for data, where to look and how to look?  
   
 Festival of Data: Google’s Global Arms Trade  
-  
-*Due Feb 7:*
+
+**Sep 04: No Class**  
+
+*Due Sep 11:*
 Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
   
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 2″.  
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
-**2 | Feb 7: Finding the Story in Your Data**  
+**2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
 Discuss: provenance and staying organized  
 Spreadsheet review: data types, rows and columns, sorting, copy and paste, selections, formulas.  Introduction to Pivot tables.  
 In-Class Exercise: Using spreadsheets and Pivot tables  
   
-**Feb 14: No Class (CUNY on a Tuesday schedule)  
-  
-*Due Feb 21:  *
+*Due Sep 18:  *
   
 Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 3” by noon.  
   
 Make sure Refine is installed on your computer.  
   
-**3 | Feb 21: Cleaning Data**  
+**3 | Sep 18: Cleaning Data**  
 Cleaning data and advanced spreadsheets  
 Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
 In-Class Exercise: working with the command line. curl, cat, grep  
     
-*Due Feb 28:*    
+*Due Sep 25:*    
 Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 4”    
 Make sure that you have Firefox installed on your computer with both Firebug and the Web Developer Toolbar plugins.    
     
-**4 | Feb 28: Mapping Data**    
+**4 | Sep 25: Mapping Data**    
 Discussion: Looking at map examples    
 In-Class Exercise: Mapping the flu with Google Fusion Tables to make maps    
 Geocoding, Shapefiles->KML, Fusing two data sets, customizing infoboxes, colors, using filters    
 Tool: Google Layer Wizard    
 Tool: Using Firebug to see how they did that    
     
-*Due Mar 7:*    
+*Due Oct 02:*    
 + Pre-piches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 5”    
 + Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
 + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013    
     
-**5 | Mar 7: Charting Data**    
+**5 | Oct 02: Charting Data**    
 Discuss Illinsky reading    
 Discuss anatomy of a news-chart: all the little pieces    
 Chart types – what they’re good for, what they aren’t,Cleveland and McGill’s findings on readability of chart types    
 Pitching a story: what we expect, what you’re thinking. Round robin pitches—discuss the story ideas from your homework.    
 Choose teams for your first story.    
     
-*Due Mar 14:*    
+*Due Oct 09:*    
 Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 6”    
     
 Team – pitches for your first story. A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…    
@@ -231,27 +231,27 @@ Team – pitches for your first story. A complete pitch should tell us who cares
 + a sketch or wireframe of your planned visualization (you can bring this in on paper)    
 Pitches must be posted to the class blog, in the “story 1 pitches” category.    
     
-**6 | Mar 14: Pitching, Presenting, Visual Encoding**    
+**6 | Oct 09: Pitching, Presenting, Visual Encoding**    
 Integrating the presentation: Hype, HTML/CSS    
 Annotating the data, Interactivity    
 Note: Amanda Hickman will be out for the second hour    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 Discussion: storyboards    
     
-*Due Mar 21:*    
+*Due Oct 16:*    
 Solo – integrate the data and visualizations you made previously within a Hype project and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
     
 Team – refined pitches and storyboards for your first story. A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Scan your sketch and include it with your post.    
     
 Read selections from Tufte, Quantitative Display of Information, on e-reserve in the Library: pages 91-105, 176-190. Use the password (ij2012) to access the material.    
     
-**7 | Mar 21: Ethics and Information Design**    
+**7 | Oct 16: Ethics and Information Design**    
 Discussion: Intentional use of space    
 Discussion: Principles of design – grids, hierarchies, color, typography, white space, scale, repetition, consistency.    
 Discussion: Ethics, avoiding distortion, responsible presentation of data    
 What do we expect in a “rough draft”?    
     
-*Due Apr 4:*    
+*Due Oct 23:*    
 Solo – design assignment. Re-design one of the following data visualizations:    
 The Atlantic: Classified Documents    
 Good: Teacher Salaries    
@@ -269,72 +269,71 @@ Team – Rough drafts of your first story. A rough draft does not have to have t
 + Introductory text that includes information gleaned from at least one human source.    
 + A source list, exactly like the ones you hand in for Craft II.    
     
-You’re not required to quote your source, but you do need to be able to tell the class what insights your human source provided. Keep in mind that this draft represents 25% of your grade on this story.    
+You’re not required to quote your source, but you do need to be able to tell the class what insights your human source provided. Keep in mind that this draft represents 25% of your grade on this story.      
     
-Mar 28: No Class (Spring Break)    
-    
-**8 | April 4: Open Workshop, Completeness**    
+**8 | Oct 23: Open Workshop, Completeness**    
 Discussion: Completeness, academese    
 Tool: High Charts    
 Open workshop    
     
-*Due April 11:*    
+*Due Oct 30:*    
 Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.    
 + Credit all images and code libraries    
 + Clearly attribute all data, including direct links where appropriate.    
 + See the rest of the checklist to ensure that your story is complete: http://datadrivenjournalism.2013.journalism.cuny.edu/checklist/    
     
-**9 | April 11: Critiques**    
+**9 | Oct 30: Critiques**    
 Discussion: Critique our first finished data stories    
 Assign Teams for Second Story    
     
-*Due Apr 18:*    
+*Due Nov 06:*    
 Solo – Bring in two good ideas for your second story.    
 Team – one last chance to revise your first story.    
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.    
     
-**10 | April 18: Timelines**    
+**10 | Nov 06: Timelines**    
 Discussion: Anything great in the revised projects?    
 In-class exercise: working with timeline tools, organizing timeline content    
 Round robin story meeting    
     
-*Due April 25:*    
+*Due Nov  13:*    
     
-Solo – Create a timeline. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due May 2)    
+Solo – Create a timeline. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
     
-**11 | April 25: Alternate technologies, TBD**    
+**11 | Nov  13: Alternate technologies, TBD**    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 In class exercise: timelines, ball charts, scrollr or something else. We shall see.    
-Russell Chun will be out    
-    
-*Due May 2:*    
+
+** Nov 20: no class**
+
+*Due Nov 27:*    
 Solo – Timeline, Regular Expressions    
 Team – Refine pitches and develop storyboards. If you don’t remember what we expect in a storyboard, see week 6.    
     
-**12 | May 2: Guest Lecture**    
+**12 | Nov 27: Guest Lecture**    
 Lecture: Guest, Michael Keller, Senior Data Reporter at Newsweek and The Daily Beast. View his past work, come prepared with questions.    
     
 Discussion of storyboards    
     
-*Due May 9:*    
+*Due Dec 4:*    
 Rough drafts of story 2. If you don’t remember what we expect in a rough draft, see week 7.    
     
-**13 | May 9: Open Workshop**    
+**13 | Dec 4: Open Workshop**    
 Open workshop    
     
-*Due May 16:*    
+*Due Dec 11:*    
 Finish story 2. If you don’t remember what we expect in a final story, see week 8.    
     
-**14 | May 16: Critique**    
+**14 | Dec 11: Critique**    
 Critique of second story    
     
-*Due May 23:*    
+*Due Dec 18:*    
 Solo – Post mortem on story 2. If you don’t remember what we mean by post mortem, see week 10.    
 Team – last chance to revise your second story    
     
-**15 | May 23: Wrap Up**    
+**15 | Dec 18: Wrap Up**    
 Discussion: revised projects    
 Discussion: closing thoughts    
 Fill out student evaluations    
