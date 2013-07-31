@@ -76,17 +76,19 @@ Grades for each major assignment are further broken down as follows:
 >  Final (25%)  
 >  Revision (12.5%)  
 
-## What do we mean when we say “Pitch” or “Rough draft”? This is what we mean:
+## What do we mean when we say “Pitch” or “Rough draft”? 
 
-**Pitches:** A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…
+This is what we mean:
+
+**Pitches:**<a id="pitch" /> A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…
 + a question or thesis  
 + a news hook, or explanation of why this story matters now  
 + a description of and link to the data (which means you have to find your data!)  
 + one source you have already spoken with or at least three potential expert sources and your plans for reaching them  
 
-**Storyboards:** A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), with examples, from 10,000 Words.
+**Storyboards:** <a id="storyboard" /> A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), with examples, from 10,000 Words.
 
-**Rough Drafts:** A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes:
+**Rough Drafts:** <a id="roughdraft" /> A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes:
 + Clean data in spreadsheets, already normalized, sorted, manipulated  
 + Visualizations of the data with labeled axes  
 + Captions  
@@ -98,7 +100,7 @@ Grades for each major assignment are further broken down as follows:
 
 You’re not required to quote your source, but you do need to be able to tell the class what insights your human source provided.
 
-**Final Story:** Your story must be posted to the class blog, with an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.
+**Final Story:** <a id="finalstory" />Your story must be posted to the class blog, with an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.
 
 ## Plagiarism
 It is a serious ethical violation to take any material created by another person and represent it as your own original work. Any such plagiarism will result in serious disciplinary action, possibly including dismissal from the CUNY J-School. Plagiarism may involve copying text from a book or magazine without attributing the source, or lifting words, code, photographs, videos, or other materials from the Internet and attempting to pass them off as your own. Please ask the instructor if you have any questions about how to distinguish between acceptable research and plagiarism.
@@ -126,7 +128,7 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 
 Notify the instructors of any absences before class, or as soon as you know you will be out. 
 
-# SYLLABUS in BRIEF
+# SYLLABUS in BRIEF<a id="syllabus" />
     Lecture: what you can expect from us              |       Homework: what we expect from you
     --------------------------------------------------|-------------------------------------------
     08-28 Course intro. What is data?                 | 08-28 McGhee report (view)
@@ -147,15 +149,14 @@ Notify the instructors of any absences before class, or as soon as you know you 
     12-11 Critique of Story 2                         | 12-11 Story 2 due
     12-18 Course wrap-up                              | 12-18 Last day to revise story 2
 
-# SYLLABUS in DETAIL
+# SYLLABUS in DETAIL <a id="detail" />
 
 **Festival of Data:** Every week one student will choose a data driven story to present in class. Prepare to discuss the strengths and weaknesses of the story, the authors’ use of data as well as their use of interactivity, and to identify the underlying technology. Blog your story in the “Festival of Data” category by 5 PM on your week.
 
 Every Week:
 
- * Read Anna Cordrea-Rado’s “Between the Spreadsheets” column at Columbia Journalism Review: http://www.cjr.org/between_the_spreadsheets/
- * Read Kevin Quealy’s blog, “Charts and Things”:
- * http://chartsnthings.tumblr.com
+ * Read Anna Cordrea-Rado’s “Between the Spreadsheets” column at Columbia Journalism Review: <http://www.cjr.org/between_the_spreadsheets/>
+ * Read Kevin Quealy’s blog, [“Charts and Things”](http://chartsnthings.tumblr.com): <http://chartsnthings.tumblr.com>
 
 *Due Aug 28:*  
 Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at http://datajournalism.stanford.edu/ Chapter 2 Data Vis in Journalism  
@@ -184,7 +185,7 @@ Discuss: provenance and staying organized
 Spreadsheet review: data types, rows and columns, sorting, copy and paste, selections, formulas.  Introduction to Pivot tables.  
 In-Class Exercise: Using spreadsheets and Pivot tables  
   
-*Due Sep 18:  *
+*Due Sep 18:*
   
 Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 3” by noon.  
   
