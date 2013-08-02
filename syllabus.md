@@ -235,7 +235,6 @@ Pitches must be posted to the class blog, in the “story 1 pitches” category.
 **6 | Oct 09: Pitching, Presenting, Visual Encoding**    
 Integrating the presentation: Hype, HTML/CSS    
 Annotating the data, Interactivity    
-Note: Amanda Hickman will be out for the second hour    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 Discussion: storyboards    
     
@@ -297,31 +296,31 @@ Discussion: Anything great in the revised projects?
 In-class exercise: working with timeline tools, organizing timeline content    
 Round robin story meeting    
     
-*Due Nov  13:*    
+*Due Nov 13:*    
     
 Solo – Create a timeline. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
     
-**11 | Nov  13: Alternate technologies, TBD**    
+**11 | Nov 13: Alternate technologies, TBD**    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 In class exercise: timelines, ball charts, scrollr or something else. We shall see.    
 
-** Nov 20: no class**
-
-*Due Nov 27:*    
+*Due Nov 20:*    
 Solo – Timeline, Regular Expressions    
 Team – Refine pitches and develop storyboards. If you don’t remember what we expect in a storyboard, see week 6.    
     
-**12 | Nov 27: Guest Lecture**    
+**12 | Nov 20: Guest Lecture**    
 Lecture: Guest, Michael Keller, Senior Data Reporter at Newsweek and The Daily Beast. View his past work, come prepared with questions.    
+Note: Amanda Hickman will be out 11/20  
+Discussion of storyboards  
+
+** Nov 27: no class (Friday schedule)**  
     
-Discussion of storyboards    
-    
-*Due Dec 4:*    
+*Due Dec 04:*    
 Rough drafts of story 2. If you don’t remember what we expect in a rough draft, see week 7.    
     
-**13 | Dec 4: Open Workshop**    
+**13 | Dec 04: Open Workshop**    
 Open workshop    
     
 *Due Dec 11:*    
