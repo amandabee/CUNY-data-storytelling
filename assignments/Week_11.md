@@ -11,7 +11,7 @@ Tag it "Timeline"
 ## Regex Followup
 See the regex instructions and finish using regular expressions to transform bad data into good. If you don’t succeed, that’s fine. But at least try. 
 
-[[instructions|regex.md]]
+<regex.md>
 
 ## Team Projects: Storyboards Due
 Revise your pitches and submit them with story boards. From the syllabus:
