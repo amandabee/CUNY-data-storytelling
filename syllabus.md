@@ -66,7 +66,7 @@ Your grade is determined by three factors: participation, successful completion 
 > Assignment 1: 30%  
 > Assignment 2: 30%  
 
-All assignments are due by noon on the day they are due. Most should be emailed to both professors with “HOMEWORK WEEK X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
+All assignments are due by noon on the day they are due. Most should be emailed to both professors with “Homework Week X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
 
 Grades for each major assignment are further broken down as follows:
 
@@ -143,8 +143,8 @@ Notify the instructors of any absences before class, or as soon as you know you 
     10-30 Critique of Story 1                         | 10-30 Story 1 due
     11-06 Timelines                                   | 11-06 Last day to revise story 1
     11-13 Alternate technologies                      | 11-13 Timeline due, Pitch 2 due
-    11-20                                             | 11-20 (no class)
-    11-27 Guest lecture                               | 11-27 Storyboard 2 due
+    11-20 Guest lecture                               | 11-20 Storyboard 2 due
+    11-27                                             | 11-27 (no class)
     12-04 Open workshop                               | 12-04 Rough draft 2 due
     12-11 Critique of Story 2                         | 12-11 Story 2 due
     12-18 Course wrap-up                              | 12-18 Last day to revise story 2
@@ -169,16 +169,19 @@ What is data, what are data stories? Reactions to McGhee’s data journalism vid
 Discussion: work in groups to evaluate four recent data driven stories.  
 Discussion: Looking for data, where to look and how to look?  
   
-Festival of Data: Google’s Global Arms Trade  
+Festival of Data: ["In Climbing Income Ladder, Location Matters"](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html)  
 
 **Sep 04: No Class**  
 
 *Due Sep 11:*
 Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
   
-Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 2″.  
+Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1″.  
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
+
+[Assigment Details](assignments/Week_1.md)
+
 **2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
 Discuss: provenance and staying organized  
@@ -187,9 +190,9 @@ In-Class Exercise: Using spreadsheets and Pivot tables
   
 *Due Sep 18:*
   
-Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 3” by noon.  
-  
+Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
 Make sure Refine is installed on your computer.  
+[Assigment Details](assignments/Week_2.md) 
   
 **3 | Sep 18: Cleaning Data**  
 Cleaning data and advanced spreadsheets  
@@ -197,8 +200,11 @@ Google Refine and common spreadsheet formulas: split, concatenate, unique, count
 In-Class Exercise: working with the command line. curl, cat, grep  
     
 *Due Sep 25:*    
-Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 4”    
+Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 3”    
 Make sure that you have Firefox installed on your computer with both Firebug and the Web Developer Toolbar plugins.    
+
+[Assigment Details](assignments/Week_3.md)
+
     
 **4 | Sep 25: Mapping Data**    
 Discussion: Looking at map examples    
@@ -210,9 +216,11 @@ Tool: Using Firebug to see how they did that
 *Due Oct 02:*    
 + Pre-piches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
-Email your good ideas and the URL of your map to both professors under the subject “Homework Week 5”    
+Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”    
 + Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
 + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013    
+
+[Assigment Details](assignments/Week_4.md)
     
 **5 | Oct 02: Charting Data**    
 Discuss Illinsky reading    
@@ -222,7 +230,9 @@ Pitching a story: what we expect, what you’re thinking. Round robin pitches—
 Choose teams for your first story.    
     
 *Due Oct 09:*    
-Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 6”    
+[Assigment Details](assignments/Week_5.md)
+
+Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”    
     
 Team – pitches for your first story. A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…    
 + a question or thesis    
@@ -238,7 +248,8 @@ Annotating the data, Interactivity
 Workshop: Pairs of teams work with each other to discuss pitches.    
 Discussion: storyboards    
     
-*Due Oct 16:*    
+*Due Oct 16:*
+[Assigment Details](assignments/Week_6.md)    
 Solo – integrate the data and visualizations you made previously within a Hype project and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
     
 Team – refined pitches and storyboards for your first story. A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Scan your sketch and include it with your post.    
@@ -252,12 +263,13 @@ Discussion: Ethics, avoiding distortion, responsible presentation of data
 What do we expect in a “rough draft”?    
     
 *Due Oct 23:*    
+[Assigment Details](assignments/Week_7.md)  
 Solo – design assignment. Re-design one of the following data visualizations:    
 The Atlantic: Classified Documents    
 Good: Teacher Salaries    
 National Geographic: High School Foreign Exchange    
 Thank Stanford’s Jeff Heer of Stanford for these examples    
-Identify the weaknesses in visualization and/or design and explain how you would improve them. If you do this assignment on scratch paper, you need to scan or photograph it. Email your re-designs to both professors with the subject line “Homework Week 8”    
+Identify the weaknesses in visualization and/or design and explain how you would improve them. If you do this assignment on scratch paper, you need to scan or photograph it. Email your re-designs to both professors with the subject line “Homework Week 7”    
     
 Team – Rough drafts of your first story. A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes:    
 + Clean data in spreadsheets, already normalized, sorted, manipulated    
@@ -277,6 +289,7 @@ Tool: High Charts
 Open workshop    
     
 *Due Oct 30:*    
+[Assigment Details](assignments/Week_8.md)  
 Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.    
 + Credit all images and code libraries    
 + Clearly attribute all data, including direct links where appropriate.    
@@ -287,6 +300,7 @@ Discussion: Critique our first finished data stories
 Assign Teams for Second Story    
     
 *Due Nov 06:*    
+[Assigment Details](assignments/Week_9.md)  
 Solo – Bring in two good ideas for your second story.    
 Team – one last chance to revise your first story.    
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.    
@@ -297,7 +311,7 @@ In-class exercise: working with timeline tools, organizing timeline content
 Round robin story meeting    
     
 *Due Nov 13:*    
-    
+[Assigment Details](assignments/Week_10.md)    
 Solo – Create a timeline. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
@@ -307,8 +321,9 @@ Workshop: Pairs of teams work with each other to discuss pitches.
 In class exercise: timelines, ball charts, scrollr or something else. We shall see.    
 
 *Due Nov 20:*    
+[Assigment Details](assignments/Week_11.md)    
 Solo – Timeline, Regular Expressions    
-Team – Refine pitches and develop storyboards. If you don’t remember what we expect in a storyboard, see week 6.    
+Team – Refine pitches and develop storyboards.  
     
 **12 | Nov 20: Guest Lecture**    
 Lecture: Guest, Michael Keller, Senior Data Reporter at Newsweek and The Daily Beast. View his past work, come prepared with questions.    
@@ -317,20 +332,23 @@ Discussion of storyboards
 
 ** Nov 27: no class (Friday schedule)**  
     
-*Due Dec 04:*    
-Rough drafts of story 2. If you don’t remember what we expect in a rough draft, see week 7.    
+*Due Dec 04:*
+[Assigment Details](assignments/Week_12.md)        
+Rough drafts of story 2.    
     
 **13 | Dec 04: Open Workshop**    
 Open workshop    
     
 *Due Dec 11:*    
-Finish story 2. If you don’t remember what we expect in a final story, see week 8.    
+[Assigment Details](assignments/Week_13.md)    
+Finish story 2. 
     
 **14 | Dec 11: Critique**    
 Critique of second story    
     
 *Due Dec 18:*    
-Solo – Post mortem on story 2. If you don’t remember what we mean by post mortem, see week 10.    
+[Assigment Details](assignments/Week_14.md)    
+Solo – Post mortem on story 2.  
 Team – last chance to revise your second story    
     
 **15 | Dec 18: Wrap Up**    
