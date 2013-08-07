@@ -1,0 +1,3 @@
+We powered through a ton of tools today. We used `paste special > transpose` to shift <a href="https://help.libreoffice.org/Calc/Rotating_Tables_Transposing">rows into columns</a>, and `data > text to columns ...` to <a href="http://support.microsoft.com/kb/214261">split blocks of text</a> using spaces and commas. 
+
+We downloaded Google's <a href="http://www.google.org/flutrends/data.txt">data</a> on <a href="http://www.google.org/flutrends/about/how.html">flu related searches</a> and used some <a href="http://office.microsoft.com/en-us/excel-help/overview-of-formulas-HA102748997.aspx?CTT=1">formulas</a>. We used the <a href="https://help.libreoffice.org/Calc/Applying_AutoFilter">auto filter</a> button to set up filters that let us sort the data by a single column. 
