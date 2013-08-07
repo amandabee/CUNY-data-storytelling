@@ -1,0 +1,32 @@
+Regex to update due dates throughout the semester. 
+
+## Week 1 
+s/Aug 28/
+## Week 2 
+s/Sep 11/
+## Week 3 
+s/Sep 18/
+## Week 4 
+s/Sep 25/
+## Week 5 
+s/Oct 02/
+## Week 6 
+s/Oct 09/
+## Week 7 
+s/Oct 16/
+## Week 8 
+s/Oct 23/
+## Week 9 
+s/Oct 30/
+## Week 10 
+s/Nov 06/
+## Week 11 
+s/Nov 13/
+## Week 12 
+s/Nov 20/
+## Week 13
+s/Dec 04/
+## Week 14 
+s/Dec 11/
+## Week 15 
+s/Dec 18/
