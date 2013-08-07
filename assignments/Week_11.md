@@ -9,9 +9,7 @@ You can repurpose reporting from another story, but we do want to see clean cont
 Tag it "Timeline"
 
 ## Regex Followup
-See the regex instructions and finish using regular expressions to transform bad data into good. If you don’t succeed, that’s fine. But at least try. 
-
-[test](regex.md)
+See the [regex instructions](regex.md) and finish using regular expressions to transform bad data into good. If you don’t succeed, that’s fine. But at least try. 
 
 ## Team Projects: Storyboards Due
 Revise your pitches and submit them with story boards. From the syllabus:
