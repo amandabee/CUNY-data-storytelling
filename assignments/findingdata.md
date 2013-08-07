@@ -6,7 +6,7 @@ Get into the habit of checking the source credits on data stories when you see t
 
 Here are some of the sources we came up with in class. I didn't look up URLs for all of these groups, but you should be able to find them. This is the tip of the iceberg, though. 
 
-<blockquote><strong>Local Data</strong>
+<blockquote>**Local Data**
 City and State health departments  
 City and State elections boards  
 Campaign Finance Board  
@@ -16,7 +16,7 @@ Brooklyn College Center for the Study of Brooklyn
 NYPD  
 State Department of Criminal Justice</blockquote>
 
-<blockquote><strong>Federal Data</strong>
+<blockquote>**Federal Data**
 Centers for Disease Control  
 <a href="http://trac.syr.edu/immigration/index.html">TRAC</a> (Immigration Data)  
 <a href="http://www.cbo.gov/">Congresional Budget Office</a> 
@@ -32,7 +32,7 @@ DOE
 
 
 
-<blockquote><strong>World Data</strong>
+<blockquote>**World Data**
 World Health Organization  
 </blockquote>
 

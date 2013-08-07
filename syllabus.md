@@ -114,7 +114,7 @@ Create your own graphics, seek out images that are in the public domain or share
 
 If you’re repurposing code, be sure to keep the original licensing intact. If you’re not sure how to credit code, ask.
 
-The exception to this rule is fair use: if your story is about the image itself, it is often acceptable to reproduce the image. If you want to better understand fair use, the Citizen Media Law Project is an excellent resource. http://www.citmedialaw.org/legal-guide
+The exception to this rule is fair use: if your story is about the image itself, it is often acceptable to reproduce the image. If you want to better understand fair use, the Citizen Media Law Project is an excellent resource. <http://www.citmedialaw.org/legal-guide>
 
 As with plagiarism, when in doubt: ask.
 
@@ -129,7 +129,7 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 Notify the instructors of any absences before class, or as soon as you know you will be out. 
 
 # SYLLABUS in BRIEF<a id="syllabus" />
-    Lecture: what you can expect from us              |       Homework: what we expect from you
+    Lecture: what you can expect from us              | Homework: what we expect from you
     --------------------------------------------------|-------------------------------------------
     08-28 Course intro. What is data?                 | 08-28 McGhee report (view)
     09-04                                             | 09-04 (no class)
@@ -139,7 +139,7 @@ Notify the instructors of any absences before class, or as soon as you know you 
     10-02 Charting                                    | 10-02 Create a map due
     10-09 Presentation: Interactivity+Navigation      | 10-09 Pitch 1 due, Chart it Three Ways due
     10-16 Information design and Ethics               | 10-16 Storyboard 1 due, Hype assignment du
-    10-23 Open workshop                               | 10-23 Rough draft and redesign assignment
+    10-23 Open workshop                               | 10-23 Rough draft 1 and redesign assignment
     10-30 Critique of Story 1                         | 10-30 Story 1 due
     11-06 Timelines                                   | 11-06 Last day to revise story 1
     11-13 Alternate technologies                      | 11-13 Timeline due, Pitch 2 due
@@ -176,7 +176,7 @@ Festival of Data: ["In Climbing Income Ladder, Location Matters"](http://www.nyt
 *Due Sep 11:*
 Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
   
-Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1″.  
+Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".  
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
 

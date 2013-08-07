@@ -14,7 +14,7 @@ Most commands also include briefer help that you can access with the "--help" su
 
 `cd --help`
 
-<strong>Finding Your Way Around</strong>
+**Finding Your Way Around**
 
 `pwd` returns the working directory name. The "working directory" is the directory you are in. 
 
@@ -24,9 +24,9 @@ Most commands also include briefer help that you can access with the "--help" su
 
 `mkdir` creates a new directory. 
 
-<strong>A word about directory structures: </strong>everything on your computer is organized into folders. You spend most of your time working in your home directory, which is probably located at `/Users/yourname` so if you have a data-interactive folder in your Documents folder on your computer the full path to that would be `/Users/yourname/Documents/data-interactive`  OSX paths are not case sensitive but it is good practice to respect cases in file names. On OSX and Linux machines, you can use what are called "relative" or "absolute" paths to identify files and folders. An absolute path starts with "/" (that's called a "slash" -- Windows uses backslashes "\") `/Users/yourname/Documents/data-interactive` is an absolute path. A relative path is relative to your working directory. If you're already in "/Users/yourname" you can see the contents of your data-interactive directory with `ls Documents/data-interactive`. You can also use `../` to go up one level, so if you're working in `/Users/yourname/Documents/data-interactive` and you want to see a list of files in `Documents/craft2` you would say `ls ../craft2`
+**A word about directory structures: **everything on your computer is organized into folders. You spend most of your time working in your home directory, which is probably located at `/Users/yourname` so if you have a data-interactive folder in your Documents folder on your computer the full path to that would be `/Users/yourname/Documents/data-interactive`  OSX paths are not case sensitive but it is good practice to respect cases in file names. On OSX and Linux machines, you can use what are called "relative" or "absolute" paths to identify files and folders. An absolute path starts with "/" (that's called a "slash" -- Windows uses backslashes "\") `/Users/yourname/Documents/data-interactive` is an absolute path. A relative path is relative to your working directory. If you're already in "/Users/yourname" you can see the contents of your data-interactive directory with `ls Documents/data-interactive`. You can also use `../` to go up one level, so if you're working in `/Users/yourname/Documents/data-interactive` and you want to see a list of files in `Documents/craft2` you would say `ls ../craft2`
 
-<strong>Getting Unstuck</strong>
+**Getting Unstuck**
 Sometimes you make mistakes. Crazy, but true. Sometimes you try to put something in quotes and you don't close the quote but you hit return and suddenly Bash is acting all weird on you and won't return you to your prompt. Do not despair. Just type control-c, to cancel your current command. 
 
 In class, we didn't get quite this far but we were going to create a folder called "data-interactive" in your Documents folder with the following sequence:
@@ -41,7 +41,7 @@ cd Documents/data-interactive`
 Go ahead and try that. But ... do yourself a huge favor. Don't cut and paste, try typing everything out. You can use tab completion to save some time -- type the first few letters of the directory you want to change into and hit `tab` -- if the directory exists, Bash will take you there. 
 
 
-<strong>Examining Text Files</strong>
+**Examining Text Files**
 `more` opens a file to read in the terminal. You have to type "q" to get out of the more screen. 
 `head` prints the first n lines of a file
 `tail` prints the last n lines of a file 
@@ -49,12 +49,12 @@ Go ahead and try that. But ... do yourself a huge favor. Don't cut and paste, tr
 `wc` counts the words in a file. The -l option counts lines instead of words.
 `less` opens the file in the shell so you can move through it with arrow keys. Type "q" to exit less
 
-<strong>Copying files</strong>
+**Copying files**
 It is usually a good idea to make a backup. 
 
 `cp flutrends.txt flutrends.txt.backup`
 
-<strong>Redirection</strong>
+**Redirection**
 Redirection is a tricky concept at first but it is actually fairly simple. Most of the tools we're working with just print content right to the screen. That's called standard output or `stdout`. Sometimes you actually want to keep what you've printed in a new file. For instance, if you're trying to retrieve a document from the web with curl, you probably want to store it. You'd use the "greater than" to redirect the output of curl from the screen to a file, but providing a file name:
 
 `curl http://www.google.org/flutrends/data.txt > flutrends.txt`
@@ -63,7 +63,7 @@ IMPORTANT: the shell environment, unlike OSX's graphical environment, assumes yo
 
 <blockquote>See if you can remember how to examine the first 15 lines of flutrends.txt? Can you count the lines of flutrends.txt?</blockquote>
 
-<strong>Searching</strong>
+**Searching**
 The only reason we're going through any of this is so that we can search files! 
 
 `grep` is the search command we're going to use. If you are a programmer or have friends who are programmers, at least 50% of them will tell you awk is better. That's useful information if you want to be a programmer. grep will print (to the screen) every line that matches your search. So...

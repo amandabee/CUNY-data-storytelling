@@ -1,5 +1,5 @@
 # Homework Week 0 (Due Aug 28)
-
+<!-- Welcome --> 
 Welcome to Data-driven Interactive Storytelling, Jour72312, or Data Viz! We're looking forward to starting the semester and meeting each one of you.
  
 Before our first meeting, please watch the following chapters of *Journalism in the Age of Data*, a video report on data visualization by Geoff McGhee at <http://datajournalism.stanford.edu/>
