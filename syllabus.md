@@ -173,14 +173,14 @@ Festival of Data: ["In Climbing Income Ladder, Location Matters"](http://www.nyt
 
 **Sep 04: No Class**  
 
-*Due Sep 11:*
+*Due Sep 11:*  
+[Assigment Details](assignments/Week_1.md)  
 Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
-  
+
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".  
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
 
-[Assigment Details](assignments/Week_1.md)
 
 **2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
@@ -189,12 +189,12 @@ Spreadsheet review: data types, rows and columns, sorting, copy and paste, selec
 In-Class Exercise: Using spreadsheets and Pivot tables  
   
 *Due Sep 18:*
-  
+[Assigment Details](assignments/Week_2.md) 
 Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
 Make sure Refine is installed on your computer.  
-[Assigment Details](assignments/Week_2.md) 
-  
+
 **3 | Sep 18: Cleaning Data**  
+[Assigment Details](assignments/Week_3.md)  
 Cleaning data and advanced spreadsheets  
 Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
 In-Class Exercise: working with the command line. curl, cat, grep  
@@ -203,7 +203,6 @@ In-Class Exercise: working with the command line. curl, cat, grep
 Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 3”    
 Make sure that you have Firefox installed on your computer with both Firebug and the Web Developer Toolbar plugins.    
 
-[Assigment Details](assignments/Week_3.md)
 
     
 **4 | Sep 25: Mapping Data**    
@@ -213,14 +212,14 @@ Geocoding, Shapefiles->KML, Fusing two data sets, customizing infoboxes, colors,
 Tool: Google Layer Wizard    
 Tool: Using Firebug to see how they did that    
     
-*Due Oct 02:*    
+*Due Oct 02:*  
+[Assigment Details](assignments/Week_4.md)  
 + Pre-piches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”    
 + Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
 + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013    
 
-[Assigment Details](assignments/Week_4.md)
     
 **5 | Oct 02: Charting Data**    
 Discuss Illinsky reading    
@@ -248,7 +247,7 @@ Annotating the data, Interactivity
 Workshop: Pairs of teams work with each other to discuss pitches.    
 Discussion: storyboards    
     
-*Due Oct 16:*
+*Due Oct 16:*  
 [Assigment Details](assignments/Week_6.md)    
 Solo – integrate the data and visualizations you made previously within a Hype project and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
     
