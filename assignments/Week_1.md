@@ -1,6 +1,6 @@
 # Homework Week 1 (Due Sep 11)
 
-Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
+Find two datasets that interest you. Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
   
 Begin a scrapbook on WordPress, Tumblr, Pinterest or any blog or aggregation service. 
 
