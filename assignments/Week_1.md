@@ -4,6 +4,8 @@ Find two datasets that interest you. Tell us who maintains it, where the data ca
   
 Begin a scrapbook on WordPress, Tumblr, Pinterest or any blog or aggregation service. 
 
+Read Alberto Cairo, "The Functional Art", part 1, on e-reserve.
+
 Make sure that [Firefox](http://www.getfirefox.com) is installed on your computer, with both the [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug/) plugins.
 
 Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".  
