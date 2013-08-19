@@ -328,7 +328,7 @@ Solo – HighCharts exercise
 Team – Refine pitches and develop storyboards.  
     
 **12 | Nov 20: Guest Lecture**    
-Lecture: Guest, TBD.    
+Lecture: Guest, [Lam Thuy Vo, Interactive Editor of Al Jazeera America](http://lamivo.com/about.html).    
 Discussion of storyboards  
 
 ** Nov 27: no class (Friday schedule)**  
