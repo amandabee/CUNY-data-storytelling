@@ -295,7 +295,7 @@ Open workshop
 Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.    
 + Credit all images and code libraries    
 + Clearly attribute all data, including direct links where appropriate.    
-+ See the rest of the checklist to ensure that your story is complete: http://datadrivenjournalism.2013.journalism.cuny.edu/checklist/    
++ See the rest of the checklist to ensure that your story is complete: http://datadrivenjournalism.fall.2013.journalism.cuny.edu/checklist/    
     
 **9 | Oct 30: Critiques**    
 Discussion: Critique our first finished data stories    
@@ -307,14 +307,14 @@ Solo – Bring in two good ideas for your second story.
 Team – one last chance to revise your first story.    
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.    
     
-**10 | Nov 06: Timelines and CartoDB maps**    
+**10 | Nov 06: CartoDB maps**    
 Discussion: Anything great in the revised projects?    
-In-class exercise: working with timeline tools, organizing timeline content, CartoDB and styling maps with CSS  
+In-class exercise: working with CartoDB and styling maps with CSS  
 Round robin story meeting    
     
 *Due Nov 13:*    
 [Assigment Details](assignments/Week_10.md)    
-Solo – Create a timeline. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
+Solo – Create a CartoDB map. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
     
