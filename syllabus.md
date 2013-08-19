@@ -1,7 +1,7 @@
 Syllabus: Data-driven Interactive Journalism (Jour72312)
 ======
 
-> Spring Fall 2013: Aug 28 – Dec 18  
+> Fall 2013: Aug 28 – Dec 18  
 > Thursdays 5:00-7:50pm  
 > Room 436  
 
@@ -9,12 +9,13 @@ We swim in a world of data – from election results, budgets and census reports
 
 Participants are expected to pitch, report, and produce stories working alone and in teams. You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.
 
-Class Blog: [http://datadrivenjournalism.2013.journalism.cuny.edu/](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)  
+Class Blog: [http://datadrivenjournalism.fall.2013.journalism.cuny.edu/](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)  
 Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)
 
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
-Hours: Wednesday 2-5pm 	 
+Hours: Wednesday 2-5pm 
+Tumblr: [datanarratives.tumblr.com](http://datanarratives.tumblr.com)
 
 Amanda Hickman 419i  
 amanda.hickman@journalism.cuny.edu  
