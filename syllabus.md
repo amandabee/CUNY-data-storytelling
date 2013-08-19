@@ -185,6 +185,7 @@ Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation serv
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
 
+Read Alberto Cairo, "The Functional Art", part 1, on e-reserve.
 
 **2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
