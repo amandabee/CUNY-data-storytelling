@@ -9,12 +9,12 @@ We swim in a world of data – from election results, budgets and census reports
 
 Participants are expected to pitch, report, and produce stories working alone and in teams. You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.
 
-Class Blog: [http://datadrivenjournalism.2013.journalism.cuny.edu/](http://datadrivenjournalism.2013.journalism.cuny.edu/)  
+Class Blog: [http://datadrivenjournalism.2013.journalism.cuny.edu/](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)  
 Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)
 
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
-Hours: Thursday 2-5pm 	 
+Hours: Wednesday 2-5pm 	 
 
 Amanda Hickman 419i  
 amanda.hickman@journalism.cuny.edu  
@@ -23,7 +23,8 @@ Phone: 917/655-2579
 Skype: amandabee  
 Tumblr:  [http://jour72312.tumblr.com/](http://jour72312.tumblr.com/)  
 
-TBD, Teaching Assistant  
+Nicholas Wells, Teaching Assistant  
+nicholas.wells@journaliism.cuny.edu
 
 
 This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
@@ -138,12 +139,12 @@ Notify the instructors of any absences before class, or as soon as you know you 
     09-25 Mapping                                     | 09-25 Clean a dataset due
     10-02 Charting                                    | 10-02 Create a map due
     10-09 Presentation: Interactivity+Navigation      | 10-09 Pitch 1 due, Chart it Three Ways due
-    10-16 Information design and Ethics               | 10-16 Storyboard 1 due, Hype assignment du
+    10-16 Information design and Ethics               | 10-16 Storyboard 1 due, jQuery assignment due
     10-23 Open workshop                               | 10-23 Rough draft 1 and redesign assignment
     10-30 Critique of Story 1                         | 10-30 Story 1 due
-    11-06 Timelines                                   | 11-06 Last day to revise story 1
-    11-13 Alternate technologies                      | 11-13 Timeline due, Pitch 2 due
-    11-20 Guest lecture                               | 11-20 Storyboard 2 due
+    11-06 Timelines+CartoDB                           | 11-06 Last day to revise story 1
+    11-13 HighCharts                                  | 11-13 Timeline/CartoDB map due, Pitch 2 due
+    11-20 Guest lecture                               | 11-20 HighChart exercise due, Storyboard 2 due
     11-27                                             | 11-27 (no class)
     12-04 Open workshop                               | 12-04 Rough draft 2 due
     12-11 Critique of Story 2                         | 12-11 Story 2 due
@@ -157,6 +158,7 @@ Every Week:
 
  * Read Anna Cordrea-Rado’s “Between the Spreadsheets” column at Columbia Journalism Review: <http://www.cjr.org/between_the_spreadsheets/>
  * Read Kevin Quealy’s blog, [“Charts and Things”](http://chartsnthings.tumblr.com): <http://chartsnthings.tumblr.com>
+ * Read Source, the Knight-Mozilla blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
 
 *Due Aug 28:*  
 Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at http://datajournalism.stanford.edu/ Chapter 2 Data Vis in Journalism  
@@ -169,13 +171,14 @@ What is data, what are data stories? Reactions to McGhee’s data journalism vid
 Discussion: work in groups to evaluate four recent data driven stories.  
 Discussion: Looking for data, where to look and how to look?  
   
-Festival of Data: ["In Climbing Income Ladder, Location Matters"](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html)  
+Festival of Data: ["In Climbing Income Ladder, Location Matters"](http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html) 
+Festival of Data: Google Workshop Small Arms Trade <http://workshop.chromeexperiments.com/projects/armsglobe/>
 
 **Sep 04: No Class**  
 
 *Due Sep 11:*  
 [Assigment Details](assignments/Week_1.md)  
-Find two datasets that interest you. At least one must address guns (use, ownership, provenance, in the US, around the world). Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
+Find two datasets that interest you. Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
 
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".  
   
@@ -197,7 +200,7 @@ Make sure Refine is installed on your computer.
 [Assigment Details](assignments/Week_3.md)  
 Cleaning data and advanced spreadsheets  
 Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
-In-Class Exercise: working with the command line. curl, cat, grep  
+In-Class Exercise: working with Refine to clean data. 
     
 *Due Sep 25:*    
 Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 3”    
@@ -242,14 +245,14 @@ Team – pitches for your first story. A complete pitch should tell us who cares
 Pitches must be posted to the class blog, in the “story 1 pitches” category.    
     
 **6 | Oct 09: Pitching, Presenting, Visual Encoding**    
-Integrating the presentation: Hype, HTML/CSS    
+Integrating the presentation: HTML/CSS/JS and jQuery UI
 Annotating the data, Interactivity    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 Discussion: storyboards    
     
 *Due Oct 16:*  
 [Assigment Details](assignments/Week_6.md)    
-Solo – integrate the data and visualizations you made previously within a Hype project and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
+Solo – integrate the data and visualizations you made previously with jQuery and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
     
 Team – refined pitches and storyboards for your first story. A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Scan your sketch and include it with your post.    
     
@@ -284,7 +287,6 @@ You’re not required to quote your source, but you do need to be able to tell t
     
 **8 | Oct 23: Open Workshop, Completeness**    
 Discussion: Completeness, academese    
-Tool: High Charts    
 Open workshop    
     
 *Due Oct 30:*    
@@ -304,9 +306,9 @@ Solo – Bring in two good ideas for your second story.
 Team – one last chance to revise your first story.    
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.    
     
-**10 | Nov 06: Timelines**    
+**10 | Nov 06: Timelines and CartoDB maps**    
 Discussion: Anything great in the revised projects?    
-In-class exercise: working with timeline tools, organizing timeline content    
+In-class exercise: working with timeline tools, organizing timeline content, CartoDB and styling maps with CSS  
 Round robin story meeting    
     
 *Due Nov 13:*    
@@ -315,18 +317,17 @@ Solo – Create a timeline. See post (TK) for more detail.this week, you’ll wa
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
     
-**11 | Nov 13: Alternate technologies, TBD**    
+**11 | Nov 13: HightCharts**    
 Workshop: Pairs of teams work with each other to discuss pitches.    
-In class exercise: timelines, ball charts, scrollr or something else. We shall see.    
+In class exercise: HighCharts, Mr. DataConverter, and understanding different data formats.    
 
 *Due Nov 20:*    
 [Assigment Details](assignments/Week_11.md)    
-Solo – Timeline, Regular Expressions    
+Solo – HighCharts exercise    
 Team – Refine pitches and develop storyboards.  
     
 **12 | Nov 20: Guest Lecture**    
-Lecture: Guest, Michael Keller, Senior Data Reporter at Newsweek and The Daily Beast. View his past work, come prepared with questions.    
-Note: Amanda Hickman will be out 11/20  
+Lecture: Guest, TBD.    
 Discussion of storyboards  
 
 ** Nov 27: no class (Friday schedule)**  
