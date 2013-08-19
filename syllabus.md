@@ -14,7 +14,7 @@ Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)
 
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
-Hours: Wednesday 2-5pm 
+Hours: Wednesday 2-5pm   
 Tumblr: [datanarratives.tumblr.com](http://datanarratives.tumblr.com)
 
 Amanda Hickman 419i  
@@ -58,7 +58,7 @@ Russell previously taught at Columbia University and the University of Californi
 Amanda Hickman works at the intersection of journalism and civic engagement, and especially values reporting that makes it easier for individuals to participate in democratic processes. As program director at DocumentCloud, she helped reporters around the world analyze, annotate, and publish primary source documents. Amanda managed development of a series of games about public policy issues as Gotham Gazette‘s director of technology. She has spent more than a decade reporting on local and international events and working directly with community based organizations to understand, and draw their membership into, the political process. Amanda has taught at Columbia Graduate School of Journalism, NYU’s Gallatin School and CUNY Graduate School of Journalism.
 
 ## WordPress
-Final stories will be showcased in our class blog. Students will be required to present their stories in class for critique. Posts to the class blog are public by default, but you can choose to keep them private if you prefer. Students are encouraged to submit superior and/or timely work for publication elsewhere, including school outlets such as the New York City News Service. (http://datadrivenjournalism.2013.journalism.cuny.edu/)
+Final stories will be showcased in our class blog. Students will be required to present their stories in class for critique. Posts to the class blog are public by default, but you can choose to keep them private if you prefer. Students are encouraged to submit superior and/or timely work for publication elsewhere, including school outlets such as the New York City News Service. (http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)
 
 ## Grading
 Your grade is determined by three factors: participation, successful completion of all solo homework assignments, and successful completion of the two major team assignments. Your participation includes attending all classes, being active in discussions, workshops and critiques, presenting your story for the Data Festival, and participating in all in-class hands-on activities. Your assignments will be evaluated in terms of use of data, story and context, interactivity, and design.
