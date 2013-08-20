@@ -2,7 +2,7 @@ Syllabus: Data-driven Interactive Journalism (Jour72312)
 ======
 
 > Fall 2013: Aug 28 – Dec 18  
-> Thursdays 5:00-7:50pm  
+> Wednesdays 5:00-7:50pm  
 > Room 436  
 
 We swim in a world of data – from election results, budgets and census reports, to Facebook updates and image uploads. Journalists need to know how to find stories in data and shape them in compelling ways. This hands-on course teaches reporters and editors to gather, analyze, and visualize interactive data-driven stories. This emerging discipline touches on information and interactivity design, mapping, graphing, animation tools, and data analysis.
