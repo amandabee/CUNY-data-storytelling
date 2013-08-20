@@ -185,7 +185,7 @@ Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation serv
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
 
-Read Alberto Cairo, "The Functional Art", part 1, on e-reserve.
+Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
 
 **2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
