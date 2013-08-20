@@ -222,12 +222,13 @@ Tool: Using Firebug to see how they did that
 + Pre-piches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”    
-+ Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
++ Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)
++ Read Cairo: The Functional Art, Reading part 2: pages 118-129,  on Cleveland & McGill’s perceptual accuracy 
 + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013    
 
     
 **5 | Oct 02: Charting Data**    
-Discuss Illinsky reading    
+Discuss readings   
 Discuss anatomy of a news-chart: all the little pieces    
 Chart types – what they’re good for, what they aren’t,Cleveland and McGill’s findings on readability of chart types    
 Pitching a story: what we expect, what you’re thinking. Round robin pitches—discuss the story ideas from your homework.    
@@ -237,6 +238,7 @@ Choose teams for your first story.
 [Assigment Details](assignments/Week_5.md)
 
 Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”    
++ Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation
     
 Team – pitches for your first story. A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…    
 + a question or thesis    
