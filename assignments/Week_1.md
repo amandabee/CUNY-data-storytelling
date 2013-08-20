@@ -4,7 +4,7 @@ Find two datasets that interest you. Tell us who maintains it, where the data ca
   
 Begin a scrapbook on WordPress, Tumblr, Pinterest or any blog or aggregation service. 
 
-Read Alberto Cairo, "The Functional Art", part 1, on e-reserve.
+Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library.
 
 Make sure that [Firefox](http://www.getfirefox.com) is installed on your computer, with both the [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) and [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug/) plugins.
 
