@@ -1,6 +1,6 @@
 # Homework Week 3 (Due Sep 25)
 
-You have three assignments this week, though if you're smart you'll also try your hand at some grep searches while the command line is still fresh in your mind. You're going to clean one campaign finance data set, read a bit about choropleth maps and find a data set for next week that includes geographic information.<!--more-->
+You have three assignments this week. You're going to clean one campaign finance data set, read a bit about choropleth maps and find a data set for next week that includes geographic information.<!--more-->
 
 **1: Clean a dataset**
 We walked through Refine in class. Now it's your turn: head over to the <a href="http://www.nyccfb.info/searchabledb/">NYC Campaign Finance Board</a> and download contribution data for a current candidate. Refine it. (Keep in mind that opening Refine launches Safari, but you'll have better luck if you open that url -- http://127.0.0.0:3333 -- in Chrome or Firefox). Cluster the entries to clean the data of misspellings and other errors, and use facets to filter occupations, dates, contributions, employers, locations, or anything that seems interesting. And then: write us a nut graf. You don't have to find a story that is showstopping breaking news, but you have to find something to say about who is donating to the candidate whose records you're examining.
