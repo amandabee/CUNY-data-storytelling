@@ -25,7 +25,7 @@ Skype: amandabee
 Tumblr:  [http://jour72312.tumblr.com/](http://jour72312.tumblr.com/)  
 
 Nicholas Wells, Teaching Assistant  
-nicholas.wells@journaliism.cuny.edu
+nicholas.wells@journalism.cuny.edu
 
 
 This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
@@ -143,8 +143,8 @@ Notify the instructors of any absences before class, or as soon as you know you 
     10-16 Information design and Ethics               | 10-16 Storyboard 1 due, jQuery assignment due
     10-23 Open workshop                               | 10-23 Rough draft 1 and redesign assignment
     10-30 Critique of Story 1                         | 10-30 Story 1 due
-    11-06 Timelines+CartoDB                           | 11-06 Last day to revise story 1
-    11-13 HighCharts                                  | 11-13 Timeline/CartoDB map due, Pitch 2 due
+    11-06 CartoDB                                     | 11-06 Last day to revise story 1
+    11-13 HighCharts                                  | 11-13 CartoDB map due, Pitch 2 due
     11-20 Guest lecture                               | 11-20 HighChart exercise due, Storyboard 2 due
     11-27                                             | 11-27 (no class)
     12-04 Open workshop                               | 12-04 Rough draft 2 due
@@ -162,9 +162,10 @@ Every Week:
  * Read Source, the Knight-Mozilla blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
 
 *Due Aug 28:*  
-Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at http://datajournalism.stanford.edu/ Chapter 2 Data Vis in Journalism  
-Chapter 3 Telling “Data Stories”  
-Chapter 6 Exploring Data  
+Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at <http://datajournalism.stanford.edu/> 
++ Chapter 2 Data Vis in Journalism  
++ Chapter 3 Telling “Data Stories”  
++ Chapter 6 Exploring Data  
   
 **1 | Aug 28: Defining and Finding Data**  
 Course introduction (expectations, syllabus review)  
@@ -178,7 +179,7 @@ Festival of Data: Google Workshop Small Arms Trade <http://workshop.chromeexperi
 **Sep 04: No Class**  
 
 *Due Sep 11:*  
-[Assigment Details](assignments/Week_1.md)  
+[Assignment Details](assignments/Week_1.md)  
 Find two datasets that interest you. Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.  
 
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".  
@@ -194,12 +195,12 @@ Spreadsheet review: data types, rows and columns, sorting, copy and paste, selec
 In-Class Exercise: Using spreadsheets and Pivot tables  
   
 *Due Sep 18:*
-[Assigment Details](assignments/Week_2.md) 
+[Assignment Details](assignments/Week_2.md) 
 Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
 Make sure Refine is installed on your computer.  
 
 **3 | Sep 18: Cleaning Data**  
-[Assigment Details](assignments/Week_3.md)  
+[Assignment Details](assignments/Week_3.md)  
 Cleaning data and advanced spreadsheets  
 Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
 In-Class Exercise: working with Refine to clean data. 
@@ -218,8 +219,8 @@ Tool: Google Layer Wizard
 Tool: Using Firebug to see how they did that    
     
 *Due Oct 02:*  
-[Assigment Details](assignments/Week_4.md)  
-+ Pre-piches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
+[Assignment Details](assignments/Week_4.md)  
++ Pre-pitches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”    
 + Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
@@ -234,7 +235,7 @@ Pitching a story: what we expect, what you’re thinking. Round robin pitches—
 Choose teams for your first story.    
     
 *Due Oct 09:*    
-[Assigment Details](assignments/Week_5.md)
+[Assignment Details](assignments/Week_5.md)
 
 Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”    
     
@@ -253,7 +254,7 @@ Workshop: Pairs of teams work with each other to discuss pitches.
 Discussion: storyboards    
     
 *Due Oct 16:*  
-[Assigment Details](assignments/Week_6.md)    
+[Assignment Details](assignments/Week_6.md)    
 Solo – integrate the data and visualizations you made previously with jQuery and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.    
     
 Team – refined pitches and storyboards for your first story. A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Scan your sketch and include it with your post.    
@@ -267,7 +268,7 @@ Discussion: Ethics, avoiding distortion, responsible presentation of data
 What do we expect in a “rough draft”?    
     
 *Due Oct 23:*    
-[Assigment Details](assignments/Week_7.md)  
+[Assignment Details](assignments/Week_7.md)  
 Solo – design assignment. Re-design one of the following data visualizations:    
 The Atlantic: Classified Documents    
 Good: Teacher Salaries    
@@ -292,7 +293,7 @@ Discussion: Completeness, academese
 Open workshop    
     
 *Due Oct 30:*    
-[Assigment Details](assignments/Week_8.md)  
+[Assignment Details](assignments/Week_8.md)  
 Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.    
 + Credit all images and code libraries    
 + Clearly attribute all data, including direct links where appropriate.    
@@ -303,7 +304,7 @@ Discussion: Critique our first finished data stories
 Assign Teams for Second Story    
     
 *Due Nov 06:*    
-[Assigment Details](assignments/Week_9.md)  
+[Assignment Details](assignments/Week_9.md)  
 Solo – Bring in two good ideas for your second story.    
 Team – one last chance to revise your first story.    
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.    
@@ -314,17 +315,17 @@ In-class exercise: working with CartoDB and styling maps with CSS
 Round robin story meeting    
     
 *Due Nov 13:*    
-[Assigment Details](assignments/Week_10.md)    
+[Assignment Details](assignments/Week_10.md)    
 Solo – Create a CartoDB map. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)    
     
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.    
     
-**11 | Nov 13: HightCharts**    
+**11 | Nov 13: HighCharts**    
 Workshop: Pairs of teams work with each other to discuss pitches.    
 In class exercise: HighCharts, Mr. DataConverter, and understanding different data formats.    
 
 *Due Nov 20:*    
-[Assigment Details](assignments/Week_11.md)    
+[Assignment Details](assignments/Week_11.md)    
 Solo – HighCharts exercise    
 Team – Refine pitches and develop storyboards.  
     
@@ -335,21 +336,21 @@ Discussion of storyboards
 ** Nov 27: no class (Friday schedule)**  
     
 *Due Dec 04:*
-[Assigment Details](assignments/Week_12.md)        
+[Assignment Details](assignments/Week_12.md)        
 Rough drafts of story 2.    
     
 **13 | Dec 04: Open Workshop**    
 Open workshop    
     
 *Due Dec 11:*    
-[Assigment Details](assignments/Week_13.md)    
+[Assignment Details](assignments/Week_13.md)    
 Finish story 2. 
     
 **14 | Dec 11: Critique**    
 Critique of second story    
     
 *Due Dec 18:*    
-[Assigment Details](assignments/Week_14.md)    
+[Assignment Details](assignments/Week_14.md)    
 Solo – Post mortem on story 2.  
 Team – last chance to revise your second story    
     
