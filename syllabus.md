@@ -2,7 +2,7 @@ Syllabus: Data-driven Interactive Journalism (Jour72312)
 ======
 
 > Fall 2013: Aug 28 – Dec 18  
-> Thursdays 5:00-7:50pm  
+> Wednesdays 5:00-7:50pm  
 > Room 436  
 
 We swim in a world of data – from election results, budgets and census reports, to Facebook updates and image uploads. Journalists need to know how to find stories in data and shape them in compelling ways. This hands-on course teaches reporters and editors to gather, analyze, and visualize interactive data-driven stories. This emerging discipline touches on information and interactivity design, mapping, graphing, animation tools, and data analysis.
@@ -186,7 +186,7 @@ Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation serv
   
 Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.  
 
-Read Alberto Cairo, "The Functional Art", part 1, on e-reserve.
+Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
 
 **2 | Sep 11: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
@@ -223,12 +223,13 @@ Tool: Using Firebug to see how they did that
 + Pre-pitches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.    
 + Create a map and embed it on the class WordPress blog.    
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”    
-+ Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)    
++ Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library)
++ Read Cairo: The Functional Art, Reading part 2: pages 118-129,  on Cleveland & McGill’s perceptual accuracy 
 + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013    
 
     
 **5 | Oct 02: Charting Data**    
-Discuss Illinsky reading    
+Discuss readings   
 Discuss anatomy of a news-chart: all the little pieces    
 Chart types – what they’re good for, what they aren’t,Cleveland and McGill’s findings on readability of chart types    
 Pitching a story: what we expect, what you’re thinking. Round robin pitches—discuss the story ideas from your homework.    
@@ -238,6 +239,7 @@ Choose teams for your first story.
 [Assignment Details](assignments/Week_5.md)
 
 Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”    
++ Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation
     
 Team – pitches for your first story. A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…    
 + a question or thesis    

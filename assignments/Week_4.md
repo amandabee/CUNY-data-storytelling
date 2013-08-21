@@ -12,6 +12,7 @@ Briefly (we'll edit this) your homework is as follows:
 + Pre-pitch -- come to class with at least two good ideas for your first data driven story. Think about the story you want to tell and the data you need to tell it. Is that data available? In what form?
 
 + Read Illinsky, <a href="http://www.worldcat.org/oclc/747533358">Designing Data Visualizations</a>, Chapter 4: Choose Appropriate Visual Encodings in Library or as a <a href="http://proquest.safaribooksonline.com/9781449314774/id2940472" target="_blank">free preview online</a>.
++ Read Cairo: The Functional Art, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy. On e-reserve in Library.
 
 + Extra Credit: <a href="http://bit.ly/nicarmaps">John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013</a>
 

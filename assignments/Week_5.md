@@ -1,7 +1,9 @@
 # Homework Week 5 (Due Oct 09)
  
 <!-- Chart it 3 Ways -->
-This week you have one solo homework assignment and one assignment to complete as a team. Everyone needs to chart <a href="https://nycopendata.socrata.com/Education/Graduation-Outcomes-Classes-Of-2005-2010-By-Boroug/avir-tzek">NYC graduation rates</a> three ways, and every team needs to send in a complete pitch.  
+This week you have one solo homework assignment and one assignment to complete as a team. Everyone needs to chart <a href="https://nycopendata.socrata.com/Education/Graduation-Outcomes-Classes-Of-2005-2010-By-Boroug/avir-tzek">NYC graduation rates</a> three ways, and every team needs to send in a complete pitch.
+
+Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation. On e-reserve in the Library.
 
 **Chart it 3 Ways:**
 We've pulled a [csv of citywide graduation rates](graduation_outcomes.csv) from a <a href="https://nycopendata.socrata.com/Education/Graduation-Outcomes-Classes-Of-2005-2010-By-Boroug/avir-tzek">larger dataset</a> available on NYC Open Data. The Department of Education provides a little context for the data:
