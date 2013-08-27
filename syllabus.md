@@ -10,8 +10,8 @@ We swim in a world of data – from election results, budgets and census reports
 Participants are expected to pitch, report, and produce stories working alone and in teams. You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.
 
 Class Blog: [http://datadrivenjournalism.fall.2013.journalism.cuny.edu/](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)  
-Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)
-E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)
+Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)  
+E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)  
 
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
