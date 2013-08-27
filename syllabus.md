@@ -11,11 +11,7 @@ Participants are expected to pitch, report, and produce stories working alone an
 
 Class Blog: [http://datadrivenjournalism.fall.2013.journalism.cuny.edu/](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)  
 Class Notes: [http://piratepad.net/cunydata](http://piratepad.net/cunydata)
-
-Readings on e-reserve:
-
-http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141
-access code: ddj2013
+E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)
 
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
