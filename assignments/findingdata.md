@@ -1,10 +1,11 @@
 It isn't hyperbole: journalists today have access to more data than ever before. And we have better tools available to digest and display that data. So where can you look for reliable data?
 
-Some basic strategies that work pretty well: + Google it. That's never a bad place to start and it only takes a second.  
+Some basic strategies that work pretty well: 
 
+ - Google it. That's never a bad place to start and it only takes a second.  
  - Figure out who *should* have the data? Who *might* have it? Is this information only the NYPD or the IRS can collect? The Departments of City Planning, Buildings, Housing, Finance and Taxation all keep tabs on who owns property in New York City, where that property is located and what it can be used for. If you know who ought to have the numbers you're looking for, you can start your search by asking them.  
  - Look at recent reporting about the subject. Who has been releasing reports? Who has been cited in stories? Go ask them for data, or ask them for help finding it.  
- - [Wikipedia][1] is a fantastic resource. Don't be afraid of it. Most information there comes with a citation -- don't take some Wikipedia author's word for it, but do look at the source they cited and confirm that the numbers are there.  
+ - [Wikipedia][1] is a fantastic resource. Don't be afraid of it. Follow up on citations, don't just take a Wikipedian's word for it, but do look through the sources that authors there have cited. 
  - Look for think tanks and aid organizations that specialize in the issue you're interested in.  
  - Ask a [librarian][2]
 
