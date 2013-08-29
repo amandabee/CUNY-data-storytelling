@@ -12,6 +12,9 @@ Class Blog: <http://datadrivenjournalism.fall.2013.journalism.cuny.edu/>
 Class Notes: <http://piratepad.net/cunydata>  
 E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)
 
+[Skip to syllabus in detail](#detail)
+
+
 Russell Chun, 404E  
 russell.chun@journalism.cuny.edu  
 Hours: Wednesday 2-5pm  
