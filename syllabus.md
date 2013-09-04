@@ -154,11 +154,11 @@ Notify the instructors of any absences before class, or as soon as you know you 
     10-30 Critique of Story 1                         | 10-30 Story 1 due
     11-06 CartoDB                                     | 11-06 Last day to revise story 1
     11-13 HighCharts                                  | 11-13 CartoDB map due, Pitch 2 due
-    11-20 Guest lecture                               | 11-20 HighChart exercise due, Storyboard 2 due
+    11-20 Guest lecture and open workshop             | 11-20 HighChart exercise due, rough draft 2 due
     11-27                                             | 11-27 (no class)
-    12-04 Open workshop                               | 12-04 Rough draft 2 due
-    12-11 Critique of Story 2                         | 12-11 Story 2 due
-    12-18 Course wrap-up                              | 12-18 Last day to revise story 2
+    12-04 Critique of Story 2                         | 12-04 Story 2 due
+    12-11 Last class: Course wrap-up                  | 12-11 Last day to revise story 2
+  
     
 
 # SYLLABUS in DETAIL <a id="detail" /></a>
@@ -330,36 +330,30 @@ In class exercise: HighCharts, Mr. DataConverter, and understanding different da
 *Due Nov 20:*  
 [Assignment Details][15]  
 Solo – HighCharts exercise  
-Team – Refine pitches and develop storyboards.
+Team – Refine pitches and develop storyboards and rough drafts.
 
 **12 | Nov 20: Guest Lecture**  
 Lecture: Guest, [Lam Thuy Vo, Interactive Editor of Al Jazeera America][16].  
-Discussion of storyboards
+Open workshop
 
 ** Nov 27: no class (Friday schedule)**
 
 *Due Dec 04:* [Assignment Details][17]  
-Rough drafts of story 2.
+Finish story 2.
 
-**13 | Dec 04: Open Workshop**  
-Open workshop
+**13 | Dec 04: Critique**  
+Critique of second story
 
 *Due Dec 11:*  
 [Assignment Details][18]  
-Finish story 2.
-
-**14 | Dec 11: Critique**  
-Critique of second story
-
-*Due Dec 18:*  
-[Assignment Details][19]  
-Solo – Post mortem on story 2.  
+Solo - Post mortem on story 2.
 Team – last chance to revise your second story
 
-**15 | Dec 18: Wrap Up**  
+**14 | Dec 11: Wrap up**  
 Discussion: revised projects  
 Discussion: closing thoughts  
 Fill out student evaluations
+
 
  [1]: http://datanarratives.tumblr.com
  [2]: http://www.sessions.edu/
