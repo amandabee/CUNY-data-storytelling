@@ -36,7 +36,7 @@ Part two: The National Center for Injury Prevention and Control at the Centers f
 </ul>
 You'll find a link to "Download Results in a Spreadsheet (CSV) File" at the bottom of the page. Explore the data, find something interesting and tell us what you found. Your findings should be in the form of 1-2 short paragraphs that tell us why your data or finding is relevant today and what you found. Imagine this text as the nut graf of your data story on your findings.
 
-## Install Refine
-If you haven't already done so, you should also download and install <a href="https://github.com/OpenRefine">Refine</a>.
+## Install Refine and Fetch
+If you haven't already done so, you should also download and install <a href="https://github.com/OpenRefine">Refine</a> and [Filezilla](https://filezilla-project.org/) (even if you already have an FTP client that you like).
 
 
