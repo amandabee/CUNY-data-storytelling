@@ -8,7 +8,13 @@ We walked through Refine in class. Now it's your turn: head over to the <a href=
 Export your refined records as a spreadsheet or csv and send that to us, too.
 
 **2: Read** <a href="http://vis4.net/blog/posts/choropleth-maps/">Taking care of your choropleth maps</a>
+![XKCD on mapping](http://imgs.xkcd.com/comics/heatmap.png)[1]
+
 
 **3: Find one dataset that has geographic information** and make sure you can open it in a spreadsheet. If you're clever, you'll find data you need for reporting you're working on in another class or something you want to look at towards a project pitch for our class. You don't have to send it to us, but you do have to tell us what it is, where you found it, and why it is interesting. By "where you found it" we need enough information that we can track it down and look for ourselves.
 
 When you've done all that, you're going to send Russell and Amanda one email. The subject should be "Homework Week 3" and you'll include two things in the body of the email: your nut graf and a description and link of your geographic data. Attach your refined campaign finance file.
+
+
+ [1]: http://xkcd.com/1138/
+
