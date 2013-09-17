@@ -1,0 +1,43 @@
+According to data on SeeThroughNY, the median wage for city employees paid a day rate was $33.18 in 2011, but the mean wage is $76. What might account for the difference? Which figure is a better measure of the "average" wage? 
+
+I downloaded the complete NYC Payroll file from http://seethroughny.net/ and loaded it into R:
+
+# First, I read the table into a dataframe called "seethru_nyc"
+seethru_nyc <- read.csv('NY_Payroll_New_York_City_FY2011_05012012.csv')
+
+# Then I transformed the "Rate" from a character string into a number in 
+# two steps. First, I created a new vector, "numRate" by pulling all the 
+# commas and dollar signs out of the original rate. Then I told R explicitly
+# that the numRate vector is numeric.
+
+## \\$ looks for a literal dollar sign, | means "or" and , looks for a literal comma.
+seethru_nyc$numRate <- gsub("(\\$|,)","", as.character(seethru_nyc$Rate))
+seethru_nyc$numRate <- as.numeric(seethru_nyc$numRate)
+
+# then I used ddply, which is part of the plyr library, to find the mean, median
+# maximum and minimum values in the data for each pay rate. 
+library(plyr)
+
+ddply(seethru_nyc, "PayBasis", summarize, median = median(numRate), mean = mean(numRate), max = max(numRate), min = min(numRate))
+
+
+Here are my results:
+
+          PayBasis   median        mean       max     min
+1           Annual 64244.80 65275.88246 250000.00    1.00
+2            Daily    33.18    75.67603    802.80    4.86
+3           Hourly     9.21    10.63659    418.77    1.00
+4  Prorated Annual 25653.00 24752.06388 113694.00 1200.00
+
+I chose the folks on a Daily PayBasis because the mean and median are so far apart. And actually, further dividing the data between full and part time employees:
+
+ddply(seethru_nyc, c("PayBasis","Status"), summarize, median = median(numRate), mean = mean(numRate), max = max(numRate), min = min(numRate))
+
+          PayBasis    Status   median        mean       max      min
+1           Annual Full-Time 64244.80 65275.88246 250000.00     1.00
+2            Daily Full-Time   292.08   289.11938    467.28   120.08
+3            Daily Part-Time    33.18    55.14606    802.80     4.86
+4           Hourly Full-Time    24.86    25.11251     76.00     9.57
+5           Hourly Part-Time     9.21    10.29085    418.77     1.00
+6  Prorated Annual         ` 14970.00 14970.00000  14970.00 14970.00
+7  Prorated Annual Part-Time 25653.00 24755.14290 113694.00  1200.00
