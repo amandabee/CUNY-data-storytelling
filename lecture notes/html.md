@@ -22,21 +22,21 @@ At this point we're going to save and see a few things about text wrangler that 
 + In the body, add a paragraph and a sentence
 
 + Save again, and view it in a browser. We're not going to spend a lot of time learning HTML, but we are going to add to this over the semester. The one thing I want everyone to be able to do  is create a legend. So we're going to make a table:
-
-    <table>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-    </table>
+    
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
     
 We're going to drop some silly things in our table for now. 
 
