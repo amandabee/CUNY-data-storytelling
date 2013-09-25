@@ -13,7 +13,7 @@ Export your refined records as a csv, upload your CSV to digital storage and sen
 
 Good examples of the kinds of stories you can write with this data, from Gothamist [Shady Groups Spend "Unprecedented" Amount Of Cash In Mayoral Election][6] and from The New York Times, [Loophole in a Rule on Ad Spending][7], [Group Financed by Business Leaders Has Put Nearly $7 Million Into Council Races][8]. The Times also built a nice interactive guide to [How Much the N.Y.C. Mayoral Candidates Have Raised and Spent][9] -- they haven't updated it since September 2, and it just goes to show that it takes more than money to win an NYC primary race, but you've got the data.
 
-**2: Read** [Taking care of your choropleth maps][10] and [XKCD on mapping][11]
+**2: Read** [Taking care of your choropleth maps][10], [When maps shouldn't be maps][12],  and [XKCD on mapping][11]
 
 **3: Find one dataset that has geographic information** and make sure you can open it in a spreadsheet. If you're clever, you'll find data you need for reporting you're working on in another class or something you want to look at towards a project pitch for our class. You don't have to send it to us, but you do have to tell us what it is, where you found it, and why it is interesting. By "where you found it" we need enough information that we can track it down and look for ourselves.
 
@@ -30,3 +30,4 @@ When you've done all that, you're going to send Russell and Amanda one email. Th
  [9]: http://www.nytimes.com/interactive/2013/03/16/nyregion/how-much-the-nyc-mayoral-candidates-have-raised-and-spent.html
  [10]: http://vis4.net/blog/posts/choropleth-maps/
  [11]: http://xkcd.com/1138/
+ [12]: http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/ 
