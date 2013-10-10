@@ -6,7 +6,7 @@ This week you're going to integrate multiple graphs into a single cohesive prese
 
 If your jquery file lives at `http://digitalstorage.journalism.cuny.edu/somebody/dataviz/jquery_demo.html` your iframe will look like this:
 
-  `&gt;iframe src="http://digitalstorage.journalism.cuny.edu/somebody/dataviz/jquery_demo.html" width="200" height="200"&gt;&lt;/iframe&gt;`
+  `<iframe src="http://digitalstorage.journalism.cuny.edu/somebody/dataviz/jquery_demo.html" width="200" height="200"></iframe>`
 
 Adjust the `height` and `width` values to accomodate your project. Use `Web Developer > Miscellaneous > Display Ruler` to measure your screen if you aren't sure how big your iframe should be. Experiment!
 
