@@ -69,11 +69,11 @@ But we that gives us null values, and what we want is zeros. So we'll use [COALE
 
 Now we need to normalize the data. PostGIS's [ST_Area](http://www.postgis.org/docs/ST_Area.html) will return the area, in square feet, of an area. So we want to know something like a ration of bike racks to square feet:
 
-		SELECT ST_Area(the_geom) FROM nyc_bestbikeblocks ORDER BY ST_Area(the_geom) DESC
+		SELECT ST_Area(the_geom) FROM nycblocks ORDER BY ST_Area(the_geom) DESC
 
-		SELECT ST_Area(the_geom::geography) FROM nyc_bestbikeblocks ORDER BY ST_Area(the_geom) DESC
+		SELECT ST_Area(the_geom::geography) FROM nycblocks ORDER BY ST_Area(the_geom) DESC
 
-		UPDATE nyc_bestbikeblocks n SET bikescore_norm = bikescore * 100000 / ST_Area(the_geom::geography)
+		UPDATE nycblocks n SET bikescore_norm = bikescore * 100000 / ST_Area(the_geom::geography)
 
 Then we can map it by the normalized bike score. 
 
@@ -119,8 +119,6 @@ How would we tweak the query above to create a "rack_dist" column? Is that a mor
 	SELECT * FROM city_racks_2013_06_28 ORDER BY totalracks DESC
 
    
-####     Build a map:
-
 
 
 		
