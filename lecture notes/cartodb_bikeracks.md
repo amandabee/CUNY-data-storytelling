@@ -8,7 +8,7 @@ Upload these data sets to your CartoDB dash:
 
 We also need a map of [NYC CitiBike Stations](https://dl.dropboxusercontent.com/u/1307405/CartoDB/workshop/bestblocks/citibike_stations.zip) from Andrew Hill. 
 
--We also need [NYC Best Blocks](http://bit.ly/1fsb1Dq) from Andrew Hill. <-- just use city blocks for this. -
+~~We also need [NYC Best Blocks](http://bit.ly/1fsb1Dq) from Andrew Hill. <-- just use city blocks for this.~~
 
 #### Best Blocks
 
@@ -32,6 +32,8 @@ Use [ST_Distance](http://www.postgis.org/docs/ST_Distance.html) to calculate the
 
 I know, I know. You'll never remember how to do this. It's okay. First, you can stick to making flat maps with CartoDB. Second, you can check out [the CartoDB Vimeo channel](https://vimeo.com/channels/cartodb) and their collection of [tutorials](http://developers.cartodb.com/tutorials.html) for syntax you can crib. 
 
+They even have a whole tutorial on [distance queries](http://developers.cartodb.com/tutorials/query_by_distance.html). 
+
 ####  How many racks per block:
 
 Manually create a new column, of type "Number"  in `nycblocks` -- call it "bikescore". Make a "bikescore_norm" column, too. We'll use that in a minute.
@@ -52,12 +54,15 @@ What do you think [ST_Intersects](http://www.postgis.org/docs/ST_Intersects.html
 	SELECT count(*), racks FROM block_racks GROUP BY racks ORDER BY racks DESC
 	
 
-We actually want to get more precise, : 
+We actually want to get more precise. [ST_DWithin](http://www.postgis.org/docs/ST_DWithin.html) takes two geometries and determines whether or not they're within some distance of each other. Here's the query:
 
 	SELECT COUNT(*) racks, b.cartodb_id FROM nycblocks b, city_racks_2013_06_28 r WHERE ST_DWithin(b.the_geom, r.the_geom, 0.00001) GROUP By b.cartodb_id
  
+And so now we'll set "bikescore" to reflect that query: 
 
 	UPDATE nycblocks n SET bikescore = (SELECT count(*) FROM nyc_bike_routes_2012 WHERE ST_DWithin(the_geom, n.the_geom, 0.00001))
+	
+But we that gives us null values, and what we want is zeros. So we'll use [COALESCE](http://www.postgresql.org/docs/current/static/functions-conditional.html#FUNCTIONS-COALESCE-NVL-IFNULL). Again, I expect you'll have to ask for help if you want to keep doing this, but it is possible. 
 
 	UPDATE nycblocks n SET bikescore = bikescore + COALESCE((SELECT sum(total_rack) FROM city_racks_2013_06_28 WHERE ST_DWithin(the_geom, n.the_geom, 0.00001)),0)	
 	
