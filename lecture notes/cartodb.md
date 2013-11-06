@@ -11,6 +11,17 @@ The first zip file that you downloaded includes a whole bunch of garbage and a h
 
 Here's the thing: there is no standardized file format for geographic information. ArcGIS uses the "shapefile" format, and that has been widely adopted by other GIS tools. Googlemaps uses their own KML format. They have the same info, they're just structured differently. 
 
+# Why do we do this?
+
+CartoDB is [Free Software](https://github.com/CartoDB/cartodb) and Gmaps is struggling to keep up. 
+
+[Realtime Road Closures in National Parks](http://maps.nps.gov/blri/road-closures/)
+
+You can't do this with Google Maps: [Rolling Stones](http://vizzuality.github.io/rollingstonesmap)  and they published [the source for that](http://vizzuality.github.io/rollingstonesmap/).  Nor this: [Abortion Access](http://www.thedailybeast.com/articles/2013/01/22/roe-v-wade-turns-40.html). The code for the abortion map isn't published anyplace, but Mike Keller and Brian Abelson and Martin Burch all convene at Think Coffee on Mercer every Tuesday night so if you can get halfway there, you can go ask them for help with the last mile. 
+
+# Hands on
+
+## Reviewing the first assignment
 
 ###What did you do?
 
@@ -87,3 +98,28 @@ Use "Find Differences" in TextWrangler if you aren't sure why your SQL / CSS isn
 We're going to skip some things. 
 
 ### Sets of Points
+
+Keep walking through.
+
+# CartoDB FAQ
+
+Some followup from our CartoDB session, on making your own tables, finding reference material and managing an account that only gets to make 10 maps.
+
+**How do I make a table?** Conceptually, merging a data table (information about places) and a shapefile (information about the location of places) is not so different from merging two tables in Google Fusion Tables. The syntax is different, but the process is the same — you have to tell a database that some column in this table has values that match some column in that table and asking the database to make a new file that contains both tables. In CartoDB we call this [merging  tables](http://developers.cartodb.com/documentation/using-cartodb.html#sec-6).
+
+**SQL Reference?** CartoDB uses [SQL](http://en.wikipedia.org/wiki/SQL). On the one hand, that’s great. SQL is a standard language, so it is portable. On the other hand, it is a complete database language that does loads of things above and beyond managing map data. So the command references are bigger and are not necessarily specific to CartoDB. For all parts of your query that aren’t geospatial, the [PostgreSQL reference](http://www.postgresql.org/docs/9.1/static/) is what you want. When you want to add geospatial components to your queries, checkout the [PostGIS reference](http://postgis.net/docs/manual-1.4/). CartoDB’s own [reference pages](http://developers.cartodb.com/documentation/using-cartodb.html) are quite helpful, too.
+
+*What do you do when you get to 10 tables?* The answer: Start deleting. CartoDB is an excellent tool, but if you want your maps hosted by the good folks at Vizzuality, you are going to wind up paying for hosting if you keep making maps. So keep that in mind if you do publish a map: turn over the files to the publication so that continuing to host it is on their dime and not yours.
+
+# Getting Help
+
+https://groups.google.com/forum/#!forum/cartodb
+
+# CartoDB Templates
+
+
+http://developers.cartodb.com/
+
+[Double Map](http://cartodb.github.com/cartodb-publishing-templates/doublemap/)
+
+[Info Windows](https://github.com/amandabee/cunyjdata/tree/master/mapping/cartodb)
