@@ -47,3 +47,12 @@ Initialize datatable, simple no frills
 Provide `<table>` with id to initialize and class for styling
 
             <table id="example" class="pretty">
+                        <thead>
+                        <th>Col</th>
+                        <th>col</th>
+                        </thead>
+                        <tbody>
+                        </tbody>
+            </table>
+
+Use Mr Data Converter to convert a csv into an HTML table.             
