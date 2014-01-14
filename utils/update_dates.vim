@@ -3,7 +3,7 @@
 "  Week 1 
 :%s/Aug 28/Jan 31
 "  Week 2 
-:%s/Sep 11/Feb 7
+:%s/Sep 11/Feb 07
 "  Week 3 
 :%s/Sep 18/Feb 14
 "  Week 4 
@@ -11,7 +11,7 @@
 "  Week 5 
 :%s/Oct 02/Feb 28
 "  Week 6 
-:%s/Oct 09/Mar 7
+:%s/Oct 09/Mar 07
 "  Week 7 
 :%s/Oct 16/Mar 14
 "  Week 8 
@@ -19,14 +19,14 @@
 "  Week 9 
 :%s/Oct 30/Mar 28
 "  Week 10 
-:%s/Nov 06/Apr 4
+:%s/Nov 06/Apr 04
 "  Week 11 
 :%s/Nov 13/Apr 11
 "  Week 12 
 :%s/Nov 20/Apr 25
 "  Week 13
-:%s/Dec 04/May 2
+:%s/Dec 04/May 02
 "  Week 14 
-:%s/Dec 11/May 9
+:%s/Dec 11/May 09
 "  Week 15 
 :%s/Dec 18/May 16
