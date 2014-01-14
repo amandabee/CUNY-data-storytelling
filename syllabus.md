@@ -1,24 +1,23 @@
 # Syllabus: Data-driven Interactive Journalism (Jour72312)
 
-> Fall 2013: Aug 28 – Dec 18  
-> Wednesdays 5:00-7:50pm  
-> Room 436
+> Spring 2014: Jan 31 – May 16
+> Friday 9:30 am - 12:20 pm
+> Room TK
 
-We swim in a world of data – from election results, budgets and census reports, to Facebook updates and image uploads. Journalists need to know how to find stories in data and shape them in compelling ways. This hands-on course teaches reporters and editors to gather, analyze, and visualize interactive data-driven stories. This emerging discipline touches on information and interactivity design, mapping, graphing, animation tools, and data analysis.
+It isn't hypberbole: journalists today have access to more data than ever before, as well as to better tools to understand that data and retell the stories it holds. Whether you want to write about cities, the environment, health, economics or box office results, you can turn rough numbers into a chart or map that tells a story. This semester we will work together to analyze, scrutinize and visualize the numbers behind interactive data-driven stories.
 
-Participants are expected to pitch, report, and produce stories working alone and in teams. You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.
+Data visualization is an emerging discipline that incorporates information design, and interaction design, mapping, graphing, data analysis and a bit of HTML and jQuery.
 
-Class Blog: <http://datadrivenjournalism.fall.2013.journalism.cuny.edu/>  
-Class Notes: <http://piratepad.net/cunydata>  
-E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)
+Students will pitch, report, and produce stories working both alone and in teams. You'll learn some HTML and CSS along the way -- just enough to show off your owrk. 
+
+' `You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.`
+
+Class Blog: <http://datadrivenjournalism.spring.2014.journalism.cuny.edu/>  
+Class Notes: <http://piratepad.net/cunyjdata>  
+
+`E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)`
 
 [Skip to syllabus in detail](#detail)
-
-
-Russell Chun, 404E  
-russell.chun@journalism.cuny.edu  
-Hours: Wednesday 2-5pm  
-Tumblr: [datanarratives.tumblr.com][1]
 
 Amanda Hickman 419i  
 amanda.hickman@journalism.cuny.edu  
@@ -27,12 +26,8 @@ Phone: 917/655-2579
 Skype: amandabee  
 Tumblr: <http://jour72312.tumblr.com/>
 
-Nicholas Wells, Teaching Assistant  
-nicholas.wells@journalism.cuny.edu
-
-This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
-
 ## Course objectives
+This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
 
 *   Data collection
 *   Editing and organizing data while maintaining its integrity
@@ -55,15 +50,28 @@ This three-credit course explores complex storytelling using data. Students will
 
 ## About the Faculty
 
-**Russell Chun** is a multimedia developer, author, and educator specializing in visualizing science, data, and story ideas for the web. He is on the adjunct faculty at City University of New York (CUNY) Graduate School of Journalism where he teaches data-driven interactive journalism. He is also on the faculty in the Multimedia Arts Degree Program at [Sessions College for Professional Design][2]. He is the author of several books on multimedia, and has developed courses, and interactive and video products on effective multimedia.
-
-Russell previously taught at Columbia University and the University of California at Berkeley Graduate Schools of Journalism. He’s served as an interactive consultant and trainer for News21, a Carnegie/ Knight-funded national initiative to improve the quality of journalism education in the United States. He’s judged local and national multimedia news contests.
-
 **Amanda Hickman** works at the intersection of journalism and civic engagement, and especially values reporting that makes it easier for individuals to participate in democratic processes. As program director at DocumentCloud, she helped reporters around the world analyze, annotate, and publish primary source documents. Amanda managed development of a series of games about public policy issues as Gotham Gazette‘s director of technology. She has spent more than a decade reporting on local and international events and working directly with community based organizations to understand, and draw their membership into, the political process. Amanda has taught at Columbia Graduate School of Journalism, NYU’s Gallatin School and CUNY Graduate School of Journalism.
 
-## WordPress
+## WordPress and Digital Storage
 
-Final stories will be showcased in our class blog. Students will be required to present their stories in class for critique. Posts to the class blog are public by default, but you can choose to keep them private if you prefer. Students are encouraged to submit superior and/or timely work for publication elsewhere, including school outlets such as the New York City News Service. (http://datadrivenjournalism.fall.2013.journalism.cuny.edu/)
+Your major stories will be uploaded to CUNY's Digital Storage server. Note that this web hosting will be available to you for two years after you graduate, so you should make plans to backup work you are proud of and find hosting for it off of campus servers. 
+
+Some assignments will be posted to a class blog. 
+
+Students will be required to present their stories in class for critique. Posts to the class blog are public by default, but you can choose to keep them private if you prefer. Students are encouraged to submit superior and/or timely work for publication elsewhere, including school outlets such as the New York City News Service. 
+
+## Software Requirements
+
+You're going to need some software this semester. 
+
+* [Tabula](http://tabula.nerdpower.org/) allows you to extract structured data from PDFs
+* [Open Refine](http://openrefine.org/) is indispensible for cleaning messy data
+* CUNY recommends Fetch for FTP, but we're going to use [Filezilla](https://filezilla-project.org/) this semester. It is [free software](https://fsf.org/) and it costs $0.
+* You [should](http://tech.journalism.cuny.edu/documentation/software-installation/) already have [TextWrangler](http://www.barebones.com/products/textwrangler/) and Excel installed. You'll need both.
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) is indispensible. 
+
+You will also be asked to create accounts on [JS Fiddle](http://jsfiddle.net), [CartoDB](http://cartodb.com/) and [Stack Exchange GIS](http://gis.stackexchange.com/). Important: before you create your CartoDB account, make sure you have the information you need to get the student discount. Their standard free option is not adequate to our needs and upgrading is much more difficult than using the discount in the first place. 
+
 
 ## Grading
 
@@ -74,9 +82,7 @@ Your grade is determined by three factors: participation, successful completion 
 > Assignment 1: 30%  
 > Assignment 2: 30%
 
-All assignments are due by noon on the day they are due. Most should be emailed to both professors with “Homework Week X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
-
-Grades for each major assignment are further broken down as follows:
+Grades for your two team stories are further broken down as follows:
 
 > Pitch (25%)  
 > Storyboard (12.5%)  
@@ -84,16 +90,25 @@ Grades for each major assignment are further broken down as follows:
 > Final (25%)  
 > Revision (12.5%)
 
+This means that if you complete a brilliant story but don't put real effort into your pitch or rough draft, you can't get better than a C on the story.
+
+All assignments are due by noon on the day they are due. Most should be emailed to both professors with “Homework Week X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
+
 ## What do we mean when we say “Pitch” or “Rough draft”?
 
 This is what we mean:
 
-**Pitches:**<a id="pitch" /></a> A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include… + a question or thesis  
+**Pitches:**<a id="pitch" /></a> A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include...  
++ a proposed title or headline  
++ a story slug -- up to three words that capture the essence of your story
++ a list of the story's key elements  
 + a news hook, or explanation of why this story matters now  
 + a description of and link to the data (which means you have to find your data!)  
 + one source you have already spoken with or at least three potential expert sources and your plans for reaching them
 
-**Storyboards:** <a id="storyboard" /></a> A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out Mark Luckie’s thoughts on sketching/storyboarding</a>, with examples, from 10,000 Words.
+**Storyboards:** <a id="storyboard" /></a> A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), with examples, from 10,000 Words. TK: STORYBOARD / WIREFAME EXAMPLES
+
+TK: INCLUDE A NUT GRAF WITH YOUR STORYBOARD. THE NUTGRAF WILL CHANGE AS YOUR STORY DEVELOPS, BUT CAPTURE ALL OF YOUR MAIN ELEMENTS. 
 
 **Rough Drafts:** <a id="roughdraft" /></a> A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes: + Clean data in spreadsheets, already normalized, sorted, manipulated  
 + Visualizations of the data with labeled axes  
@@ -142,22 +157,21 @@ Notify the instructors of any absences before class, or as soon as you know you 
 
     Lecture: what you can expect from us              | Homework: what we expect from you
     --------------------------------------------------|-------------------------------------------
-    08-28 Course intro. What is data?                 | 08-28 McGhee report (view)
-    09-04                                             | 09-04 (no class)
-    09-11 Numeracy and basic spreadsheets             | 09-11 Datasets and scrapbooks (hand in)
-    09-18 Cleaning data, advanced spreadsheets        | 09-18 Spreadsheet assignment due
-    09-25 Mapping                                     | 09-25 Clean a dataset due
-    10-02 Charting                                    | 10-02 Create a map due
-    10-09 Presentation: Interactivity+Navigation      | 10-09 Pitch 1 due, Chart it Three Ways due
-    10-16 Information design and Ethics               | 10-16 Storyboard 1 due, jQuery assignment due
-    10-23 Open workshop                               | 10-23 Rough draft 1 and redesign assignment
-    10-30 Critique of Story 1                         | 10-30 Story 1 due
-    11-06 CartoDB                                     | 11-06 Last day to revise story 1
-    11-13 HighCharts                                  | 11-13 CartoDB map due, Pitch 2 due
-    11-20 Guest lecture and open workshop             | 11-20 HighChart exercise due, rough draft 2 due
-    11-27                                             | 11-27 (no class)
-    12-04 Critique of Story 2                         | 12-04 Story 2 due
-    12-11 Last class: Course wrap-up                  | 12-11 Last day to revise story 2
+    Jan 31 Course intro. What is data?                | Jan 31 McGhee report (view)
+    Feb 07 Numeracy and basic spreadsheets             | Feb 07 Datasets and scrapbooks (hand in)
+    Feb 14 Cleaning data, advanced spreadsheets       | Feb 14 Spreadsheet assignment due
+    Feb 21 Mapping                                    | Feb 21 Clean a dataset due
+    Feb 28 Charting                                   | Feb 28 Create a map due
+    Mar 07 Presentation: Interactivity+Navigation      | Mar 07 Pitch 1 due, Chart it Three Ways due
+    Mar 14 Information design and Ethics              | Mar 14 Storyboard 1 due, jQuery assignment due
+    Mar 21 Open workshop                              | Mar 21 Rough draft 1 and redesign assignment
+    Mar 28 Critique of Story 1                        | Mar 28 Story 1 due
+    Apr 04 CartoDB                                     | Apr 04 Last day to revise story 1
+    Apr 11 HighCharts                                 | Apr 11 CartoDB map due, Pitch 2 due
+      *Apr 18 no class*                                 |
+    Apr 25 Guest lecture and open workshop            | Apr 25 HighChart exercise due, rough draft 2 due
+    May 02 Critique of Story 2                         | May 02 Story 2 due
+    May 09 Last class: Course wrap-up                  | May 09 Last day to revise story 2
   
     
 
@@ -171,12 +185,12 @@ Every Week:
 *   Read Kevin Quealy’s blog, [“Charts and Things”][3]: <http://chartsnthings.tumblr.com>
 *   Read Source, the Knight-Mozilla blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
 
-*Due Aug 28:*  
+*Due Jan 31:*  
 Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at <http://datajournalism.stanford.edu/> + Chapter 2 Data Vis in Journalism  
 + Chapter 3 Telling “Data Stories”  
 + Chapter 6 Exploring Data
 
-**1 | Aug 28: Defining and Finding Data**  
+**1 | Jan 31: Defining and Finding Data**  
 Course introduction (expectations, syllabus review)  
 What is data, what are data stories? Reactions to McGhee’s data journalism video report.  
 Discussion: work in groups to evaluate four recent data driven stories.  
@@ -187,7 +201,7 @@ Festival of Data: Google Workshop Small Arms Trade <http://workshop.chromeexperi
 
 **Sep 04: No Class**
 
-*Due Sep 11:*  
+*Due Feb 07:*  
 [Assignment Details][5]  
 Find two datasets that interest you. Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.
 
@@ -197,47 +211,47 @@ Make sure that Firefox is installed on your computer, with both the Web Develope
 
 Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
 
-**2 | Sep 11: Finding the Story in Your Data**  
+**2 | Feb 07: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
 Discuss: provenance and staying organized  
 Spreadsheet review: data types, rows and columns, sorting, copy and paste, selections, formulas. Introduction to Pivot tables.  
 In-Class Exercise: Using spreadsheets and Pivot tables
 
-*Due Sep 18:* [Assignment Details][6] Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
+*Due Feb 14:* [Assignment Details][6] Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
 Make sure Refine is installed on your computer.
 
-**3 | Sep 18: Cleaning Data**  
+**3 | Feb 14: Cleaning Data**  
 [Assignment Details][7]  
 Cleaning data and advanced spreadsheets  
 Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
 In-Class Exercise: working with Refine to clean data.
 
-*Due Sep 25:*  
+*Due Feb 21:*  
 Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 3”  
 Make sure that you have Firefox installed on your computer with both Firebug and the Web Developer Toolbar plugins.
 
-**4 | Sep 25: Mapping Data**  
+**4 | Feb 21: Mapping Data**  
 Discussion: Looking at map examples  
 In-Class Exercise: Mapping the flu with Google Fusion Tables to make maps  
 Geocoding, Shapefiles->KML, Fusing two data sets, customizing infoboxes, colors, using filters  
 Tool: Google Layer Wizard  
 Tool: Using Firebug to see how they did that
 
-*Due Oct 02:*  
+*Due Feb 28:*  
 [Assignment Details][8]  
 + Pre-pitches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.  
 + Create a map and embed it on the class WordPress blog.  
 Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”  
 + Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library) + Read Cairo: The Functional Art, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013
 
-**5 | Oct 02: Charting Data**  
+**5 | Feb 28: Charting Data**  
 Discuss readings  
 Discuss anatomy of a news-chart: all the little pieces  
 Chart types – what they’re good for, what they aren’t,Cleveland and McGill’s findings on readability of chart types  
 Pitching a story: what we expect, what you’re thinking. Round robin pitches—discuss the story ideas from your homework.  
 Choose teams for your first story.
 
-*Due Oct 09:*  
+*Due Mar 07:*  
 [Assignment Details][9]
 
 Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”  
@@ -251,12 +265,12 @@ Team – pitches for your first story. A complete pitch should tell us who cares
 + a sketch or wireframe of your planned visualization (you can bring this in on paper)  
 Pitches must be posted to the class blog, in the “story 1 pitches” category.
 
-**6 | Oct 09: Pitching, Presenting, Visual Encoding**  
+**6 | Mar 07: Pitching, Presenting, Visual Encoding**  
 Integrating the presentation: HTML/CSS/JS and jQuery UI Annotating the data, Interactivity  
 Workshop: Pairs of teams work with each other to discuss pitches.  
 Discussion: storyboards
 
-*Due Oct 16:*  
+*Due Mar 14:*  
 [Assignment Details][10]  
 Solo – integrate the data and visualizations you made previously with jQuery and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.
 
@@ -264,13 +278,13 @@ Team – refined pitches and storyboards for your first story. A storyboard orga
 
 Read selections from Tufte, Quantitative Display of Information, on e-reserve in the Library: pages 91-105, 176-190. Use the password (ij2012) to access the material.
 
-**7 | Oct 16: Ethics and Information Design**  
+**7 | Mar 14: Ethics and Information Design**  
 Discussion: Intentional use of space  
 Discussion: Principles of design – grids, hierarchies, color, typography, white space, scale, repetition, consistency.  
 Discussion: Ethics, avoiding distortion, responsible presentation of data  
 What do we expect in a “rough draft”?
 
-*Due Oct 23:*  
+*Due Mar 21:*  
 [Assignment Details][11]  
 Solo – design assignment. Re-design one of the following data visualizations:  
 The Atlantic: Classified Documents  
@@ -291,71 +305,70 @@ Team – Rough drafts of your first story. A rough draft does not have to have t
 
 You’re not required to quote your source, but you do need to be able to tell the class what insights your human source provided. Keep in mind that this draft represents 25% of your grade on this story.
 
-**8 | Oct 23: Open Workshop, Completeness**  
+**8 | Mar 21: Open Workshop, Completeness**  
 Discussion: Completeness, academese  
 Open workshop
 
-*Due Oct 30:*  
+*Due Mar 28:*  
 [Assignment Details][12]  
 Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.  
 + Credit all images and code libraries  
 + Clearly attribute all data, including direct links where appropriate.  
 + See the rest of the checklist to ensure that your story is complete: http://datadrivenjournalism.fall.2013.journalism.cuny.edu/checklist/
 
-**9 | Oct 30: Critiques**  
+**9 | Mar 28: Critiques**  
 Discussion: Critique our first finished data stories  
 Assign Teams for Second Story
 
-*Due Nov 06:*  
+*Due Apr 04:*  
 [Assignment Details][13]  
 Solo – Bring in two good ideas for your second story.  
 Team – one last chance to revise your first story.  
 Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.
 
-**10 | Nov 06: CartoDB maps**  
+**10 | Apr 04: CartoDB maps**  
 Discussion: Anything great in the revised projects?  
 In-class exercise: working with CartoDB and styling maps with CSS  
 Round robin story meeting
 
-*Due Nov 13:*  
+*Due Apr 11:*  
 [Assignment Details][14]  
 Solo – Create a CartoDB map. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)
 
 Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.
 
-**11 | Nov 13: HighCharts**  
+**11 | Apr 11: HighCharts**  
 Workshop: Pairs of teams work with each other to discuss pitches.  
 In class exercise: HighCharts, Mr. DataConverter, and understanding different data formats.
 
-*Due Nov 20:*  
+*Due Apr 25:*  
 [Assignment Details][15]  
 Solo – HighCharts exercise  
 Team – Refine pitches and develop storyboards and rough drafts.
 
-**12 | Nov 20: Guest Lecture**  
+**12 | Apr 25: Guest Lecture**  
 Lecture: Guest, [Lam Thuy Vo, Interactive Editor of Al Jazeera America][16].  
 Open workshop
 
 ** Nov 27: no class (Friday schedule)**
 
-*Due Dec 04:* [Assignment Details][17]  
+*Due May 02:* [Assignment Details][17]  
 Finish story 2.
 
-**13 | Dec 04: Critique**  
+**13 | May 02: Critique**  
 Critique of second story
 
-*Due Dec 11:*  
+*Due May 09:*  
 [Assignment Details][18]  
 Solo - Post mortem on story 2.
 Team – last chance to revise your second story
 
-**14 | Dec 11: Wrap up**  
+**14 | May 09: Wrap up**  
 Discussion: revised projects  
 Discussion: closing thoughts  
 Fill out student evaluations
 
 
- [1]: http://datanarratives.tumblr.com
  [2]: http://www.sessions.edu/
  [3]: http://chartsnthings.tumblr.com
  [4]: http://www.nytimes.com/2013/07/22/business/in-climbing-income-ladder-location-matters.html
