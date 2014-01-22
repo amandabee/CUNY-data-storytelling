@@ -147,67 +147,64 @@ Deadlines on assignments – as in any newsroom – are sacrosanct and should no
 
 ## Absences and Tardiness
 
-Participation and attendance are important ingredients to your success in the class, especially in this course where your major assignments are team-based.
+Participation and attendance are important to your success in the class.
 
 Please be on time for class and back to class from breaks. Repeated tardiness will result in a reduction of grade in participation.
 
-Notify the instructors of any absences before class, or as soon as you know you will be out.
+Notify the instructors of any absences before class, or as soon as you know you will be out. Attendance is not optional.
 
 # SYLLABUS in BRIEF<a id="syllabus" /></a>
 
     Lecture: what you can expect from us              | Homework: what we expect from you
     --------------------------------------------------|-------------------------------------------
-    Jan 31 Course intro. What is data?                | Jan 31 McGhee report (view)
-    Feb 07 Numeracy and basic spreadsheets             | Feb 07 Datasets and scrapbooks (hand in)
-    Feb 14 Cleaning data, advanced spreadsheets       | Feb 14 Spreadsheet assignment due
-    Feb 21 Mapping                                    | Feb 21 Clean a dataset due
-    Feb 28 Charting                                   | Feb 28 Create a map due
-    Mar 07 Presentation: Interactivity+Navigation      | Mar 07 Pitch 1 due, Chart it Three Ways due
-    Mar 14 Information design and Ethics              | Mar 14 Storyboard 1 due, jQuery assignment due
-    Mar 21 Open workshop                              | Mar 21 Rough draft 1 and redesign assignment
-    Mar 28 Critique of Story 1                        | Mar 28 Story 1 due
-    Apr 04 CartoDB                                     | Apr 04 Last day to revise story 1
-    Apr 11 HighCharts                                 | Apr 11 CartoDB map due, Pitch 2 due
-      *Apr 18 no class*                                 |
-    Apr 25 Guest lecture and open workshop            | Apr 25 HighChart exercise due, rough draft 2 due
-    May 02 Critique of Story 2                         | May 02 Story 2 due
-    May 09 Last class: Course wrap-up                  | May 09 Last day to revise story 2
-  
+    Jan 31 Welcom, What is data?                      | Jan 31 McGhee report (view)
+    Feb 07 Visual Encoding, CSVs, Pivot Tables        | Feb 07 Pre-pitches, data sets (hand in)
+    Feb 14 Cleaning data, FTP, Pitches                | Feb 14 Pitch 1, spreadsheet exercise
+    Feb 21 Mapping with Carto DB                      | Feb 21 data cleaning exercise 
+    Feb 28 Charting                                   | Feb 28 Pitch 2, map exercise
+    Mar 07 Presentation: Interactivity+Navigation     | Mar 07 Storyboard 1
+    Mar 14 Information design and Ethics              | Mar 14 
+    Mar 21 Open workshop                              | Mar 21 Storyboard 2
+    Mar 28 Critique of Story 1                        | Mar 28 Rough Draft 1
+    Apr 04 CartoDB                                    | Apr 04 Final Story 1
+    Apr 11 HighCharts                                 | Apr 11 
+      *Apr 18 no class*                               |
+    Apr 25 Guest lecture and open workshop            | Apr 25 Rough Draft 2
+    May 02 Critique of Story 2                        | May 02 Final Story 2
+    May 09                                            | May 09 Revisions Story 1
+    May 16                                            | May 16 Revisions Story 2
+    
     
 
 # SYLLABUS in DETAIL <a id="detail" /></a>
 
 **Festival of Data:** Every week one student will choose a data driven story to present in class. Prepare to discuss the strengths and weaknesses of the story, the authors’ use of data as well as their use of interactivity, and to identify the underlying technology. Blog your story in the “Festival of Data” category by 5 PM on your week.
 
-Every Week:
-
-*   Read Anna Cordrea-Rado’s “Between the Spreadsheets” column at Columbia Journalism Review: <http://www.cjr.org/between_the_spreadsheets/>
-*   Read Kevin Quealy’s blog, [“Charts and Things”][3]: <http://chartsnthings.tumblr.com>
-*   Read Source, the Knight-Mozilla blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
+Every Week:  
++ Read Kevin Quealy’s blog, [“Charts and Things”][3]: <http://chartsnthings.tumblr.com>
++ Read Source, Knight-Mozilla's blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
 
 *Due Jan 31:*  
-Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at <http://datajournalism.stanford.edu/> + Chapter 2 Data Vis in Journalism  
+Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at <http://datajournalism.stanford.edu/>, especially  
++ Chapter 2 Data Vis in Journalism  
 + Chapter 3 Telling “Data Stories”  
 + Chapter 6 Exploring Data
 
 **1 | Jan 31: Defining and Finding Data**  
-Course introduction (expectations, syllabus review)  
+Welcome and Expectations  
 What is data, what are data stories? Reactions to McGhee’s data journalism video report.  
-Discussion: work in groups to evaluate four recent data driven stories.  
-Discussion: Looking for data, where to look and how to look?
-
+Discussion: work in groups to evaluate recent data driven stories.  
+Discussion: Finding data  
 Festival of Data: ["In Climbing Income Ladder, Location Matters"][4]  
-Festival of Data: Google Workshop Small Arms Trade <http://workshop.chromeexperiments.com/projects/armsglobe/>
-
-**Sep 04: No Class**
 
 *Due Feb 07:*  
 [Assignment Details][5]  
-Find two datasets that interest you. Tell us who maintains it, where the data can be found (the URL) and in 1-2 sentences explain why the data is interesting.
+Find three datasets that interest you. Write a short blog post that describes the provenance of the data (who maintains it?), where the data can be found (include a link) and in less than 200 words each, explain why the data is interesting. One data set should be compost related.
 
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".
 
-Make sure that Firefox is installed on your computer, with both the Web Developer Toolbar and Firebug plugins.
+Make sure that Firefox is installed on your computer, with the Web Developer Toolbar.
+Create a Magellan account with CartoDB -- you'll need to start from a custom URL to get your Magellan account for free. 
 
 Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
 
