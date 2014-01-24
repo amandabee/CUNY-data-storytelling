@@ -8,16 +8,16 @@ It isn't hypberbole: journalists today have access to more data than ever before
 
 Data visualization is an emerging discipline that incorporates information design, and interaction design, mapping, graphing, data analysis and a bit of HTML and jQuery.
 
-Students will pitch, report, and produce stories working both alone and in teams. You'll learn some HTML and CSS along the way -- just enough to show off your owrk. 
+Students will pitch, report, and produce stories working both alone and in teams. 
 
-' `You’ll learn to use online Web tools such as Google Fusion Tables, Refine, and Maps, and integrate them in a non code-intensive development environment. Familiarity with HTML/CSS is helpful, but not required. This is not a course in coding, but programmers of all skill levels are welcome.`
+You'll learn to use web-based tools such as CartoDB and HighCharts to create maps and charts that tell a story. You'll learn some HTML, CSS and JavaScript along the way -- just enough to show off your work. This is not a course in coding, but programmers of all skill levels are welcome.
 
-Class Blog: <http://datadrivenjournalism.spring.2014.journalism.cuny.edu/>  
+TK Class Blog: <http://datadrivenjournalism.spring.2014.journalism.cuny.edu/>  
 Class Notes: <http://piratepad.net/cunyjdata>  
 
-`E-reserve: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=141> (Use access code ddj2013)`
+Course Reserves: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=151&page=docs> (Access code dv2014)
 
-[Skip to syllabus in detail](#detail)
+[Skip to week-by-week detail](#syllabus)
 
 Amanda Hickman 419i  
 amanda.hickman@journalism.cuny.edu  
@@ -26,8 +26,7 @@ Phone: 917/655-2579
 Skype: amandabee  
 Tumblr: <http://jour72312.tumblr.com/>
 
-## Course objectives
-This three-credit course explores complex storytelling using data. Students will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
+**Course objectives** This three-credit course explores complex storytelling using data. You will pitch, report, conceptualize, design, and produce informative and compelling data-driven pieces. The course emphasizes:
 
 *   Data collection
 *   Editing and organizing data while maintaining its integrity
@@ -35,17 +34,16 @@ This three-credit course explores complex storytelling using data. Students will
 *   Understanding technologies available to create online, interactive data-driven stories
 *   Design basics, effective visual communication, and data visualization
 *   Applying interactivity to data-driven stories
-*   Critical evaluation of professional data-driven news stories (what makes a particular project successful?)
+*   Critical evaluation of professional data-driven news stories
+*   Understanding what makes a particular project successful
 *   Seeking out innovative uses of data
 *   Understanding the development process for creating data stories
 
-## Course outcomes
-
-*   At the end of this course, students will be able to:
+**Course outcomes** At the end of this course, you will be able to:
 *   Identify patterns in data that help uncover news trends
 *   Conceptualize clear and concise ways to illustrate these trends
 *   Create interactive graphics using both custom tools and web-based services
-*   Evaluate effectiveness of data-based storytelling projects, both of their own creation and across the industry.
+*   Evaluate effectiveness of data-based storytelling projects, both of your own creation and across the industry.
 *   Instruct and supervise fellow journalists and programmers in identifying and producing stories that can become effective data stories.
 
 ## About the Faculty
@@ -60,22 +58,21 @@ Some assignments will be posted to a class blog.
 
 Students will be required to present their stories in class for critique. Posts to the class blog are public by default, but you can choose to keep them private if you prefer. Students are encouraged to submit superior and/or timely work for publication elsewhere, including school outlets such as the New York City News Service. 
 
-## Software Requirements
+## Software Requirements 
 
-You're going to need some software this semester. 
-
+We'll be using a handfull of [free](https://fsf.org/)  and open source software tools this semester: 
 * [Tabula](http://tabula.nerdpower.org/) allows you to extract structured data from PDFs
 * [Open Refine](http://openrefine.org/) is indispensible for cleaning messy data
-* CUNY recommends Fetch for FTP, but we're going to use [Filezilla](https://filezilla-project.org/) this semester. It is [free software](https://fsf.org/) and it costs $0.
-* You [should](http://tech.journalism.cuny.edu/documentation/software-installation/) already have [TextWrangler](http://www.barebones.com/products/textwrangler/) and Excel installed. You'll need both.
-* [Firefox](https://www.mozilla.org/en-US/firefox/new/) is indispensible. 
+* CUNY recommends Fetch for FTP, but we're going to use [Filezilla](https://filezilla-project.org/) 
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/) is indispensible, as is the [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) add on. 
 
-You will also be asked to create accounts on [JS Fiddle](http://jsfiddle.net), [CartoDB](http://cartodb.com/) and [Stack Exchange GIS](http://gis.stackexchange.com/). Important: before you create your CartoDB account, make sure you have the information you need to get the student discount. Their standard free option is not adequate to our needs and upgrading is much more difficult than using the discount in the first place. 
+You [should](http://tech.journalism.cuny.edu/documentation/software-installation/) already have [TextWrangler](http://www.barebones.com/products/textwrangler/) and Excel installed. You'll need both.
 
+You will need to create accounts on [JS Fiddle](http://jsfiddle.net), [CartoDB](http://cartodb.com/) and [Stack Exchange GIS](http://gis.stackexchange.com/). *Important!* Before you create your CartoDB account, make sure you have the information you need to get the student discount. Their standard free option is not adequate to our needs and upgrading is much more difficult than using the discount in the first place. 
 
 ## Grading
 
-Your grade is determined by three factors: participation, successful completion of all solo homework assignments, and successful completion of the two major team assignments. Your participation includes attending all classes, being active in discussions, workshops and critiques, presenting your story for the Data Festival, and participating in all in-class hands-on activities. Your assignments will be evaluated in terms of use of data, story and context, interactivity, and design.
+Your grade is determined by three factors: active participation in class, your homework assignments, and the two major team assignments. 
 
 > Participation : 20%  
 > Homework assignments: 20%  
@@ -92,11 +89,7 @@ Grades for your two team stories are further broken down as follows:
 
 This means that if you complete a brilliant story but don't put real effort into your pitch or rough draft, you can't get better than a C on the story.
 
-All assignments are due by noon on the day they are due. Most should be emailed to both professors with “Homework Week X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
-
-## What do we mean when we say “Pitch” or “Rough draft”?
-
-This is what we mean:
+All assignments are due by 5 PM the day before we meet for class. Most should be emailed  with “Homework Week X” in the subject line, where X is number of the week. If we can’t find your homework because you got creative with the subject line, you won’t get credit for it. Really.
 
 **Pitches:**<a id="pitch" /></a> A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include...  
 + a proposed title or headline  
@@ -106,9 +99,10 @@ This is what we mean:
 + a description of and link to the data (which means you have to find your data!)  
 + one source you have already spoken with or at least three potential expert sources and your plans for reaching them
 
-**Storyboards:** <a id="storyboard" /></a> A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), with examples, from 10,000 Words. TK: STORYBOARD / WIREFAME EXAMPLES
+**Storyboards:** <a id="storyboard" /></a> A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch and a proposed nut graf. Your nut graf will change your story develops, but it should capture all of the main elements of your story. 
 
-TK: INCLUDE A NUT GRAF WITH YOUR STORYBOARD. THE NUTGRAF WILL CHANGE AS YOUR STORY DEVELOPS, BUT CAPTURE ALL OF YOUR MAIN ELEMENTS. 
+We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), with examples, from 10,000 Words. 
+
 
 **Rough Drafts:** <a id="roughdraft" /></a> A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes: + Clean data in spreadsheets, already normalized, sorted, manipulated  
 + Visualizations of the data with labeled axes  
@@ -123,57 +117,54 @@ You’re not required to quote your source, but you do need to be able to tell t
 
 **Final Story:** <a id="finalstory" /></a>Your story must be posted to the class blog, with an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.
 
-## Plagiarism
+## Plagiarism and Copyright
 
-It is a serious ethical violation to take any material created by another person and represent it as your own original work. Any such plagiarism will result in serious disciplinary action, possibly including dismissal from the CUNY J-School. Plagiarism may involve copying text from a book or magazine without attributing the source, or lifting words, code, photographs, videos, or other materials from the Internet and attempting to pass them off as your own. Please ask the instructor if you have any questions about how to distinguish between acceptable research and plagiarism.
+It is a serious ethical violation to take any material created by another person and represent it as your own original work. Any such plagiarism will result in serious disciplinary action, possibly including dismissal from the CUNY J-School. *Plagiarism* may involve copying text from a book or magazine without attributing the source, or lifting words, code, photographs, videos, or other materials from the Internet and attempting to pass them off as your own. Please ask the instructor if you have any questions about how to distinguish between acceptable research and plagiarism.
 
-## Copyright
+In addition to being a serious academic issue, *copyright* is a serious legal issue.
 
-In addition to being a serious academic issue, copyright is a serious legal issue.
-
-Never “lift” or “borrow” or “appropriate” or “repurpose” graphics, audio, or code without both permission and attribution. This applies to scripts, audio, video clips, programs, photos, drawings, and other images, and it includes images found online and in books.
+Never "lift" or "borrow" or "appropriate" or "repurpose" graphics, audio, or code without both permission and attribution. This applies to scripts, audio, video clips, programs, photos, drawings, and other images, and it includes images found online and in books.
 
 Create your own graphics, seek out images that are in the public domain or shared via a creative commons license that allows derivative works, or use images from the AP Photo Bank or which the school has obtained licensing.
 
 If you’re repurposing code, be sure to keep the original licensing intact. If you’re not sure how to credit code, ask.
 
-The exception to this rule is fair use: if your story is about the image itself, it is often acceptable to reproduce the image. If you want to better understand fair use, the Citizen Media Law Project is an excellent resource. http://www.citmedialaw.org/legal-guide</a>
+The exception to this rule is fair use: if your story is about the image itself, it is often acceptable to reproduce the image. If you want to better understand fair use, the [Citizen Media Law Project](http://www.citmedialaw.org/legal-guide) is an excellent resource. </a>
 
-As with plagiarism, when in doubt: ask.
+When in doubt: ask.
 
 ## Deadlines
 
-Deadlines on assignments – as in any newsroom – are sacrosanct and should not be missed without exceptionally good reason, and only when your instructors have been notified in advance. If you are taking the course for credit, late assignments will be assessed a one-half grade penalty for every day overdue.
+Deadlines on assignments – as in any newsroom – should not be missed without exceptionally good reason, and only when your instructors have been notified in advance. If you are taking the course for credit, late assignments will be assessed a one-half grade penalty for every day overdue.
 
 ## Absences and Tardiness
 
-Participation and attendance are important to your success in the class.
+Participation and attendance required and are important to your success in the class.
 
 Please be on time for class and back to class from breaks. Repeated tardiness will result in a reduction of grade in participation.
 
-Notify the instructors of any absences before class, or as soon as you know you will be out. Attendance is not optional.
 
 # SYLLABUS in BRIEF<a id="syllabus" /></a>
 
-    Lecture: what you can expect from us              | Homework: what we expect from you
-    --------------------------------------------------|-------------------------------------------
-    Jan 31 Welcom, What is data?                      | Jan 31 McGhee report (view)
-    Feb 07 Visual Encoding, CSVs, Pivot Tables        | Feb 07 Pre-pitches, data sets (hand in)
-    Feb 14 Cleaning data, FTP, Pitches                | Feb 14 Pitch 1, spreadsheet exercise
-    Feb 21 Mapping with Carto DB                      | Feb 21 data cleaning exercise 
-    Feb 28 Charting                                   | Feb 28 Pitch 2, map exercise
-    Mar 07 Presentation: Interactivity+Navigation     | Mar 07 Storyboard 1
-    Mar 14 Information design and Ethics              | Mar 14 
-    Mar 21 Open workshop                              | Mar 21 Storyboard 2
-    Mar 28 Critique of Story 1                        | Mar 28 Rough Draft 1
-    Apr 04 CartoDB                                    | Apr 04 Final Story 1
-    Apr 11 HighCharts                                 | Apr 11 
-      *Apr 18 no class*                               |
-    Apr 25 Guest lecture and open workshop            | Apr 25 Rough Draft 2
-    May 02 Critique of Story 2                        | May 02 Final Story 2
-    May 09                                            | May 09 Revisions Story 1
-    May 16                                            | May 16 Revisions Story 2
-    
+|   Lecture: what you can expect from us       | Homework: what we expect from you   |
+|----------------------------------------------|-------------------------------------|
+|   Jan 31 Welcom, What is data?               | Jan 31 McGhee report (view)         |
+|   Feb 07 Visual Encoding, CSVs, Pivot Tables | Feb 07 Pre-pitches, data sets       |
+|   Feb 14 Cleaning data, FTP, Pitches         | Feb 14 Pitch 1, spreadsheet ex      |
+|   Feb 21 Mapping with Carto DB               | Feb 21 data cleaning exercise       |
+|   Feb 28 High Charts                         | Feb 28 Pitch 2, map exercise        |
+|   Mar 07 Presentation and Navigation         | Mar 07 Storyboard 1                 |
+|   Mar 14 Information design and Ethics       | Mar 14                              |
+|   Mar 21 Open workshop                       | Mar 21 Storyboard 2                 |
+|   Mar 28 Critique of Story 1                 | Mar 28 Rough Draft 1                |
+|   Apr 04 CartoDB                             | Apr 04 Final Story 1                |
+|   Apr 11 HighCharts                          | Apr 11                              |
+|     *Apr 18 no class*                        |                                     |
+|   Apr 25 Guest lecture and open workshop     | Apr 25 Rough Draft 2                |
+|   May 02 Critique of Story 2                 | May 02 Final Story 2                |
+|   May 09                                     | May 09 Revisions Story 1            |
+|   May 16                                     | May 16 Revisions Story 2            |
+
     
 
 # SYLLABUS in DETAIL <a id="detail" /></a>
