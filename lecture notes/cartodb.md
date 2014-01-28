@@ -101,6 +101,30 @@ We're going to skip some things.
 
 Keep walking through.
 
+### Quantile? Jenks?
+[Check out the documentation](http://developers.cartodb.com/documentation/using-cartodb.html5)  but roughly, quantiles will break into buckets that each hold the same number of records. Equal intervals with break into buckets that are equidistant.
+
+Example:  I have age data for eighteen people: [11, 11, 12, 13, 14, 16, 19, 20, 20, 20, 23, 25, 26, 26, 31, 37, 38, 38] and I want to break them into three buckets:  
+
+*Quantiles* would generate buckets of six people each: 
+[11, 11, 12, 13, 14, 16] [19, 20, 20, 20, 23, 25] [26, 26, 31, 37, 38, 38]
+
+*Equal Intervals* should generate buckets that are 9 years apart: either 11-19, 20-29, 30-38 
+ [11, 11, 12, 13, 14, 16, 19] [20, 20, 20, 23, 25, 26, 26] [31, 37, 38, 38]
+
+[More examples](http://www.ncgia.ucsb.edu/cctp/units/unit47/html/comp_class.html)
+
+*Jenks* is [more complex](http://en.wikipedia.org/wiki/Jenks_natural_breaks_optimization), but roughly strikes a compromise between spacing the means for each group as far apart as possible while minimizing the standard deviation within each group. The Jenks cut offs happen in our case at 19 and 26:
+
+[11, 11, 12, 13, 14, 16, 19] [20, 20, 20, 23, 25, 26, 26] [31, 37, 38, 38]
+
+If you play around with the numbers, you'll see that if you break our population into quantiles, the eldest group, the 26-38 year olds, has an average deviation from the mean of 5 years, while the 11-19 year olds don't vary nearly as much. 
+
+*Heads/Tails* finds the mean of your data (in our case, 22.2222) and puts a break there. Then finds the mean of everything above that point (30.5) and adds a new break, and finds the mean of everything above that break (36). If you've selected 3 buckets, the method will find 3 breaks. 
+[11, 11, 12, 13, 14, 16, 19, 20, 20, 20] [23, 25, 26, 26] [31] [37, 38, 38]
+
+
+
 # CartoDB FAQ
 
 Some followup from our CartoDB session, on making your own tables, finding reference material and managing an account that only gets to make 10 maps.
