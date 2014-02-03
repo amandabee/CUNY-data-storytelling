@@ -135,7 +135,11 @@ When in doubt: ask.
 
 ## Deadlines
 
-Deadlines on assignments – as in any newsroom – should not be missed without exceptionally good reason, and only when your instructors have been notified in advance. If you are taking the course for credit, late assignments will be assessed a one-half grade penalty for every day overdue.
+Deadlines are real: I plan my lessons around the assumption that you will have pitches to workshop on Feb 14. If you don't, it disrupts the whole class. So deadlines should not be missed without exceptionally good reason, and I should always be notified in advance. 
+
+The exception: you will be handing in a handful of exercises this semester, follow up work on spreadsheet skills, CartoDB, Open Refine, jQuery and HighCharts -- these are all described as "exercises" in the syllabus. Everyone gets one pass on these deadlines. As long as I have the exercise within a week of the original due date, I won't hold it against you. But you only get to do that once.
+
+If you're stumped or stuck or worried that you are falling behind, talk to me. I can help get you caught up and unstuck.
 
 ## Absences and Tardiness
 
@@ -146,24 +150,24 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 
 # SYLLABUS in BRIEF<a id="syllabus" /></a>
 
-|   Lecture: what you can expect from us       | Homework: what we expect from you   |
-|----------------------------------------------|-------------------------------------|
-|   Jan 31 Welcom, What is data?               | Jan 31 McGhee report (view)         |
-|   Feb 07 Visual Encoding, CSVs, Pivot Tables | Feb 07 Pre-pitches, data sets       |
-|   Feb 14 Cleaning data, FTP, Pitches         | Feb 14 Pitch 1, spreadsheet ex      |
-|   Feb 21 Mapping with Carto DB               | Feb 21 data cleaning exercise       |
-|   Feb 28 High Charts                         | Feb 28 Pitch 2, map exercise        |
-|   Mar 07 Presentation and Navigation         | Mar 07 Storyboard 1                 |
-|   Mar 14 Information design and Ethics       | Mar 14                              |
-|   Mar 21 Open workshop                       | Mar 21 Storyboard 2                 |
-|   Mar 28 Critique of Story 1                 | Mar 28 Rough Draft 1                |
-|   Apr 04 CartoDB                             | Apr 04 Final Story 1                |
-|   Apr 11 HighCharts                          | Apr 11                              |
-|     *Apr 18 no class*                        |                                     |
-|   Apr 25 Guest lecture and open workshop     | Apr 25 Rough Draft 2                |
-|   May 02 Critique of Story 2                 | May 02 Final Story 2                |
-|   May 09                                     | May 09 Revisions Story 1            |
-|   May 16                                     | May 16 Revisions Story 2            |
+|   Lecture: what you can expect from us       | Homework: what we expect from you     |
+|----------------------------------------------|---------------------------------------|
+|   Jan 31 Welcome, What is data?              | Jan 31 McGhee report (view)           |
+|   Feb 07 Visual Encoding, CSVs, Pivot Tables | Feb 07 Pre-pitches, data sets         |
+|   Feb 14 Cleaning data, FTP, Pitches         | Feb 14 Pitch 1, spreadsheet exercise  |
+|   Feb 21 Mapping with Carto DB               | Feb 21 data cleaning exercise         |
+|   Feb 28 *Class will not meet*              | Feb 28 Pitch 2, map exercise          |
+|   Mar 07 HighCharts, HTML                    | Mar 07 Storyboard 1                   |
+|   Mar 14 Presentation, Navigation, jQuery    | Mar 14 jQuery exercise                |
+|   Mar 21 Completeness, Advanced HighCharts   | Mar 21 Storyboard 2                   |
+|   Mar 28 Doing More w/Maps                   | Mar 28 Rough Draft 1                  |
+|   Apr 04 Story 1 Critique                    | Apr 04 Final Story 1                  |
+|   Apr 11 Show Your Work                      | Apr 11                                |
+|     *Apr 18 Spring Break*                    |                                       |
+|   Apr 25 Guest Lecture                       | Apr 25 Rough Draft 2                  |
+|   May 02 Infographics, Hands on TBD          | May 02 Final Story 2                  |
+|   May 09 Hands on TBD                        | May 09 Revisions Story 1              |
+|   May 16 Wrap Up                             | May 16 Revisions Story 2              |
 
     
 
