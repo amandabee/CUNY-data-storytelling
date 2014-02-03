@@ -156,7 +156,7 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 |   Feb 07 Visual Encoding, CSVs, Pivot Tables | Feb 07 Pre-pitches, data sets         |
 |   Feb 14 Cleaning data, FTP, Pitches         | Feb 14 Pitch 1, spreadsheet exercise  |
 |   Feb 21 Mapping with Carto DB               | Feb 21 data cleaning exercise         |
-|   Feb 28 *Class will not meet*              | Feb 28 Pitch 2, map exercise          |
+|   Feb 28 *Class will not meet*               | Feb 28 Pitch 2, map exercise          |
 |   Mar 07 HighCharts, HTML                    | Mar 07 Storyboard 1                   |
 |   Mar 14 Presentation, Navigation, jQuery    | Mar 14 jQuery exercise                |
 |   Mar 21 Completeness, Advanced HighCharts   | Mar 21 Storyboard 2                   |
@@ -196,12 +196,13 @@ Festival of Data: ["In Climbing Income Ladder, Location Matters"][4]
 [Assignment Details][5]  
 Find three datasets that interest you. Write a short blog post that describes the provenance of the data (who maintains it?), where the data can be found (include a link) and in less than 200 words each, explain why the data is interesting. One data set should be compost related.
 
-Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".
+Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Bring the URL to class.
 
 Make sure that Firefox is installed on your computer, with the Web Developer Toolbar.
+
 Create a Magellan account with CartoDB -- you'll need to start from a custom URL to get your Magellan account for free. 
 
-Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
+Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library.
 
 **2 | Feb 07: Finding the Story in Your Data**  
 Discuss homework: Problems, challenges, solutions,  
