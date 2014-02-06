@@ -12,3 +12,5 @@ Take a second look:
 *  the Mayor’s Management Report <http://www.nyc.gov/html/ops/html/data/mmr.shtml>
 *  Department of Health and Mental Hygiene <http://www.nyc.gov/html/doh/html/data/data-publications.shtml>
 *  Mayor’s Office of Contract Services <http://www.nyc.gov/html/mocs/html/research/research.shtml>
+*  http://b.3cdn.net/nycss/f378a80f4fb54dec25_0dm6bo001.pdf
+
