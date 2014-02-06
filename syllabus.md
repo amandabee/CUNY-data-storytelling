@@ -2,7 +2,7 @@
 
 > Spring 2014: Jan 31 – May 16
 > Friday 9:30 am - 12:20 pm
-> Room TK
+> Room 438
 
 It isn't hypberbole: journalists today have access to more data than ever before, as well as to better tools to understand that data and retell the stories it holds. Whether you want to write about cities, the environment, health, economics or box office results, you can turn rough numbers into a chart or map that tells a story. This semester we will work together to analyze, scrutinize and visualize the numbers behind interactive data-driven stories.
 
@@ -12,7 +12,7 @@ Students will pitch, report, and produce stories working both alone and in teams
 
 You'll learn to use web-based tools such as CartoDB and HighCharts to create maps and charts that tell a story. You'll learn some HTML, CSS and JavaScript along the way -- just enough to show off your work. This is not a course in coding, but programmers of all skill levels are welcome.
 
-TK Class Blog: <http://datadrivenjournalism.spring.2014.journalism.cuny.edu/>  
+Class Blog: <http://hickman.spring-2014.dataviz.journalism.cuny.edu/>  
 Class Notes: <http://piratepad.net/cunyjdata>  
 
 Course Reserves: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=151&page=docs> (Access code dv2014)
@@ -40,6 +40,7 @@ Tumblr: <http://jour72312.tumblr.com/>
 *   Understanding the development process for creating data stories
 
 **Course outcomes** At the end of this course, you will be able to:
+
 *   Identify patterns in data that help uncover news trends
 *   Conceptualize clear and concise ways to illustrate these trends
 *   Create interactive graphics using both custom tools and web-based services
@@ -61,6 +62,7 @@ Students will be required to present their stories in class for critique. Posts 
 ## Software Requirements 
 
 We'll be using a handfull of [free](https://fsf.org/)  and open source software tools this semester: 
+
 * [Tabula](http://tabula.nerdpower.org/) allows you to extract structured data from PDFs
 * [Open Refine](http://openrefine.org/) is indispensible for cleaning messy data
 * CUNY recommends Fetch for FTP, but we're going to use [Filezilla](https://filezilla-project.org/) 
@@ -158,15 +160,15 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 |   Feb 21 Mapping with Carto DB               | Feb 21 data cleaning exercise         |
 |   Feb 28 *Class will not meet*               | Feb 28 Pitch 2, map exercise          |
 |   Mar 07 HighCharts, HTML                    | Mar 07 Storyboard 1                   |
-|   Mar 14 Presentation, Navigation, jQuery    | Mar 14 jQuery exercise                |
-|   Mar 21 Completeness, Advanced HighCharts   | Mar 21 Storyboard 2                   |
+|   Mar 14 Presentation, Navigation, jQuery    | Mar 14 HighCharts exercise            |
+|   Mar 21 Completeness, Advanced HighCharts   | Mar 21 jQuery exercise,Storyboard 2   |
 |   Mar 28 Doing More w/Maps                   | Mar 28 Rough Draft 1                  |
 |   Apr 04 Story 1 Critique                    | Apr 04 Final Story 1                  |
-|   Apr 11 Show Your Work                      | Apr 11                                |
+|   Apr 11 Show Your Work                      | Apr 11 de-stresser week               |
 |     *Apr 18 Spring Break*                    |                                       |
 |   Apr 25 Guest Lecture                       | Apr 25 Rough Draft 2                  |
-|   May 02 Infographics, Hands on TBD          | May 02 Final Story 2                  |
-|   May 09 Hands on TBD                        | May 09 Revisions Story 1              |
+|   May 02 Jobs Report Drill                   | May 02 Final Story 2                  |
+|   May 09 Story 2 Crit, Hands on TBD          | May 09 Revisions Story 1              |
 |   May 16 Wrap Up                             | May 16 Revisions Story 2              |
 
     
@@ -177,7 +179,7 @@ Please be on time for class and back to class from breaks. Repeated tardiness wi
 
 Every Week:  
 + Read Kevin Quealy’s blog, [“Charts and Things”][3]: <http://chartsnthings.tumblr.com>
-+ Read Source, Knight-Mozilla's blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>
++ Read Source, Knight-Mozilla's blog on code and journalism <http://source.mozillaopennews.org/en-US/learning/>  
 
 *Due Jan 31:*  
 Watch Geoff McGhee’s Knight Fellowship Report on Data Journalism at <http://datajournalism.stanford.edu/>, especially  
@@ -194,170 +196,109 @@ Festival of Data: ["In Climbing Income Ladder, Location Matters"][4]
 
 *Due Feb 07:*  
 [Assignment Details][5]  
-Find three datasets that interest you. Write a short blog post that describes the provenance of the data (who maintains it?), where the data can be found (include a link) and in less than 200 words each, explain why the data is interesting. One data set should be compost related.
+Pre-pitches: Find three datasets that interest you. Write a short blog post that describes the provenance of the data (who maintains it?), where the data can be found (include a link) and in less than 200 words each, explain why the data is interesting. One data set should be compost related.
 
-Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Bring the URL to class.
+Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".
 
-Make sure that Firefox is installed on your computer, with the Web Developer Toolbar.
+Make sure that [Firefox](https://www.mozilla.org/en-US/firefox/new/) is installed on your computer, with the [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/). Install [Tabula](http://tabula.nerdpower.org/), Create a Magellan account with CartoDB -- start from <http://cartodb.com/academic> to get your Magellan account for free. 
 
-Create a Magellan account with CartoDB -- you'll need to start from a custom URL to get your Magellan account for free. 
+Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library
 
-Read Cairo: The Functional Art, Reading part 1: pages 25-31, 36-44, on thinking through a visualization as a tool for the reader; what graphical form best serves the goal? On e-reserve in the Library.
-
-**2 | Feb 07: Finding the Story in Your Data**  
+**2 | Feb 07: Visual Encoding, CSVs, Pivot Tables**  
 Discuss homework: Problems, challenges, solutions,  
-Discuss: provenance and staying organized  
-Spreadsheet review: data types, rows and columns, sorting, copy and paste, selections, formulas. Introduction to Pivot tables.  
-In-Class Exercise: Using spreadsheets and Pivot tables
+Discuss: Visual Encoding, Pitching  
+Hands-on: Tabula, Pivot Tables    
 
-*Due Feb 14:* [Assignment Details][6] Spreadsheet homework, as described on the blog. Email your spreadsheet answers to both professors under the subject “Homework Week 2” by noon.  
-Make sure Refine is installed on your computer.
+*Due Feb 14:* [Assignment Details][6]  
+Spreadsheet exercise, Pitch 1, Make sure [Open Refine](http://openrefine.org/) and [Filezilla](https://filezilla-project.org/) are installed on your computer.
 
-**3 | Feb 14: Cleaning Data**  
-[Assignment Details][7]  
-Cleaning data and advanced spreadsheets  
-Google Refine and common spreadsheet formulas: split, concatenate, unique, countif, sum.  
-In-Class Exercise: working with Refine to clean data.
+**3 | Feb 14: Cleaning data, FTP, Pitches**  
+Basic HTML and FTP
+Hands-on: Cleaning data with OpenRefine
+Workshop Pitch 1
 
-*Due Feb 21:*  
-Clean a dataset with Refine and tell us your findings in a nutgraf, read about maps, and look for another dataset with geographic information: details here. For those who want a challenge, take another pass at using grep. Email your dataset, nutgraf, and description and link of your geo dataset to both professors under the subject “Homework Week 3”  
-Make sure that you have Firefox installed on your computer with both Firebug and the Web Developer Toolbar plugins.
+*Due Feb 21:*  [Assignment Details][7]
+Open Refine exercise, make sure you have [TextWrangler](http://www.barebones.com/products/textwrangler/)  installed. [Map reading](http://vis4.net/blog/posts/choropleth-maps/) 
 
-**4 | Feb 21: Mapping Data**  
-Discussion: Looking at map examples  
-In-Class Exercise: Mapping the flu with Google Fusion Tables to make maps  
-Geocoding, Shapefiles->KML, Fusing two data sets, customizing infoboxes, colors, using filters  
-Tool: Google Layer Wizard  
-Tool: Using Firebug to see how they did that
+**4 | Feb 21: Mapping with CartoDB**  
+Discussion: Mapping
+Hands-on: CartoDB
 
-*Due Feb 28:*  
-[Assignment Details][8]  
-+ Pre-pitches: Come in with two good ideas for stories– what is the story you want to tell, what data do you need to tell it, where do you think you could find that data.  
-+ Create a map and embed it on the class WordPress blog.  
-Email your good ideas and the URL of your map to both professors under the subject “Homework Week 4”  
-+ Read Chapter 4: Choose Appropriate Visual Encodings in Designing Data Visualizations by Steele and Iliinsky (in Library) + Read Cairo: The Functional Art, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy + Extra Credit: Review Amanda’s “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013
+*Due Feb 28:*  [Assignment Details][8]  
+Mapping exercise, Pitch 2, Readings: Steele and Iliinsky, _Designing Data Visualizations_ Chapter 4: Choose Appropriate Visual Encodings (in Library); Cairo: _The Functional Art_, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy
 
-**5 | Feb 28: Charting Data**  
-Discuss readings  
-Discuss anatomy of a news-chart: all the little pieces  
-Chart types – what they’re good for, what they aren’t,Cleveland and McGill’s findings on readability of chart types  
-Pitching a story: what we expect, what you’re thinking. Round robin pitches—discuss the story ideas from your homework.  
-Choose teams for your first story.
+Extra Credit: Review my “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013
 
-*Due Mar 07:*  
-[Assignment Details][9]
+**5 | Feb 28: Class will not meet**
+We'll discuss Week 1. 
 
-Solo – Chart it 3 ways: we’ll give you a single data set, we want you to chart it three different ways and compare the pros and cons of each. Email your work to both professors with the subject “Homework Week 5”  
-+ Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation
+*Due Mar 07:*  [Assignment Details][9]  
+Storyboard 1; Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation
 
-Team – pitches for your first story. A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include…  
-+ a question or thesis  
-+ a news hook, or explanation of why this story matters now  
-+ a description of and link to the data (which means you have to find your data!)  
-+ the name of one source you have already spoken with or at least three potential expert sources and your plans for reaching them  
-+ a sketch or wireframe of your planned visualization (you can bring this in on paper)  
-Pitches must be posted to the class blog, in the “story 1 pitches” category.
+**6 | Mar 07: HighCharts, HTML, Pitch 2**  
+HTML Bootstrap Keys and legends  
+Visual encoding  
+Pitches
+Hands-on: HighCharts
 
-**6 | Mar 07: Pitching, Presenting, Visual Encoding**  
-Integrating the presentation: HTML/CSS/JS and jQuery UI Annotating the data, Interactivity  
-Workshop: Pairs of teams work with each other to discuss pitches.  
-Discussion: storyboards
+*Due Mar 14:*  [Assignment Details][10]  
+HighCharts exercise, Read selections from Tufte, Quantitative Display of Information, on e-reserve in the Library: pages 91-105, 176-190.
 
-*Due Mar 14:*  
-[Assignment Details][10]  
-Solo – integrate the data and visualizations you made previously with jQuery and iframe it on the class blog. Use at least three different views of the data and provide navigation between those three views. Include a headline and text to provide context to your work. Use the category “Hype Assignment”. For this assignment, we’re looking more at your handling of navigation, usability, and interactivity to integrate multiple visualizations.
+**7 | Mar 14: Presentation, Navigation, jQuery**  
+Hands-on: jQuery and Bootstrap  
+Integrating a presentation  
+Usability  
+Anatomy of a chart  
 
-Team – refined pitches and storyboards for your first story. A storyboard organizes your content conceptually and spatially. This semester, when you turn in storyboards, you should also include a revised pitch. We use wireframe and storyboards interchangeably here. We’re looking for a simple sketch (on paper, in Word, or PowerPoint, Illustrator, or any number of online storyboarding tools) that shows us how you intend to integrate your visualizations, words, and navigation elements. Use simple boxes to tell us where your different elements will be positioned in a design, and how a user will navigate through the content. Scan your sketch and include it with your post.
+*Due Mar 21:*  [Assignment Details][11]  
+jQuery exercise, Storyboard 2
 
-Read selections from Tufte, Quantitative Display of Information, on e-reserve in the Library: pages 91-105, 176-190. Use the password (ij2012) to access the material.
+**8 | Mar 21: Completeness, HighCharts API**  
 
-**7 | Mar 14: Ethics and Information Design**  
-Discussion: Intentional use of space  
-Discussion: Principles of design – grids, hierarchies, color, typography, white space, scale, repetition, consistency.  
-Discussion: Ethics, avoiding distortion, responsible presentation of data  
-What do we expect in a “rough draft”?
+*Due Mar 28:*  [Assignment Details][12]  
+Rough Draft 1
 
-*Due Mar 21:*  
-[Assignment Details][11]  
-Solo – design assignment. Re-design one of the following data visualizations:  
-The Atlantic: Classified Documents  
-Good: Teacher Salaries  
-National Geographic: High School Foreign Exchange  
-Thank Stanford’s Jeff Heer of Stanford for these examples  
-Identify the weaknesses in visualization and/or design and explain how you would improve them. If you do this assignment on scratch paper, you need to scan or photograph it. Email your re-designs to both professors with the subject line “Homework Week 7”
+**9 | Mar 28: Doing More with Maps**  
 
-Team – Rough drafts of your first story. A rough draft does not have to have the polish of a final project, but it should be close. You should have created the visualizations that you plan to use. Your classmates should be able to evaluate a rough draft on its merits, without a guided tour of forthcoming features. A complete rough draft includes:  
-+ Clean data in spreadsheets, already normalized, sorted, manipulated  
-+ Visualizations of the data with labeled axes  
-+ Captions  
-+ Credits  
-+ A headline  
-+ At least three links to other reporting that puts your story in a broader context.  
-+ Introductory text that includes information gleaned from at least one human source.  
-+ A source list, exactly like the ones you hand in for Craft II.
 
-You’re not required to quote your source, but you do need to be able to tell the class what insights your human source provided. Keep in mind that this draft represents 25% of your grade on this story.
+*Due Apr 04:*  [Assignment Details][13]  
+Final Story 1
 
-**8 | Mar 21: Open Workshop, Completeness**  
-Discussion: Completeness, academese  
-Open workshop
+**10 | Apr 04: Story 1 Critique**  
 
-*Due Mar 28:*  
-[Assignment Details][12]  
-Team – post final story on the class blog in the category “Story 1 Final” Include an excerpt before the jump and the full story after a jump. If you wish to host your final story elsewhere, you may, but you still need to post a headline, excerpt, image and linked text to the class blog.  
-+ Credit all images and code libraries  
-+ Clearly attribute all data, including direct links where appropriate.  
-+ See the rest of the checklist to ensure that your story is complete: http://datadrivenjournalism.fall.2013.journalism.cuny.edu/checklist/
+*Due Apr 11:*  [Assignment Details][14]  
+Take a deep breath and get caught up. 
 
-**9 | Mar 28: Critiques**  
-Discussion: Critique our first finished data stories  
-Assign Teams for Second Story
+**11 | Apr 11: Show Your Work**  
+Planning ahead
+Building data explorers 
 
-*Due Apr 04:*  
-[Assignment Details][13]  
-Solo – Bring in two good ideas for your second story.  
-Team – one last chance to revise your first story.  
-Solo post mortems: what did you learn in the course of building your first story? What role did you play on your team? What role did your collaborators play? Describe one thing you would do differently if you tackled this story again. Post mortems are private: email them to the professors with your week 10 homework.
+** Apr 18: no class (Spring Break) **
 
-**10 | Apr 04: CartoDB maps**  
-Discussion: Anything great in the revised projects?  
-In-class exercise: working with CartoDB and styling maps with CSS  
-Round robin story meeting
-
-*Due Apr 11:*  
-[Assignment Details][14]  
-Solo – Create a CartoDB map. See post (TK) for more detail.this week, you’ll walk through the CartoDB tutorials (Timelines are due Nov 27)
-
-Team – Prepare pitches for your second story. If you don’t remember what we expect in a complete pitch, see week 5.
-
-**11 | Apr 11: HighCharts**  
-Workshop: Pairs of teams work with each other to discuss pitches.  
-In class exercise: HighCharts, Mr. DataConverter, and understanding different data formats.
-
-*Due Apr 25:*  
-[Assignment Details][15]  
-Solo – HighCharts exercise  
-Team – Refine pitches and develop storyboards and rough drafts.
+*Due Apr 25:*  [Assignment Details][15]  
+Rough Draft 2
 
 **12 | Apr 25: Guest Lecture**  
-Lecture: Guest, [Lam Thuy Vo, Interactive Editor of Al Jazeera America][16].  
-Open workshop
-
-** Nov 27: no class (Friday schedule)**
+Lecture: TBD
+Hands-on: TBD -- Regular Expressions, CSVkit, Beginning R? We'll vote. 
+Infographics
 
 *Due May 02:* [Assignment Details][17]  
-Finish story 2.
+Final Story 2, Read up for jobs drill (find WSJ, NY Times coverage of January 10 jobs report, as well as Feb, Mar, April)
 
-**13 | May 02: Critique**  
-Critique of second story
+**13 | May 02: Jobs Report Drill**  
+The BLS jobs report comes out at 8:30, by noon we will have some great charts ready to go. 
 
-*Due May 09:*  
-[Assignment Details][18]  
-Solo - Post mortem on story 2.
-Team – last chance to revise your second story
+*Due May 09:*  [Assignment Details][18]  
+Revisions to Story 1
 
-**14 | May 09: Wrap up**  
-Discussion: revised projects  
+**14 | May 09: Story 2 crit, Hands-on TBD**  
+Hands on TBD (See Week 12) 
+
+*Due May 16:*
+Revisions to Story 2
+
+**15 | May 16: Wrap Up**
 Discussion: closing thoughts  
 Fill out student evaluations
 
