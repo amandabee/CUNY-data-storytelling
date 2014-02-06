@@ -1,6 +1,6 @@
-Spreadsheet Skills
+#Spreadsheet Skills
 
-# Using formulas
+## Using formulas
 Pay attention to the screen. 
 
 Review of Spreadsheeting skills with Flu data
