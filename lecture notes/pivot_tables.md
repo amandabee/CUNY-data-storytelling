@@ -1,18 +1,11 @@
 #Pivot Tables
-
-Getting Summary Data
+Spreadsheets are Handy, but pivot tables are incredibly useful. 
 
 Pivots work a bit differently in Google Spreadsheets and Excel so we're going to walk through both. 
 
-Other good pivots -- how many gas wells per county, from DEC’s list of all wells; Count and sum of donations by state, city, zip code (particularly good for a cleaned data set.)
+Last semester, Matt Surrusco found [iCasualties.org](http://icasualties.org/OEF/Index.aspx) -- NYT has a nice [profile of Michael White](http://www.nytimes.com/2010/11/22/business/media/22link.html) who trolls through news sites and official releases to build out a database of coalition forces deaths. Start with <http://icasualties.org/OEF/OEF_US_Fatalities.xls> and pivot by year. 
 
-* Matt Surrusco identified this data set, which has lots of pivoty richness.
-
-https://docs.google.com/spreadsheet/ccc?key=0Ak1XP1hxQd9IdGFiWk5EUEloSVdqQ0IxMlNNRVhpWUE&usp=sharing
-
-http://icasualties.org/OEF/Fatalities.aspx
-
-1. Create a copy of the Google Fusion Table (so you can edit it).
+The Department of Environmental Conservation publishes [data on gas wells](http://www.dec.ny.gov/energy/1603.html) in New York State. Download it or it is on GitHub. How many wells are there per county? 
 
 1. Data > Pivot Table Report
 2. Add Row
@@ -30,3 +23,4 @@ Some questions:
 Download as CSV, try this in Excel
 
 Pivot Tables: Excel
+

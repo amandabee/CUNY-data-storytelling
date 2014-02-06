@@ -1,4 +1,4 @@
-Basic statistics, Understanding numbers
+#Basic statistics, Understanding numbers
 ### Zero floor
 There are some people who will tell you it is dishonest to start your Y-Axis anywhere but zero. Sometimes that makes no sense -- the NASDAQ is never going to be zero (or maybe it is, but that's a different conversation). If your floor is higher (or lower) than zero, you need a reason. A compelling one that makes sense.
 
