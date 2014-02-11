@@ -2,13 +2,6 @@
 Scrutiny and  Skepticism Ethics, avoiding distortion, responsible presentation of data
 http://jour72312.tumblr.com/tagged/ethics
 
-We talked a little bit about the Y-axis last week, some more examples:
-http://digitalstorage.journalism.cuny.edu/amandahickman/aug092013/index.html#slide7 
-http://digitalstorage.journalism.cuny.edu/amandahickman/aug092013/index.html#slide8 
-
-And this one:
-http://jour72312.tumblr.com/post/24480573791 -- sometimes you actually should not make the chart at all.
-
 
 ### Know the limitations of your data:
 http://www.nytimes.com/2013/09/29/us/children-and-guns-the-hidden-toll.html?_r=0 
@@ -49,4 +42,13 @@ http://www.cjr.org/cover_story/dark_shadows.php (HW Reading)
 ## Manipulating Numbers
 ### Unequal buckets
 http://www.thedailybeast.com/articles/2013/02/06/department-of-awful-statistics-income-inequality-edition.html  
+
+### Moving the Y-Axis around
+We talked a little bit about the Y-axis last week, some more examples:
+http://digitalstorage.journalism.cuny.edu/amandahickman/aug092013/index.html#slide7 
+http://digitalstorage.journalism.cuny.edu/amandahickman/aug092013/index.html#slide8 
+http://themonkeycage.org/2013/01/08/how-2012-stacks-up-the-worst-graph-on-record/
+
+And this one:
+http://jour72312.tumblr.com/post/24480573791 -- sometimes you actually should not make the chart at all.
 
