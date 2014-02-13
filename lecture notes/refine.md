@@ -4,9 +4,8 @@ Install [OpenRefine](http://openrefine.org/). If you get an error like "… is d
 
 Last semester, Matt Surrusco found [iCasualties.org](http://icasualties.org/OEF/Index.aspx) -- NYT has a nice [profile of Michael White](http://www.nytimes.com/2010/11/22/business/media/22link.html) who trolls through news sites and official releases to build out a database of coalition forces deaths. He's not very systematic, however. So we can do some cleanup. 
 
-https://docs.google.com/spreadsheet/ccc?key=0Ak1XP1hxQd9IdGFiWk5EUEloSVdqQ0IxMlNNRVhpWUE&usp=sharing
+Note that most pages on iCasualties are paginated, but the [by Nationality](http://icasualties.org/OEF/Nationality.aspx) page is not, or it is possible to [download xls files](http://icasualties.org/OEF/index.aspx) on Feb 13, 2014
 
-http://icasualties.org/OEF/Fatalities.aspx
+For now, grab [my copies](https://github.com/amandabee/cunyjdata/tree/master/lecture%20notes/pivot%20and%20refine) if need be.
 
-We can copy all of this into a spreadsheet:
-http://icasualties.org/OEF/Nationality.aspx
+
