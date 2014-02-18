@@ -19,6 +19,9 @@ Sample data is in separate text files, but looks like this:
     NAME: Drew Storen POS: RP AGE: 25 WT: 180 BORN: Indianapolis, IN SALARY: 498750
     NAME: Jordan Zimmermann POS: SP AGE: 26 WT: 218 BORN: Auburndale, WI SALARY: 2300000
 
+
+That is player data from the Washington Nationals 2012 lineup that I stole from [Anthoney DeBarros](http://www.anthonydebarros.com/2012/10/09/excel-extract-text-find-mid-string/) who uses it to demonstrate some cool Excel functions, which will also work if you want to break this all up.
+
 Take the names file into http://www.rubular.com/
     [A-Z]*: (\w* \w*) POS
     [A-Z]*: (\w*[\w ]*\w*[ ]*) POS <-- Sean Q Burnett
