@@ -15,7 +15,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 -->
 
-  <title>D3 Bar Chart - CodePen</title>
+  <title>D3 Bar Chart</title>
 
   <style>.chart div {
   font: 10px sans-serif;
@@ -51,7 +51,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 </head>
 
 <body>
-
+MORE THAN JUST BAKE SALES
+San Francisco PTA fundraising increased since 2002 ... but most of it paid for programs at just a handful of schools
   <div class="chart"></div>
 <script src="http://d3js.org/d3.v3.min.js"  charset="utf-8"></script>
 
@@ -63,7 +64,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   </script>
 
   <script>
-    var data = [4, 8, 15, 16, 23, 42];
+    var data = [591856,839446,848463,1034755,1569442,1484477,2280282,3261702,4132972,5321516];
+    
 
 var x = d3.scale.linear()
     .domain([0, d3.max(data)])
