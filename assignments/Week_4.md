@@ -1,25 +1,28 @@
-# Homework Week 4 (Due Oct 02)
-This week you're going to make a map, do some reading and develop a couple of good pre-pitches. <!--more-->
+# Homework Week 4 (Due Feb 28)
+This week you're going to sketch out storyboards, update your pitches to reflect the work you've done with the data thus far, and dig into city graduation rate data. <!--more-->
 
-<strong>1: Map the data you brought in <a href="http://datadrivenjournalism.fall.2013.journalism.cuny.edu/homework-week-3due-sep-25/" title="Homework Week 3 (Due Sep 25)">last week</a>.</strong> Check out Amanda's <a href="/mapping">mapping</a> notes if you don't remember where to find KML files or Shapefiles. Be sure to give all of your faculty (Amanda, Russell, Nick) <em>edit</em> access on your finished map. Check that the rest of the world will be able to see your map. 
+## Storyboards
+**Storyboards** We all drew storyboards in class today. Storyboards (or wireframes) are just a sketch of your planned project.  Don't go crazy getting the presentation perfect. If I can see that you're planning two bar charts organized by fruit and showing total sales in dollars, that's great. But do sketch out your whole story: how many charts are you planning? Is one a map? (It doesn't have to be.) Are you adding a photo?  And then for each chart or map, zoom me in: what are the values? How are they encoded? Where will different elements be positioned in your project? How a user will navigate through the content. Check out [Mark Luckie’s thoughts on sketching/storyboarding](http://www.mediabistro.com/10000words/the-importance-of-sketching-and-why-you-should-be-doing-it_b837), from 10,000 Words, for more context. 
 
-Embed your map on a new HTML page. Give your map some context in 50 to 100 words. Cite your sources. Write for a newsroom: don't say "This map shows," tell us what we're looking for in the map and fill us in on what we need to know to understand it. Check your grammar, and your AP Stylebook.  
+When you sketch out your storyboard, you should also update your pitches to reflect the progress of your reporting. They should be fuller and more clear. 
 
-When you're done, upload it to <a href="/using-digital-storage">digital storage</a>. Note: if you genuinely can't access Digital Storage, you can post your map to the class blog, but make sure that Amanda is aware that you're working with TC to get access to digital storage. 
+Note: this is not what is on the syllabus. We did a bit of pivoting in class today. 
 
-<strong>2: Pre-pitch</strong> Send us at least two good ideas for your first data driven story. Think about the story you want to tell and the data you need to tell it. Find out whether that data is available. In what form? Talk to a librarian, 
+## HighCharts
 
-<strong>3: Read</strong> 
-+ Illinsky, <a href="http://www.worldcat.org/oclc/747533358">Designing Data Visualizations</a>, Chapter 4: Choose Appropriate Visual Encodings in Library or as <a href="http://proquest.safaribooksonline.com/9781449314774/id2940472">a free preview online</a>.
-
-+ Cairo: The Functional Art, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy. On e-reserve in Library.
-
-+ <a href="http://www.propublica.org/nerds/item/design-principles-for-news-apps-graphics">Design Principles for News Apps & Graphics</a>, Lena Groger (ProPublica) and note the <a href="http://img.labnol.org/di/choose-chart-type.jpg">flowchart she cites on choosing the right type of chart.</a>
-
-+ Extra Credit: Look through some of the examples from a <a href="http://bit.ly/nicarmaps">talk on maps from NICAR 2013</a>, given by John Keefe, Dave Cole and Matt Stiles and <a href="http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/">When maps shouldn't be maps</a>
-
-Email your pre-pitches and the URL of your map to both professors under the subject "Homework Week 4" by noon on October 2.
+I've posted a [HighCharts walkthrough](http://hickman.spring-2014.dataviz.journalism.cuny.edu/2014/02/21/highcharts/) and I encourage you to try your hand at making a second high chart following those instructions. The more you do this, the easier it gets. And remember: those `JS Hint` and `Tidy Up` buttons are your friends. 
 
 
+**Charting**
+Download NYC's [Graduation Outcomes](https://data.cityofnewyork.us/Education/Graduation-Outcomes-Borough-Classes-of-2005-2011-E/x2hp-8ukt) data from NYC Open Data. Use pivot tables, formulas and perhaps some filters to get to know the data.
 
+Sketch out a series of graphs (or perhaps just one?) that illustrate graduation rate trends for Hispanics, Asains, Whites and Blacks in each borough in the years provided. To keep things simple, use "4 year June" numbers. 
 
+Pick one of those graphs that you sketched and reproduce it in HighCharts. Add a title that makes sense, label your axes intelligibly and post the URL for your JSFiddle to the comments on the post. If you get stuck, don't hesitate to comment here: post a link to your JSFiddle and explain what the problem is. 
+
+**Tips**   
++ Download the data from  NYC Open Data as a CSV. Don't use the Excel version. That's almost always good advice. In this case it will save you from a headache or three for sure.  
++ The "cohort categories" are cumulative. There were 638 Asian students in the Bronx 2001 cohort. 479 graduated within 4 years, 534 graduated within six. That means that 479 students walked in 2005, and another 55 finished in 2006 or 2007. Those 479 are included in the five year rate and in the six year rate.  That means that if I take the sum of all graduates for a given demographic/year/borough group, I'm going to count a lot of people three or four times. Don't do that. Either use a filter in your pivot table (No … we haven't actually done that, but you can watch it happen in an [awesome little movie](https://vimeo.com/87300699) if you want. ) or sort your data by "cohort category" and only pivot the data you are interested in.  
++ Paste-Special is your friend. You're going to have to do some math on the output of your pivot table. So copy the pivot table, open a new tab, and use `Edit > Paste Special` to paste the `values`.
++ We haven't talked about transposing, but just for kicks, copy a block of data and use `Edit > Paste Special` with `transpose` checked -- what did that do?  
++ Once you've got a mess of tabs open, make sure you're saving your document as *XLS* or *ODS* (for my LibreOffice folks) and not as a *CSV*
