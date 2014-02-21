@@ -62,5 +62,5 @@ If you haven't already done so, you should also download and install [Refine][7]
   [2]: http://www.slate.com/articles/news_and_politics/crime/2012/12/gun_death_tally_every_american_gun_death_since_newtown_sandy_hook_shooting.html?wpisrc=newsletter_jcr%3Acontent
   [5]: http://webappa.cdc.gov/sasweb/ncipc/mortrate10_us.html
   [6]: http://webappa.cdc.gov/sasweb/ncipc/mortrate10_us.html
-  [7]: https://github.com/OpenRefine
+  [7]: http://openrefine.org/
   [8]: https://filezilla-project.org/
