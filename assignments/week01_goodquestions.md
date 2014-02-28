@@ -3,6 +3,10 @@ If you challenge yourself (and you should challenge yourself), you're bound to g
 
 Questions like this are pretty hard to answer:
 
+
+> I've been trying for the past couple of hours to figure out what exactly I'm doing wrong with the high charts assignment, and I think the problem is that my data from excel that I created using a pivot table is organized wrong. Attached here is the spreadsheet, I'm fairly sure this is what the problem stems from.
+
+
 > I want to start putting together my slideshow, but the SlideDeck plug-in doesn't seem to be working on my WordPress. Do you know why?
 
 or
