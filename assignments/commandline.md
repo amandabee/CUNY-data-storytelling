@@ -31,44 +31,44 @@ Sometimes you make mistakes. Crazy, but true. Sometimes you try to put something
 
 In class, we didn't get quite this far but we were going to create a folder called "data-interactive" in your Documents folder with the following sequence:
 
-`cd Documents
-mkdir data-interactive
-ls
-cd data-interactive
-cd
+`cd Documents     
+mkdir data-interactive      
+ls     
+cd data-interactive     
+cd     
 cd Documents/data-interactive`
 
 Go ahead and try that. But ... do yourself a huge favor. Don't cut and paste, try typing everything out. You can use tab completion to save some time -- type the first few letters of the directory you want to change into and hit `tab` -- if the directory exists, Bash will take you there. 
 
 
 **Examining Text Files**
-`more` opens a file to read in the terminal. You have to type "q" to get out of the more screen. 
-`head` prints the first n lines of a file
-`tail` prints the last n lines of a file 
-`cat` prints a whole file
-`wc` counts the words in a file. The -l option counts lines instead of words.
-`less` opens the file in the shell so you can move through it with arrow keys. Type "q" to exit less
+`more` opens a file to read in the terminal. You have to type "q" to get out of the more screen.   
+`head` prints the first n lines of a file  
+`tail` prints the last n lines of a file   
+`cat` prints a whole file  
+`wc` counts the words in a file. The -l option counts lines instead of words.  
+`less` opens the file in the shell so you can move through it with arrow keys. Type "q" to exit less  
 
 **Copying files**
-It is usually a good idea to make a backup. 
+It is usually a good idea to make a backup.   
 
-`cp flutrends.txt flutrends.txt.backup`
+`cp flutrends.txt flutrends.txt.backup`  
 
 **Redirection**
 Redirection is a tricky concept at first but it is actually fairly simple. Most of the tools we're working with just print content right to the screen. That's called standard output or `stdout`. Sometimes you actually want to keep what you've printed in a new file. For instance, if you're trying to retrieve a document from the web with curl, you probably want to store it. You'd use the "greater than" to redirect the output of curl from the screen to a file, but providing a file name:
 
-`curl http://www.google.org/flutrends/data.txt > flutrends.txt`
+`curl http://www.google.org/flutrends/data.txt > flutrends.txt`   
 
 IMPORTANT: the shell environment, unlike OSX's graphical environment, assumes you mean to do what you say you mean to do. If you already have a file called "flutrends.txt," Bash will overwrite it with the output from curl. It won't warn you that you're replacing an existing file. 
 
-<blockquote>See if you can remember how to examine the first 15 lines of flutrends.txt? Can you count the lines of flutrends.txt?</blockquote>
+> See if you can remember how to examine the first 15 lines of flutrends.txt? Can you count the lines of flutrends.txt?
 
 **Searching**
 The only reason we're going through any of this is so that we can search files! 
 
 `grep` is the search command we're going to use. If you are a programmer or have friends who are programmers, at least 50% of them will tell you awk is better. That's useful information if you want to be a programmer. grep will print (to the screen) every line that matches your search. So...
 
-`grep "2004-11" flutrends.txt `
+`grep "2004-11" flutrends.txt `   
 
 will print the few lines of data in that file that refer to November of 2004. If you actually want to use it, you need to redirect the output to a new file:
 
