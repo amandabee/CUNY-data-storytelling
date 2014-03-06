@@ -5,7 +5,7 @@ Let's look at what you were doing.
 This isn't functionally all that different than the map styles dialog, right?
 
 The background piece on Snow has a bad URL. Should be:
-http://www.r-bloggers.com/john-snows-cholera-data-in-more-formats/
+<http://www.r-bloggers.com/john-snows-cholera-data-in-more-formats/>
 
 The first zip file that you downloaded includes a whole bunch of garbage and a handful of things that make up individual shapefiles.
 
