@@ -64,3 +64,6 @@ Other mapping projects we looked at:
 
 **More tools? More questions?**
 Lingering questions? Want to share a tool you love (or just kind of like)? Bonus points if they're <a href="http://www.fsf.org/">free (as in birds)</a>.
+
+## More Tutorials
+[CSV Sound System NICAR 14](https://github.com/csvsoundsystem/nicar-cartodb-postgis) -- a walk through that has you plot 
