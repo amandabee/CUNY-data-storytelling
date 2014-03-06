@@ -53,6 +53,10 @@ A little more on [double precision](http://www.postgresql.org/docs/current/stati
 ## Display
 Use the wizard first. Bubbles for population, color for percapita. 
 
+What do methods mean? [Learn](https://github.com/amandabee/cunyjdata/blob/master/lecture%20notes/cartodb.md#method) This was a little [buggy](https://gis.stackexchange.com/questions/84562/am-i-misunderstanding-equal-interval) but might be fixed by now.
+
+## Put it on a web page
+
 
 ## Where to Find Boundary Files
 + [NYC:](http://www.nyc.gov/html/dcp/html/bytes/dwndistricts.shtml)
