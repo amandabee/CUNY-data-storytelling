@@ -67,6 +67,12 @@ What do methods mean? [Learn](https://github.com/amandabee/cunyjdata/blob/master
 + [CartoDB's Common Data](https://cunydata.cartodb.com/dashboard/common_data)
 + [Census.gov](https://www.census.gov/geo/maps-data/)
 
+## How to Geocode
+If you need to transform addresses into lat/lon pairs, you have a couple of options:
 
++ Fusion Tables will do it, but their terms of service say you have to use that data on a Google Map. 
++ Geocoder.us Will do one address at a time, or you can pay for a batch
++ CartoDB gives you a bunch free and you can pay for more. 
++ More [suggestions](https://stackoverflow.com/questions/373383/geocoding-libraries)
 
 
