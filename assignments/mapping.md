@@ -1,6 +1,7 @@
 If you're just getting started making maps online, start with Google Maps, but they're not your only option. Many Eyes does well with [state and country level maps](http://www-958.ibm.com/software/data/cognos/manyeyes/page/US_State_Map.html). [John Keefe blogs](http://johnkeefe.net/) relentlessly about his Google mapping projects, how they work, and [what he's learned](http://thingsivelearned.posterous.com/). [CartoDB](http://cartodb.com/) is new and more powerful and flexible than Google Maps. It is also more complex. [MapBox](http://mapbox.com/) is even more powerful, flexible, and complex.
 
 Great places to start thinking about maps:
+
 + Dave Cole, John Keefe and Matt Stiles on [Mapping Best Practices](https://docs.google.com/presentation/d/1CA9R42cy4wjzIIWlyd0FMWvyW7BqsrzOGLQBgkwsy1Q/edit?pli=1#slide=id.p) (NICAR 2013)
 + [John Keefe, Albert Sun and Jeff Larson talk about making maps](http://hackshackers.com/blog/2011/11/06/how-we-made-our-maps/) (Hacks/Hackers 2011)
 + [Take Care of your Chloropleth Maps](http://vis4.net/blog/posts/choropleth-maps/)
