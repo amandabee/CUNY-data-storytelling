@@ -48,7 +48,7 @@ Office hours, obviously, but also:
 *   [NICAR-L][1] is indispensable for connecting with other journalists who are doing innovative data and interactive reporting. Get on the list now. 
 *   [Hacks/Hackers][2] is a great community, though they're not currently accepting new registrations on their "help" site. 
 *	Join the [Hacks/Hackers meetup](http://meetupnyc.hackshackers.com/). Go forth and network.  
-*   [Stack Overflow][3] is an excellent place to ask specific programming questions, but expect a lot of huffing and puffing if you aren't following the advice here about how to ask good questions.
+*   [Stack Overflow][3] is an excellent place to ask specific programming questions, but expect a lot of huffing and puffing if you aren't following the advice here about how to ask good questions (or Stack Overflow's own [excellent post on the same](https://stackoverflow.com/help/how-to-ask).
 * 	Tweet questions. Tag them #cunyjdata 
 * 	Join [gis.stackoverflow.com](http://gis.stackoverflow.com) – that is where you're going to get help for any CartoDB question.
 *	On campus, have free access to an incredible wealth of instructional videos from Lynda.com -- visit [iplogin.lynda.com]
