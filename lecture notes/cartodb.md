@@ -5,7 +5,7 @@ Let's look at what you were doing.
 This isn't functionally all that different than the map styles dialog, right?
 
 The background piece on Snow has a bad URL. Should be:
-http://www.r-bloggers.com/john-snows-cholera-data-in-more-formats/
+<http://www.r-bloggers.com/john-snows-cholera-data-in-more-formats/>
 
 The first zip file that you downloaded includes a whole bunch of garbage and a handful of things that make up individual shapefiles.
 
@@ -101,7 +101,7 @@ We're going to skip some things.
 
 Keep walking through.
 
-### Quantile? Jenks?
+### <a name="method"></a>Quantile? Jenks?
 [Check out the documentation](http://developers.cartodb.com/documentation/using-cartodb.html5)  but roughly, quantiles will break into buckets that each hold the same number of records. Equal intervals with break into buckets that are equidistant.
 
 Example:  I have age data for eighteen people: [11, 11, 12, 13, 14, 16, 19, 20, 20, 20, 23, 25, 26, 26, 31, 37, 38, 38] and I want to break them into three buckets:  
