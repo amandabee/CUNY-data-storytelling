@@ -137,6 +137,9 @@ Some followup from our CartoDB session, on making your own tables, finding refer
 
 # Getting Help
 
+Another great tutorial: https://github.com/csvsoundsystem/nicar-cartodb-postgis/blob/gh-pages/README.md
+
+
 https://groups.google.com/forum/#!forum/cartodb
 
 # CartoDB Templates
