@@ -8,27 +8,31 @@ http://www.nytimes.com/interactive/2013/02/05/world/asia/northkorea-timeline.htm
 WNYC
 http://www.wnyc.org/blogs/empire/2012/may/07/timeline-pedro-espadas-long-dance-law/
 
-2. What features work in timelines?
-proportionality of spacing of events
-next and previous buttons (users navigate linearly)
-balancing text and image
-grouping information, if possible (arab spring : note colors for kinds of events)
-integrating multimedia (video, audio, etc.)
-showing single event vs. period of time
-3. Content in timelines
-unravelling a complex story
-filling in the gaps in your narrative
-re-shaping your narrative chronologically
-adding detail
-a timeline should stand alone and fit into your story, both. That’s a tricky balance to strike 
+What features work in timelines?
+
+- proportionality of spacing of events
+- next and previous buttons (users navigate linearly)
+- balancing text and image
+- grouping information, if possible (arab spring : note colors for kinds of events)
+- integrating multimedia (video, audio, etc.)
+- showing single event vs. period of time
+
+Content in timelines
+
+- unravelling a complex story
+- filling in the gaps in your narrative
+- re-shaping your narrative chronologically
+- adding detail
+- a timeline should stand alone and fit into your story, both. That’s a tricky -- balance to strike 
+
 ex: Dominique fits it in as a sidebar to give us the history of CL in her story about missed connections: http://craft2-harper.2013.journalism.cuny.edu/2013/03/16/1415/
 
 
-Hands on with Timeline JS
+##Hands on with Timeline JS
 
-Zach Wise's Timeline JS (http://timeline.verite.co/)
-Google spreadsheet template (http://timeline.verite.co/#fileformat)
-https://dl.dropboxusercontent.com/u/86387206/gunlegislation.csv
+[Zach Wise's Timeline JS](http://timeline.verite.co/)
+[Google spreadsheet template](http://timeline.verite.co/#fileformat)
+
 1. Look at Timeline JS examples
 2. Download template
 3. Download gun legislation csv
@@ -37,10 +41,11 @@ https://dl.dropboxusercontent.com/u/86387206/gunlegislation.csv
 6. add media (youtube, photo)
 
 
-Hands on with Vertical Timeline
+## Hands on with Vertical Timeline
 Hands on: start by getting organized.
 
 That file you made last week? It is going to get a lot fancier.
+
 * You should have a folder for this class. You do, right?
 * In that folder, make a new folder, give it a short title. "dataviz"
 * Move your old "index.html" into the folder

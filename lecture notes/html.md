@@ -1,4 +1,4 @@
-# Basic HTMl 
+# Basic HTML 
 
 Readings: 
 [Good reading on DOM ](http://en.wikipedia.org/wiki/Span_and_div), [Don't Fear the Internet ](http://www.dontfeartheinternet.com/) ([their HTML segment](http://www.dontfeartheinternet.com/html/html)), [Adnaan Wasey's HTML Fundamentals](http://www.slideshare.net/adnaanwasey/html-fundamentals-for-web-producers)

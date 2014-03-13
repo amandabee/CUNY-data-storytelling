@@ -18,3 +18,19 @@ Gelman [says](http://andrewgelman.com/2013/03/17/the-disappearing-or-non-disappe
 ## Good for HighCharts, too:
 
 http://www.bls.gov/tus/charts/students.htm
+
+## News App Interfaces
+In Groups of Four look at one of …
+
++ [Sun Sentinel, Florida’s Death Row](http://www.texastribune.org/bidness/explore/)
++ [Texas Tribune, Lawmaker Explorer](http://www.texastribune.org/bidness/explore/)
++ [Sacramento Bee, State Worker Salary Search](http://www.sacbee.com/statepay/)
++ [New York City Comptroller’s Office, Checkbook NYC](http://www.checkbooknyc.com/)
+
+
+**Questions:**
+Is it useful? Is there newsvalue? How does this contribute to public conversations about policy, spending? 
+
+Is it usable? Is it inviting? How would or could you make it more usable and more inviting? 
+
+Re-design and present back
