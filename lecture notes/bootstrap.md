@@ -70,4 +70,9 @@ The [grid is handy](http://getbootstrap.com/css/#grid) for some really basic thi
 Take a look at this NYT story on [public sector salaries](http://www.nytimes.com//interactive/2011/03/06/us/public-private-employees.html) -- let's grid that out. 
 
 ## Troubleshooting
-In your finder preferences, show all file extensions. 
+In your finder preferences, show all file extensions.
+
+## More fanciness
+Hop over to [Presentation](presentation.md) and if we get through it we can talk about using bootstrap's [color classes](http://getbootstrap.com/css/#helper-classes) instead of getting carried away with perfect colors. 
+
+[Quick Floats](http://getbootstrap.com/css/#helper-classes-floats) are also pretty nice. 

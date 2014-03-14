@@ -3,7 +3,7 @@ To follow [Bootstrap](bootstrap.md)
 
 Non-linear: <http://online.wsj.com/news/articles/SB10001424052702303674004577434281689113746>
 
-Stepper: <http://www.nytimes.com/interactive/2010/02/02/us/politics/20100201-budget-porcupine-graphic.html> or [the heavy handed stepper](http://www.bloomberg.com/dataview/2014-02-25/bubble-to-bust-to-recovery.html)
+Stepper: <http://www.nytimes.com/interactive/2010/02/02/us/politics/20100201-budget-porcupine-graphic.html> a [little anatomy of a deal](https://www.propublica.org/article/freddy-mac-mortgage-eisinger-arnold#how-freddies-investments-work)or [the heavy handed stepper](http://www.bloomberg.com/dataview/2014-02-25/bubble-to-bust-to-recovery.html)
 
 Linear: <http://www.nytimes.com//interactive/2011/03/06/us/public-private-employees.html> or <http://qz.com/187433/americas-60-year-love-affair-with-frozen-tv-dinners-is-over/>
 
@@ -24,6 +24,7 @@ First, we need … jQuery!
 	
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
+And then check out [my templates](bootstrap/)
 
 
 # Highcharts

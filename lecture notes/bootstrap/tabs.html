@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Tabs Template</title>
+
+    <!-- Bootstrap --><!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    	<div class="container">
+	  <div class="jumbotron">
+	    <h1>Rats!</h1>
+	    <p class="lead">Rats are everywhere. And that is really gross.</p>
+	  </div><!-- /jumbotron -->
+
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs">
+		  <li class="active"><a href="#one" data-toggle="tab">1</a></li>
+		  <li><a href="#two" data-toggle="tab">2</a></li>
+		  <li><a href="#three" data-toggle="tab">3</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane active" id="one">I started with Bootstrap's <a href="http://getbootstrap.com/javascript/#tabs">tabs</a> -- I just copied their code and renamed the IDs</div>
+		  <div class="tab-pane" id="two">The secret ingredient is <code>data-toggle="tab"</code>. </div>
+		  <div class="tab-pane" id="three">So easy there is no third step.</div>
+		</div><!-- /tab-conent -->
+		
+		<h1>Or I could do:</h1>
+		<div class="panel panel-default pull-right col-sm-3"><div class="panel-body">
+			<!-- Nav tabs -->
+			<ul class="pagination pagination-sm">
+			  <li class="active"><a href="#five" data-toggle="tab">1</a></li>
+			  <li><a href="#six" data-toggle="tab">2</a></li>
+			  <li><a href="#seven" data-toggle="tab">3</a></li>
+			  <li><a href="#eight" data-toggle="tab">4</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div class="tab-pane active" id="five">I wanted more of a "stepper" look, so I replaced "nav nav-tabs" with <a href="http://getbootstrap.com/components/#pagination">pagination pagination-sm</a> class to my Nav Tabs div.</div>
+			  <div class="tab-pane" id="six">That is all.</div>
+			  <div class="tab-pane" id="seven">Just kidding. I did a couple of other things here. Can you tell what they are? Think about it first, play with how the window resizes, then use the element inspector. </div>
+			  <div class="tab-pane" id="eight">I added two classes: <code>pull-right</code> and <code> col-sm-3</code> -- so this stepper will take up 3/12ths of the content column and be aligned to the right of any other content. In a teeny tiny mobile screen, it won't, however.</div>
+			</div><!-- /tab-conent -->
+		</div></div><!-- /panel --> 
+		
+	</div><!-- /jcontainer -->  
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
