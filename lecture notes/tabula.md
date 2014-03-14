@@ -1,3 +1,4 @@
+
 #Tabula Walk Through
 Install [Tabula](http://tabula.nerdpower.org/). If you get an error like "Tableau is damaged and can't be opened. You should move it to the Trash," [the solution](https://github.com/OpenRefine/OpenRefine/issues/590) to is not at all intuitive: You have to Change your Privacy and Security settings to allow applications downloaded from "Anywhere" -- it's on the "general" tab. 
 
