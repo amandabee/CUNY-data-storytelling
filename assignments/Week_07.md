@@ -1,7 +1,13 @@
 # Homework Week 7: (Due Mar 20)
+
+I want everyone to create one page in a basic bootstrap templte. 
 <!-- Redesign -->
 
-## jQuery Assignment
+## Storyboard 2
+
+
+## jQuery Assignmentu
+YO
 Migrate your first storyboard or a super-duper-rough draft of your first story into a Bootstrap Page. 
 
 Somewhere on there, add a jQuery stepper or other UI piece. 

@@ -72,6 +72,11 @@ Take a look at this NYT story on [public sector salaries](http://www.nytimes.com
 ## Troubleshooting
 In your finder preferences, show all file extensions.
 
++ Are you calling jquery and bootstrap.min.js before the closing body tag? (some people don't call them at all, some call them after the body tag.)
+* Are your tabs *inside* of the "Container" div? Bootstrap can only control elements that are inside a div with class "container"
+* Are you looking over localhost...? http://localhost:8000/bootstrap.html
+* Are you using the `.html` extension? 
+
 ## More fanciness
 Hop over to [Presentation](presentation.md) and if we get through it we can talk about using bootstrap's [color classes](http://getbootstrap.com/css/#helper-classes) instead of getting carried away with perfect colors. 
 
