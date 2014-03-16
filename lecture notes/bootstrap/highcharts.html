@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Highcharts Template</title>
+
+    <!-- Bootstrap --><!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Highcharts plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script type='text/javascript'>//<![CDATA[ 
+
+$(function () {    
+    $('#drilldownDemo').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Basic Drilldown Demo'
+        },
+        xAxis: {
+            type: 'category'
+        },
+        yAxis: {
+            title: {
+                enabled: false}
+        },
+        legend: {
+            enabled: false
+        },
+        
+        credits: {
+            text: "This is made up."
+        },
+        plotOptions: {
+            series: {
+                borderWidth: 0,
+                dataLabels: {
+                    enabled: true,
+                }
+            }
+        },
+        series: [{
+            name: 'Things',
+            colorByPoint: true,
+            data: [{
+                name: 'Animals',
+                y: 5,
+                drilldown: 'animals'
+            }, {
+                name: 'Fruits',
+                y: 2,
+                drilldown: 'fruits'
+            }, {
+                name: 'Cars',
+                y: 4,
+                drilldown: 'cars'
+            }]
+        }],
+        drilldown: {
+            series: [{
+                id: 'animals',
+                data: [
+                    ['Cats', 4],
+                    ['Dogs', 2],
+                    ['Cows', 1],
+                    ['Sheep', 2],
+                    ['Pigs', 1]
+                ]
+            }, {
+                id: 'fruits',
+                data: [
+                    ['Apples', 4],
+                    ['Oranges', 2]
+                ]
+            }, {
+                id: 'cars',
+                data: [
+                    ['Toyota', 4],
+                    ['Opel', 2],
+                    ['Volkswagen', 2]
+                ]
+            }]
+        }
+    })
+});
+    
+
+//]]>  
+
+</script>
+  </head>
+  <body>
+        
+	<div class="container">
+	  <div class="jumbotron">
+	    <h1>Highcharts</h1>
+	    <p class="lead">This template will show you how to place a Highcharts chart in an HTML page. No iFrames needed</p>
+	  </div><!-- /jumbotron -->
+	   <div class="pull-left panel" id="drilldownDemo" style="min-width: 310px; height: 400px;"></div>
+	  
+        <p>We haven't talked about it much, but if you look at your charts, you'll see that the JSFiddle HTML pane includes <code>&lt;div id="container"...&gt;</code> while the JavaScript pane instantiates a chart with:</p>
+        <blockquote>
+        <p><code>$(function () {
+        $('#container').highcharts({'</code></p>
+        </blockquote>
+        <p><code>#container</code> refers to the HTML element with id "container" -- in this case, your <code>div</code>. You used the same name ("container") to set the <code>class</code> of the div that contains all of your content. A <code>class</code> is different from an <code>id</code>, so they won't conflict, but it is worth giving your charts more intelligible names anyway. </p>
+        <h2>Classes and Ids</h2>
+        <p>What you need to know: you can reuse a <code>class</code> over and over on a page. You can't reuse an <code>id</code>. You can see why when you start to deal with HighCharts: the javascript needs some space on the page to work in and it needs to know exactly which <code>div</code> to draw the chart in. </p>
+        <h2>Where do scripts go?</h2>
+        <p>You'll notice that to get HighCharts working, I had to move jQuery into the header of the page. If I don't load jQuery before I load the chart function, the chart won't appear at all. A better way to handle this would be to put my JavaScript in an external file and load that at the end of the page, too. 
+       
+	</div><!-- /container --> 
+
+
+	 <!-- Highcharts -->   
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+
+  </body>
+</html>
