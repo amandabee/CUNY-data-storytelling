@@ -27,4 +27,16 @@ that is a clue that either you tried to open a page that doesn't exist (check th
 ## Bootstrap
 The secret truth is that you can load Bootstrap's CSS library without a web server, but getting used to testing things over a server will pay off in the long run. I promise.
 
-The reason we're doing it now is so we can include script and CSS files with [protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/). *Protoco-huh?* For now, just trust me. Brocolli is better for you than brownies even though brownies won't kill you. Drink lots of water, get plenty of sleep and at least a little vigorous exercise. Don't stress out too much about the particulars.
+The reason we're doing it now is so we can include script and CSS files with [protocol-relative URLs](http://www.paulirish.com/2010/the-protocol-relative-url/). *Protoco-huh?* For now, just trust me. Brocolli is better for you than brownies even though brownies won't kill you. Drink lots of water, get plenty of sleep and at least a little vigorous exercise, even if you don't really understand.
+
+We walked through some basics of Bootsrap: you need to call their CSS in the page header, and if you're using any javascript you need to call their javascript before you close the `body` of your page. You need a valid [doctype](http://www.w3.org/QA/Tips/Doctype) definition and a few particular `meta` tags. 
+
+Get started with [my template](https://github.com/amandabee/cunyjdata/blob/master/lecture%20notes/bootstrap/basic_bootstrap.html), and remember to keep an eye on the heirarchy. Everything but the doctype goes in either the `head` or the `body` (and `head` and `body` belong inside of `html` tags). The `head` includes a few `meta` tags, a `title` and any `link` tags that call style sheets. Sometimes you'll put `script` tags in the `head`, sometimes you want them right before the closing `body` tag. Why? That's complicated. Almost everything else will go inside the `body` tag. 
+
+If you're using Bootstrap, start by putting everything inside a container div:
+
+    <div class="container">
+        (stuff goes here)
+    </div>
+
+You can start adding other elements -- paragraphs, a jumbotron or a set of tabs -- inside that container. 
