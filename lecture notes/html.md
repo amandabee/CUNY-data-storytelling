@@ -1,7 +1,10 @@
 # Basic HTML 
 
 Readings: 
-[Good reading on DOM ](http://en.wikipedia.org/wiki/Span_and_div), [Don't Fear the Internet ](http://www.dontfeartheinternet.com/) ([their HTML segment](http://www.dontfeartheinternet.com/html/html)), [Adnaan Wasey's HTML Fundamentals](http://www.slideshare.net/adnaanwasey/html-fundamentals-for-web-producers)
+
++ [Good reading on DOM ](http://en.wikipedia.org/wiki/Span_and_div), 
++ [Don't Fear the Internet ](http://www.dontfeartheinternet.com/) ([especially their HTML segment](http://www.dontfeartheinternet.com/html/html)),
++ [Adnaan Wasey's HTML Fundamentals](http://www.slideshare.net/adnaanwasey/html-fundamentals-for-web-producers)
 
 ## First: we're going to make an HTML page
 We're starting with the most basic pieces. 
@@ -77,18 +80,19 @@ And here's how we're going to use them:
 
 
 ## Then we're going to upload it.
-Host: digitalstorage.journalism.cuny.edu
-User: your network user name (mine is "amanda.hickman")
-Pass: your network password
-Protocol: SFTP
-Port 22
+    Host: digitalstorage.journalism.cuny.edu
+    User: your network user name (mine is "amanda.hickman")
+    Pass: your network password
+    Protocol: SFTP
+    Port 22
+    
+## Notes:
 
-Notes:
 * Create a folder inside of Public_Html and open it. Always keep your work in folders
 * Local files are different from remote files, they're served out by a web server that looks for a particular domain in a particular folder. 
 * My url is <http://digitalstorage.journalism.cuny.edu/amandahickman/dataviz/>
 
-Some basic tips: work locally and then upload once you've tested your work. You can edit on the fly but you always want to be able to roll back. 
+**Some basic tips:** work locally and then upload once you've tested your work. You can edit on the fly but you always want to be able to roll back. 
 
 Look at the difference in the URL: http:// vs file:/// -- one only works on your computer -- it is local. One works for anyone who has access to the internet -- it is on the remote server. 
 
