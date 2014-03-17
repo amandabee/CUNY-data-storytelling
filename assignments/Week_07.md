@@ -32,7 +32,7 @@ The basic HTML syntax is this:
 If that's already overwhelming, don't panic. We'll spend more time on this in class if we need to. 
 
 ## Help!
-I wrote up a [walk through of SimpleHTTPServer](http://hickman.spring-2014.dataviz.journalism.cuny.edu/2014/03/16/bootstrap-and-simplehttp/) on the class blog and posted [my bootstrap templates](https://github.com/amandabee/cunyjdata/tree/master/lecture%20notes/bootstrap) online. And I'll add some more basic HTML tips shortly. 
+I wrote up a [walk through of SimpleHTTPServer](http://hickman.spring-2014.dataviz.journalism.cuny.edu/2014/03/16/bootstrap-and-simplehttp/) on the class blog and posted [my bootstrap templates](https://github.com/amandabee/cunyjdata/tree/master/lecture%20notes/bootstrap) online.  And I'll add some more basic HTML tips shortly. 
 
 ## Bootstrap
 If your partner took the lead on laying out the HTML for your storyboard, I want you to make a bootstrap-based page of your own. You can do any of the following:

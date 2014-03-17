@@ -40,3 +40,10 @@ If you're using Bootstrap, start by putting everything inside a container div:
     </div>
 
 You can start adding other elements -- paragraphs, a jumbotron or a set of tabs -- inside that container. 
+
+<a href="http://getbootstrap.com/css/#helper-classes-floats">Quickfloats</a> are handy for pullquotes. You can let them find their own size or use <a href="http://getbootstrap.com/css/#grid">the grid</a> to set their width.</p>
+
+<p>Bootstrap does a lot of fancy footwork to customize layouts on tiny, small, medium and large screens. For now, I suggest that you stick to the <code>col-md-</code> classes. They're the most universal. Our goal here is to tell good stories, not master the finer points of CSS layout, with or without Bootstrap.
+
+We didn't talk much about <code>p</code>aragraphs, <code>blockquote</code>s or <code>a</code>nchors, but you'll need them if you don't want your content to run together in a great heap. You can wrap paragaphs in <code>&lt;p&gt;</code> tags manually, but if you want some help with the basic pieces, I'm a huge fan of <a href="http://mouapp.com/">Mou</a>. You can compose in Markdown, a heavily simplified syntax, and then copy the resulting HTML into a Bootstrap template. Markdown is a very basic language -- you can't do a lot with it, so you can focus on the basics. </p> 
+	
