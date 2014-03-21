@@ -14,3 +14,5 @@ When you're making a lot of changes to something like a template that works, it 
 
 I also (strongly) encourage you to take a look at Git if you want to keep doing this work. Git is free and open source software. <a href="http://mac.github.com/">Github</a> is a proprietary service that manages repositories, <a href="http://gitorious.org/about">gitorious</a> is a free and open source service. But using Git means periodically "checking in" -- it is a step above saving out working versions.  
 
+
+http://knightlab.northwestern.edu/2013/08/02/how-to-portfolio-sites-for-journalists-github-makes-em-cheap-and-kinda-easy/
