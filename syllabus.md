@@ -13,7 +13,7 @@ Students will pitch, report, and produce stories working both alone and in teams
 You'll learn to use web-based tools such as CartoDB and HighCharts to create maps and charts that tell a story. You'll learn some HTML, CSS and JavaScript along the way -- just enough to show off your work. This is not a course in coding, but programmers of all skill levels are welcome.
 
 Class Blog: <http://hickman.spring-2014.dataviz.journalism.cuny.edu/>  
-Class Notes: <http://piratepad.net/cunyjdata>  
+Class Notes: <http://etherpad.mozilla.org/cunyjdata>  
 
 Course Reserves: <http://cunygsj.docutek.com/eres/coursepage.aspx?cid=151&page=docs> (Access code dv2014)
 
@@ -195,7 +195,7 @@ Discussion: Finding data
 Festival of Data: ["In Climbing Income Ladder, Location Matters"][4]  
 
 *Due Feb 07:*  
-[Assignment Details][5]  
+(Assignment Details will be posted to blog.)  
 Pre-pitches: Find three datasets that interest you. Write a short blog post that describes the provenance of the data (who maintains it?), where the data can be found (include a link) and in less than 200 words each, explain why the data is interesting. One data set should be compost related.
 
 Begin a scrapbook on WordPress, Tumblr, Pinterest or some other aggregation service. Email your dataset URLs and scrapbook URL to both professors under the subject “Homework Week 1".
@@ -209,7 +209,8 @@ Discuss homework: Problems, challenges, solutions,
 Discuss: Visual Encoding, Pitching  
 Hands-on: Tabula, Pivot Tables    
 
-*Due Feb 14:* [Assignment Details][6]  
+*Due Feb 14:*  
+<!--deets-->    
 Spreadsheet exercise, Pitch 1, Make sure [Open Refine](http://openrefine.org/) and [Filezilla](https://filezilla-project.org/) are installed on your computer.
 
 **3 | Feb 14: Cleaning data, FTP, Pitches**  
@@ -217,14 +218,14 @@ Basic HTML and FTP
 Hands-on: Cleaning data with OpenRefine
 Workshop Pitch 1
 
-*Due Feb 21:*  [Assignment Details][7]
+*Due Feb 21:*  <!--deets-->  
 Open Refine exercise, make sure you have [TextWrangler](http://www.barebones.com/products/textwrangler/)  installed. [Map reading](http://vis4.net/blog/posts/choropleth-maps/) 
 
 **4 | Feb 21: Mapping with CartoDB**  
 Discussion: Mapping
 Hands-on: CartoDB
 
-*Due Feb 28:*  [Assignment Details][8]  
+*Due Feb 28:*  <!--deets-->    
 Mapping exercise, Pitch 2, Readings: Steele and Iliinsky, _Designing Data Visualizations_ Chapter 4: Choose Appropriate Visual Encodings (in Library); Cairo: _The Functional Art_, Reading part 2: pages 118-129, on Cleveland & McGill’s perceptual accuracy
 
 Extra Credit: Review my “maps” links and John Keefe, Dave Cole, Matt Stiles talk on maps from NICAR 2013
@@ -232,7 +233,7 @@ Extra Credit: Review my “maps” links and John Keefe, Dave Cole, Matt Stiles 
 **5 | Feb 28: Class will not meet**
 We'll discuss Week 1. 
 
-*Due Mar 07:*  [Assignment Details][9]  
+*Due Mar 07:*  <!--deets-->    
 Storyboard 1; Read Cairo: The Functional Art, Reading part 3: pages 73-86, on presentation
 
 **6 | Mar 07: HighCharts, HTML, Pitch 2**  
@@ -241,7 +242,7 @@ Visual encoding
 Pitches
 Hands-on: HighCharts
 
-*Due Mar 14:*  [Assignment Details][10]  
+*Due Mar 14:*  <!--deets-->    
 HighCharts exercise, Read selections from Tufte, Quantitative Display of Information, on e-reserve in the Library: pages 91-105, 176-190.
 
 **7 | Mar 14: Presentation, Navigation, jQuery**  
@@ -250,23 +251,23 @@ Integrating a presentation
 Usability  
 Anatomy of a chart  
 
-*Due Mar 21:*  [Assignment Details][11]  
+*Due Mar 21:*  <!--deets-->    
 jQuery exercise, Storyboard 2
 
 **8 | Mar 21: Completeness, HighCharts API**  
 
-*Due Mar 28:*  [Assignment Details][12]  
+*Due Mar 28:*  <!--deets-->    
 Rough Draft 1
 
 **9 | Mar 28: Doing More with Maps**  
 
 
-*Due Apr 04:*  [Assignment Details][13]  
+*Due Apr 04:*  <!--deets-->    
 Final Story 1
 
 **10 | Apr 04: Story 1 Critique**  
 
-*Due Apr 11:*  [Assignment Details][14]  
+*Due Apr 11:*  <!--deets-->    
 Take a deep breath and get caught up. 
 
 **11 | Apr 11: Show Your Work**  
@@ -275,7 +276,7 @@ Building data explorers
 
 ** Apr 18: no class (Spring Break) **
 
-*Due Apr 25:*  [Assignment Details][15]  
+*Due Apr 25:*  <!--deets-->    
 Rough Draft 2
 
 **12 | Apr 25: Guest Lecture**  
@@ -283,13 +284,13 @@ Lecture: TBD
 Hands-on: TBD -- Regular Expressions, CSVkit, Beginning R? We'll vote. 
 Infographics
 
-*Due May 02:* [Assignment Details][17]  
+*Due May 02:* <!--deets-->    
 Final Story 2, Read up for jobs drill (find WSJ, NY Times coverage of January 10 jobs report, as well as Feb, Mar, April)
 
 **13 | May 02: Jobs Report Drill**  
 The BLS jobs report comes out at 8:30, by noon we will have some great charts ready to go. 
 
-*Due May 09:*  [Assignment Details][18]  
+*Due May 09:*  <!--deets-->    
 Revisions to Story 1
 
 **14 | May 09: Story 2 crit, Hands-on TBD**  
