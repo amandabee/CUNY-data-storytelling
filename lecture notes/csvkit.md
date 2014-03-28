@@ -19,6 +19,9 @@ For everyone's sanity, I'd like everyone to use **the same** file and folder nam
 
 We're going to use a bunch of command line tools to work with these files. 
 
+## Vanity
+Change your profile to Homebrew.
+
 ## Getting Around
 You don't actually have to launch the terminal from the folder every time -- but since you can, we're not going to walk through that part (though if you want to do more with this, I recommend [Zed Shaw](http://cli.learncodethehardway.org/).)
 
