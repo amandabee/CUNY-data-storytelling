@@ -20,7 +20,7 @@ For everyone's sanity, I'd like everyone to use **the same** file and folder nam
 We're going to use a bunch of command line tools to work with these files. 
 
 ## Vanity
-Change your profile to Homebrew.
+Before we do more, go ahead and look under `Terminal > Preferences` and set the default to "Homebrew" -- you can futz with that on your own later if you'd like a different color scheme.
 
 ## Getting Around
 You don't actually have to launch the terminal from the folder every time -- but since you can, we're not going to walk through that part (though if you want to do more with this, I recommend [Zed Shaw](http://cli.learncodethehardway.org/).)
@@ -151,10 +151,7 @@ ZR 11-151
 
 We're going to use a little Python program called [csvkit](http://csvkit.readthedocs.org)
 
-
-`pop install csvkit` is the easiest, but if you don't have admin privileges, you'll need to do use the `--target` flag and make sure the target is in `PYTHONPATH`
-
-[More on installing CSVkit if you don't have root](http://stackoverflow.com/questions/2915471/install-a-python-package-into-a-different-directory-using-pip)
+`pip install --user csvkit`
 
 ## Experimenting
 Using the complete 311 files on Baker
