@@ -35,8 +35,13 @@ Remember your workflow: Change one setting, run, update only if the change worke
 
 If you get stuck, leave a comment here. Give us all the URL of the last good working copy (the one you saved) and a new fiddle URL that shows the version that didn't work out so well. Tell us what you were trying to accomplish. 
 
+## Embedding a Chart
+When you're ready to embed a chart, JSFiddle's build in iframe tool is handy, but in the long run it isn't what you want. 
+
+
 ## Good questions
 **Is Highcharts free? **It is available free of charge [under some circumstances](http://shop.highsoft.com/faq#what-is-non-commercial), but it isn't [free](http://www.gnu.org/philosophy/free-sw.html) and [open source](http://opensource.org/osd-annotated) software. If you develop a Highcharts based chart for a site that is commercial and doesn't already have a Highcharts license, they will have to [purchase a license](http://shop.highsoft.com/highcharts.html).
 
 **How do I embed this on my story?** We'll walk through this in class next week. If you want to use a Highchart for your current story and I didn't already show you how to embed it, let me know and I'll give you a clunky workaround until next week.
+
 
