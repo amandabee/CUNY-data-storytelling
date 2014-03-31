@@ -35,8 +35,21 @@ Remember your workflow: Change one setting, run, update only if the change worke
 
 If you get stuck, leave a comment here. Give us all the URL of the last good working copy (the one you saved) and a new fiddle URL that shows the version that didn't work out so well. Tell us what you were trying to accomplish. 
 
+## Embedding a Chart
+When you're ready to embed a chart, JSFiddle's build in iframe tool is handy, but in the long run it isn't what you want. Embedding Fiddles is fiddly, so instead of mastering JS Fiddle learn how to put a chart on your own page.  
+
+I put together some very useful [Bootstrap templates](https://github.com/amandabee/cunyjdata/tree/master/lecture%20notes/bootstrap) including two Highcharts templates that are your best starting points. If your chart isn't showing up where you think it ought to, try checking the following:
+
++ Did you place a `<div..>…</div>` on the page where you want the chart to appear?
++ Does your `<div>` have a descriptive, one word id? `id="container"` is not descriptive. `id="time_to_leak"` is.
++ Is your Highcharts function looking for the right id?  
+`$(function () {$('#oscar_night').highcharts({` is looking for a div with `id="oscar_night"` 
++ Is your jquery call above your function? (By "jquery call" I mean the script tag that includes a minified copy of jQuery, probably from a content delivery network somewhere. Something like `<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>`
++ Is your highcharts call below your function? (That's the line that pulls in Highcharts' scripts `<script src="//code.highcharts.com/highcharts.js"></script>`)
+
 ## Good questions
 **Is Highcharts free? **It is available free of charge [under some circumstances](http://shop.highsoft.com/faq#what-is-non-commercial), but it isn't [free](http://www.gnu.org/philosophy/free-sw.html) and [open source](http://opensource.org/osd-annotated) software. If you develop a Highcharts based chart for a site that is commercial and doesn't already have a Highcharts license, they will have to [purchase a license](http://shop.highsoft.com/highcharts.html).
 
 **How do I embed this on my story?** We'll walk through this in class next week. If you want to use a Highchart for your current story and I didn't already show you how to embed it, let me know and I'll give you a clunky workaround until next week.
+
 

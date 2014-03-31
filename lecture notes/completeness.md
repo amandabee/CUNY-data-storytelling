@@ -1,4 +1,4 @@
-Completeness:
+# Completeness:
 
 At this point, you've seen our checklist, and we've talked about completing a story. So I hope I'm not saying anything new.
 
