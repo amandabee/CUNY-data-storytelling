@@ -1,24 +1,42 @@
-# Homework Week 10 (Due Nov 13)
+Fun fact: last semester we were only just getting to HighCharts this week!
 
-This week you're going to prepare pitches for your next story, make sure you get your CartoDB account upgraded to Magellan, and take another stab at Highcharts. <!-- more --> 
+## Story Update
+I'd like an update on your second story. If nothing has changed since you filed your storyboards let me know that's the case. Otherwise, let me know how it is going. Keep in mind that the bar is higher for story 2.
 
-## Highcharts
+## Jobs Drill
+Follow the coverage of the latest jobs report. Look back at the New York Times and Wall Street Journal coverage of jobs reports this winter. Take a look at the BLS data that we released last Friday and the figures that are being reported in the news and connect the dots. Come to class on April 11 with questions, technical and practical. Or post them at:
 
-You can walk through the steps we followed in class and review [my jsFiddle](
-http://jsfiddle.net/B57ep/8/) to see some extra steps (like setting the minimum value for the y-axis) reflected. Pick either a chart you've already made for a story or a chart you're exploring for your next pitch and take a stab at reproducing it in Highcharts. 
+<http://hickman.spring-2014.dataviz.journalism.cuny.edu/2014/04/05/to-do-prep-for-may-jobs-report/>
 
-If you don't have a better idea, try reproducing one of your [high school graduation rate charts](http://datadrivenjournalism.fall.2013.journalism.cuny.edu/homework-week-5/) from October.
+We're going to do our own project on these numbers when they come out again in May, so get ready by asking lots of good questions now. 
 
-Save out your chart, upload it to Digital Storage and send us the URL. 
+## Water Drill
+Our water drill is still taking shape, but be thinking about projects that might make good use of water footprint data to expand on stories like <http://www.bbc.com/news/magazine-26124989> and <http://news.nationalgeographic.com/news/2014/01/140123-colorado-river-water-alfalfa-hay-farming-export-asia/>. Check out <http://atlas.media.mit.edu/profile/country/usa/>, and dedcide what you think of [Mother Jones' take](http://www.motherjones.com/environment/2014/02/wheres-californias-water-going)
 
-Don't hesitate to ask for help from Amanda, Russell or Nick. 
+## Review CSVkit
 
-## Team Projects: Pitches Due
+Everyone got a boro assignment, whittle down your data and send me the file size (get it with `du -h ./MN.csv`). I posted a blog post that walks through the steps we took in class. 
 
-A complete pitch should tell us who cares, why we care now, and what pre-reporting you’ve done. You must include...
-+ a potential nut graph that tells us what the story is and what the important elements are. 
-+ a news hook, or explanation of why this story matters now
-+ a description of and link to the data (which means you have to find your data!). Don't pitch us a story that depends on data you don't have in hand. 
-+ one source you have already spoken with or at least three potential expert sources and your plans for reaching them
+## Show Your Work
+These are all skimmable. 
+
+<http://blog.apps.chicagotribune.com/2011/09/02/show-your-work>
+<https://source.opennews.org/en-US/learning/kill-all-your-darlings/>
+<https://source.opennews.org/en-US/learning/and-remember-ones-posterity/>
+<https://source.opennews.org/en-US/articles/all-about-reporter/>
 
 
+## Bots and Things
+Read this <https://source.opennews.org/en-US/articles/how-break-news-while-you-sleep/> and some of the other Source posts on bots and we can have a fun conversation about them. 
+
+Also, the Twitter team has a writeup up that I hadn't seen yet, on how they made their State of the Union viz: <https://source.opennews.org/en-US/articles/sotu-twitter/>. Worth reading. 
+
+## More Very Very Optional Readings:
+
+<http://towcenter.org/blog/debugging-the-backlash-to-data-journalism/>
+
+<https://source.opennews.org/en-US/articles/getting-job-journalism-code/>
+
+-Amanda
+
+-- 
