@@ -1,4 +1,6 @@
 #Examples:
+
+[Wall Street Journal on Medicare Billing](http://projects.wsj.com/medicarebilling/)
 St Louis Police lost a whole lot of video evidence. [Story](http://www.komonews.com/news/local/130209878.html#list)   
 
 Vivelohoy has been working on an expansive series about changing demographics in Urbana-Champagne. [Story](http://www.vivelohoy.com/noticias/8121347/arrest-disparities-for-black-people-in-champaign-urbana)   
@@ -8,21 +10,31 @@ Pulitzer Prize Finalists http://www.startribune.com/local/173885931.html
 ProPublic does [lots of showing their work](http://projects.propublica.org/tools) sometimes with a [document collection](http://www.propublica.org/special/special-government-employees-lists)   
 
 ## Hands on TK
-This 2011 Streetsblog story on car ownership
-
+This 2011 Streetsblog story on car ownership links to the data they started from.
 http://www.streetsblog.org/2011/04/06/new-yorks-car-ownership-rate-is-on-the-rise/
+
+Let's do that one better. I took their spreadsheet, which actually included a lot of tabs and whatnot, and moved it to a single csv that we can use. 
 
 ##Datatables
 
-Google Spreadsheets ("table" as a chart type) or 
+[Freedive](http://multimedia.journalism.berkeley.edu/tools/freedive/) was promising but it seems to have more or less choked. 
+
+The very easiest: Google includes a "table" format in their embeddable charts.
+
+If you want to get fancy, ProPublica and the LA Times have really nice command line tools. I'm a Python fan because I'm not cool, so I like TableStacker, but the differences are trivial. 
+
+[Tablestacker](https://github.com/datadesk/latimes-table-stacker) | [Demos](http://table-stacker.s3-website-us-west-1.amazonaws.com/)
+
+[Tablesetter](http://propublica.github.io/table-setter/) | [Demo](http://projects.propublica.org/tables/failed-banks) also [stimulus spending](http://projects.propublica.org/tables/stimulus-spending-progress)
+
+
+And then, in the "just right" categoy, we have [Datatables](http://www.datatables.net/index)
 
 Datatables (JS library)
             http://datadrivenjournalism.2013.journalism.cuny.edu/2013/05/22/smokers-need-not-apply-guia-and-heather-revised/
 
 
-~~[Free Dive](http://multimedia.journalism.berkeley.edu/tools/freedive/example)~~ (buggy lately)
 
-If you're a programmer, you can use the LA Times django [table stacker](https://github.com/datadesk/latimes-table-stacker/) to do [something like this](http://table-stacker.s3-website-us-west-1.amazonaws.com/). Or if Rails is your thing, [ProPublica's Table Setter](http://propublica.github.io/table-setter/) is great. They use it to track [stimulus spending](http://projects.propublica.org/tables/stimulus-spending-progress)
 
 
 Google spreadsheets->interactive chart->WP   
