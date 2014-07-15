@@ -2,7 +2,7 @@
 
 At this point, you've seen our checklist, and we've talked about completing a story. So I hope I'm not saying anything new.
 
-http://digitalstorage.journalism.cuny.edu/amandahickman/completeness/
+<http://digitalstorage.journalism.cuny.edu/amandahickman/completeness/>
 
 Some guiding principles: we're here to make something your readers don't understand into something they do understand as efficiently as possible.  To that end, you have some guiding principles:
 
@@ -18,6 +18,15 @@ There are more good reasons that you should see "click here" as a flag that ther
  + it is overused
  + "Click here" is an easy fallback, but it usually means that it isn't obvious what a reader should do next. Look for an opportunity to make links and tabs more intuitive. 
  
-http://www.moghill.co.uk/wp/never-say-click-here-website-sins/ 
+<http://www.moghill.co.uk/wp/never-say-click-here-website-sins/> 
  
-http://uxdesign.smashingmagazine.com/2012/06/20/links-should-never-say-click-here/
+<http://uxdesign.smashingmagazine.com/2012/06/20/links-should-never-say-click-here/>
+
+### Examples of Newsroom Style Guides
+
++ [MinnPost](http://code.minnpost.com/minnpost-styles/)
++ [Chicago Tribune](http://newsapps.github.io/bootstrap/styleguide/)
++ [NPR](https://github.com/nprapps/bestpractices)
++ [ProPublica](https://github.com/propublica/guides/)
++ [Dallas Morning News](https://knightcenter.utexas.edu/mooc/file/tdmn_graphics.pdf)
++  
