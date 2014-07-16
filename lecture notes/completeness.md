@@ -29,4 +29,4 @@ There are more good reasons that you should see "click here" as a flag that ther
 + [NPR](https://github.com/nprapps/bestpractices)
 + [ProPublica](https://github.com/propublica/guides/)
 + [Dallas Morning News](https://knightcenter.utexas.edu/mooc/file/tdmn_graphics.pdf)
-+  
++ [Sunlight](http://design.sunlightlabs.com/projects/Sunlight-StyleGuide-DataViz.pdf)
