@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Bootstrap Template</title>
+
+    <!-- Bootstrap --><!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+	<div class="container">
+	  <div class="jumbotron">
+	    <h1>Rats!</h1>
+	    <p class="lead">This is your tag line. Use it to say something really interesting.</p>
+	  </div><!-- /jumbotron -->
+	     <p class="text-muted byline">By Amanda Hickman | <a href="//twitter.com/amandabee">@amandabee</a> | Oct 9, 2014</p>
+	     
+	     <!-- carousel -->
+		   <div id="slideshow-demo" class="carousel slide">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#slideshow-demo" data-slide-to="0" class="active"></li>
+				<li data-target="#slideshow-demo" data-slide-to="1"></li>
+				<li data-target="#slideshow-demo" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+				<div class="item active">				
+				  <img src="http://fakeimg.pl/900x500/?text=Placeholder Un" alt="Place Holder">
+				  <div class="carousel-caption">
+					This is an arbitrary placeholder graphic. You should use real photos for your captions, obviously.  
+				  </div><!-- /carousel-caption -->
+				</div><!-- /item  -->
+				<div class="item">
+				  <img src="http://placekitten.com/g/900/500" alt="Place Kitten">
+				  <div class="carousel-caption">
+				    <h2>Cats</h2>
+					<p>Your caption should tell us a bit about what this cat has to do with anything.</p>
+				  </div><!-- /carousel-caption -->
+				</div><!-- /item  -->
+				<div class="item">
+				  <img src="http://fakeimg.pl/900x500/?text=Placeholder Tres" class="img-responsive" alt="Another Place Holder">
+				  <div class="carousel-caption">
+					Walk me through what I can't see in the photo.  Is there mold on the wall? Is someone bleary eyed because she got up too early this morning? 
+				  </div><!-- /carousel-caption -->
+				</div><!-- /item  -->
+			  </div><!-- /carousel-inner --> 
+			  <!-- End wrapper -->
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#slideshow-demo" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#slideshow-demo" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+	   <!-- /carousel -->
+	   
+	   </div><!-- /container --> 
+
+	 
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+         $("#slideshow-demo").carousel();
+    });
+    </script>
+
+  </body>
+</html>
