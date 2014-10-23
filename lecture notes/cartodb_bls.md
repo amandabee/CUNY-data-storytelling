@@ -8,8 +8,8 @@ Are these colors continuous or categorical? Should they be? Is anyone surprised 
 Takeaway: BLS data is mapped, but it isn’t normalized to the population and the gradient makes no sense at all.
 
 So we'll recreate it: 
-[BLS Fatality Data (csv)](cartodb/)
-[2011 Population Estimates](https://www.census.gov/popest/data/state/totals/2011/tables/NST-EST2011-01.csv) (via [census.gov](http://www.census.gov/popest/data/historical/2010s/vintage_2011/state.html))
++ [BLS Fatality Data (csv)](cartodb/)
++ [2011 Population Estimates](https://www.census.gov/popest/data/state/totals/2011/tables/NST-EST2011-01.csv) (via [census.gov](http://www.census.gov/popest/data/historical/2010s/vintage_2011/state.html))
 
 Combine those two in a spreadsheet, first.  Use "Save As" to create a new spreadsheet so you don't clobber your data. 
 
