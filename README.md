@@ -9,6 +9,7 @@ This repository includes ...
 
 📂 Assignments: 
 + week-by-week text describing homework assignments. I generally posted these to WordPress and went over them in class. 
++ topic overviews, which I would also post to Wordpress after class -- a repeat of whatever we walked through in class and enough instructions that a student could try it again unsupervised, possibly with a different data set.
 
 📂 Lecture Notes:
 + notes for basic lessons, organized by the topic of the lesson
