@@ -1,5 +1,7 @@
 If you want to take another stab at walking through HighCharts, <!--more--> you should.
 
+Note: Planning to test out [Vega](https://vega.github.io/vega/) next time around. 
+
 Start by registering with [JS Fiddle](http://jsfiddle.net/) and logging in, so you can save your work.
 
 **Step One: get organized**. You're going to need a few windows open. You might want to close other windows so you can focus.
@@ -48,7 +50,7 @@ I put together some very useful [Bootstrap templates](https://github.com/amandab
 + Is your highcharts call below your function? (That's the line that pulls in Highcharts' scripts `<script src="//code.highcharts.com/highcharts.js"></script>`)
 
 ## Good questions
-**Is Highcharts free? **It is available free of charge [under some circumstances](http://shop.highsoft.com/faq#what-is-non-commercial), but it isn't [free](http://www.gnu.org/philosophy/free-sw.html) and [open source](http://opensource.org/osd-annotated) software. If you develop a Highcharts based chart for a site that is commercial and doesn't already have a Highcharts license, they will have to [purchase a license](http://shop.highsoft.com/highcharts.html).
+**Is Highcharts free?** It is available free of charge [under some circumstances](http://shop.highsoft.com/faq#what-is-non-commercial), but it isn't [free](http://www.gnu.org/philosophy/free-sw.html) and [open source](http://opensource.org/osd-annotated) software. If you develop a Highcharts based chart for a site that is commercial and doesn't already have a Highcharts license, they will have to [purchase a license](http://shop.highsoft.com/highcharts.html).
 
 **How do I embed this on my story?** We'll walk through this in class next week. If you want to use a Highchart for your current story and I didn't already show you how to embed it, let me know and I'll give you a clunky workaround until next week.
 
