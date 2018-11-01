@@ -8,7 +8,7 @@ It is also pretty dense. Some less dense resources?
 
 [Smashing Magazine](http://www.smashingmagazine.com) has a great piece on [mobile accessibility](http://www.smashingmagazine.com/2014/05/21/mobile-accessibility-why-care-what-can-you-do/). It gets into a lot of specifics about HTML, but you can skim it and then return to it.
 
-[A List Apart](http://alistapart.com/)(http://alistapart.com/article/accessibility-the-missing-ingredient) also wrote about accessible web design recently. They, too, focus on the nitty gritty of HTML and interface design, but there's plenty worth reading and thinking abou there.
+[A List Apart](http://alistapart.com/article/accessibility-the-missing-ingredient) also wrote about accessible web design recently. They, too, focus on the nitty gritty of HTML and interface design, but there's plenty worth reading and thinking abou there.
 
 And [WebAim](http://webaim.org) publishes a [very useful checklist](http://webaim.org/standards/508/checklist) to guide compliance with web accessibility standards. 
 
