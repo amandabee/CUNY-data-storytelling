@@ -1,4 +1,4 @@
-#Accessibility
+# Accessibility
 
 Here's a serious challenge: many websites do a poor job of accomodating people with disabilities. So just looking at what the *Times* does is not necessarily going to put us on the right path (though, as it turns out, the *Times* does pretty well.)
 
@@ -34,7 +34,7 @@ to loose resolution fast, and a screen reader can't do anything with pictures. Y
 The **second rule**? Always use alt tags, whether you're using a content management system or writing html yourself. HTML image tags take an `alt="Some descriptive text"` attribute, WordPress's "Add an Image" dialog includes an "Alternate Text" option. The `alt` text should describe the image as clearly and concisely as possible. `alt="Photograph of a dog making faces at the camera"` for instance. 
 
 
-**Rule 3:** Loads of people are color blind. I went to [Wikipedia](https://en.wikipedia.org/wiki/Color_blindness) on this so a better source is welcome, but roughly 1% of men cannot distinguish purples from blues and see reds and greens as very similar. 1% is a lot. The simplest takeaway is: avoid using color gradients that show poles as red and green, especially in data visualizations. [ProPublica recommends]   (https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/)
+**Rule 3:** Loads of people are color blind. I went to [Wikipedia](https://en.wikipedia.org/wiki/Color_blindness) on this so a better source is welcome, but roughly 1% of men cannot distinguish purples from blues and see reds and greens as very similar. 1% is a lot. The simplest takeaway is: avoid using color gradients that show poles as red and green, especially in data visualizations. [ProPublica recommends](https://github.com/propublica/guides/blob/master/news-apps.md#colors) [ColorOracle](http://colororacle.org/)
 
 **Rule 4:** You can't control everything. Any document (or story or page) should be readable even if the user loads their won style sheet. Yes: this means they can make the page look ghastly. But the content should still be available, without any loss of meaning. Here's where semantic markup comes in handy. 
 
